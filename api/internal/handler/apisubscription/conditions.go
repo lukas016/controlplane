@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	apiv1 "github.com/telekom/controlplane/api/api/v1"
+	apiv1 "github.com/lukas016/controlplane/api/api/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

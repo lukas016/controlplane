@@ -15,10 +15,10 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/gofiber/fiber/v2/middleware/recover"
+	"github.com/lukas016/controlplane/common-server/pkg/server/middleware"
+	"github.com/lukas016/controlplane/common-server/pkg/server/middleware/metrics"
+	"github.com/lukas016/controlplane/common-server/pkg/server/middleware/security"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/telekom/controlplane/common-server/pkg/server/middleware"
-	"github.com/telekom/controlplane/common-server/pkg/server/middleware/metrics"
-	"github.com/telekom/controlplane/common-server/pkg/server/middleware/security"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 )
 

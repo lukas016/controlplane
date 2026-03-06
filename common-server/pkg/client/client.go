@@ -15,7 +15,7 @@ import (
 	"regexp"
 	"time"
 
-	client "github.com/telekom/controlplane/common-server/pkg/client/metrics"
+	client "github.com/lukas016/controlplane/common-server/pkg/client/metrics"
 )
 
 var (

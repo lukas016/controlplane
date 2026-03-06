@@ -11,12 +11,12 @@ import (
 	"os/signal"
 	"time"
 
+	"github.com/lukas016/controlplane/tools/e2e-tester/pkg/config"
+	"github.com/lukas016/controlplane/tools/e2e-tester/pkg/logger"
+	"github.com/lukas016/controlplane/tools/e2e-tester/pkg/report"
+	"github.com/lukas016/controlplane/tools/e2e-tester/pkg/runner"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/telekom/controlplane/tools/e2e-tester/pkg/config"
-	"github.com/telekom/controlplane/tools/e2e-tester/pkg/logger"
-	"github.com/telekom/controlplane/tools/e2e-tester/pkg/report"
-	"github.com/telekom/controlplane/tools/e2e-tester/pkg/runner"
 	"go.uber.org/zap"
 )
 

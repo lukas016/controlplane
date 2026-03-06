@@ -15,18 +15,18 @@ import (
 	"testing"
 	"time"
 
+	adminv1 "github.com/lukas016/controlplane/admin/api/v1"
+	"github.com/lukas016/controlplane/common/pkg/config"
+	organizationv1 "github.com/lukas016/controlplane/organization/api/v1"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	adminv1 "github.com/telekom/controlplane/admin/api/v1"
-	"github.com/telekom/controlplane/common/pkg/config"
-	organizationv1 "github.com/telekom/controlplane/organization/api/v1"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
 	admissionv1 "k8s.io/api/admission/v1"
 	// +kubebuilder:scaffold:imports
-	roverv1 "github.com/telekom/controlplane/rover/api/v1"
+	roverv1 "github.com/lukas016/controlplane/rover/api/v1"
 	"k8s.io/client-go/kubernetes/scheme"
 	"k8s.io/client-go/rest"
 	ctrl "sigs.k8s.io/controller-runtime"

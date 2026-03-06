@@ -21,7 +21,7 @@ import (
 	metricsserver "sigs.k8s.io/controller-runtime/pkg/metrics/server"
 	"sigs.k8s.io/controller-runtime/pkg/webhook"
 
-	"github.com/telekom/controlplane/admin/internal/controller"
+	"github.com/lukas016/controlplane/admin/internal/controller"
 	// +kubebuilder:scaffold:imports
 )
 

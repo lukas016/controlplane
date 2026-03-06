@@ -7,8 +7,8 @@ package controller
 import (
 	"context"
 
-	"github.com/telekom/controlplane/common-server/pkg/server/middleware/security"
-	"github.com/telekom/controlplane/common/pkg/config"
+	"github.com/lukas016/controlplane/common-server/pkg/server/middleware/security"
+	"github.com/lukas016/controlplane/common/pkg/config"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 )
 

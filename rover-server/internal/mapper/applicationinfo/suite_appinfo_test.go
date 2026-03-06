@@ -8,14 +8,14 @@ import (
 	"context"
 	"testing"
 
+	roverv1 "github.com/lukas016/controlplane/rover/api/v1"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	roverv1 "github.com/telekom/controlplane/rover/api/v1"
 	"k8s.io/client-go/rest"
 	"sigs.k8s.io/controller-runtime/pkg/client/config"
 
-	"github.com/telekom/controlplane/rover-server/pkg/store"
-	"github.com/telekom/controlplane/rover-server/test/mocks"
+	"github.com/lukas016/controlplane/rover-server/pkg/store"
+	"github.com/lukas016/controlplane/rover-server/test/mocks"
 )
 
 const (

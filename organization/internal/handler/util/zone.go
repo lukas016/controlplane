@@ -7,10 +7,10 @@ package util
 import (
 	"context"
 
+	adminv1 "github.com/lukas016/controlplane/admin/api/v1"
+	cclient "github.com/lukas016/controlplane/common/pkg/client"
+	"github.com/lukas016/controlplane/organization/internal/index"
 	"github.com/pkg/errors"
-	adminv1 "github.com/telekom/controlplane/admin/api/v1"
-	cclient "github.com/telekom/controlplane/common/pkg/client"
-	"github.com/telekom/controlplane/organization/internal/index"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 )
 

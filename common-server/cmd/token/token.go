@@ -10,7 +10,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/telekom/controlplane/common-server/pkg/server/middleware/security/mock"
+	"github.com/lukas016/controlplane/common-server/pkg/server/middleware/security/mock"
 )
 
 var (

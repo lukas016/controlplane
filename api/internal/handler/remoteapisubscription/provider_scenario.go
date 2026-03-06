@@ -8,21 +8,21 @@ import (
 	"context"
 
 	"github.com/google/uuid"
+	"github.com/lukas016/controlplane/api/internal/handler/util"
+	"github.com/lukas016/controlplane/common/pkg/client"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/config"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	"github.com/lukas016/controlplane/common/pkg/util/contextutil"
+	"github.com/lukas016/controlplane/common/pkg/util/labelutil"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/api/internal/handler/util"
-	"github.com/telekom/controlplane/common/pkg/client"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/config"
-	"github.com/telekom/controlplane/common/pkg/types"
-	"github.com/telekom/controlplane/common/pkg/util/contextutil"
-	"github.com/telekom/controlplane/common/pkg/util/labelutil"
 	"k8s.io/apimachinery/pkg/api/meta"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	apiapi "github.com/telekom/controlplane/api/api/v1"
-	applicationv1 "github.com/telekom/controlplane/application/api/v1"
+	apiapi "github.com/lukas016/controlplane/api/api/v1"
+	applicationv1 "github.com/lukas016/controlplane/application/api/v1"
 )
 
 // handleProviderScenario handles the case where the RemoteApiSubscription is handled by this CP.

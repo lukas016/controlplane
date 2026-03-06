@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	identityv1 "github.com/telekom/controlplane/identity/api/v1"
+	identityv1 "github.com/lukas016/controlplane/identity/api/v1"
 )
 
 func TestObfuscateRealmMapsCorrectly(t *testing.T) {

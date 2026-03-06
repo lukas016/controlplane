@@ -26,11 +26,11 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 	"sigs.k8s.io/controller-runtime/pkg/metrics/server"
 
-	"github.com/telekom/controlplane/common/pkg/test/mock"
+	"github.com/lukas016/controlplane/common/pkg/test/mock"
 	ctrl "sigs.k8s.io/controller-runtime"
 
-	apiv1 "github.com/telekom/controlplane/api/api/v1"
-	"github.com/telekom/controlplane/api/internal/handler/remoteapisubscription/syncer"
+	apiv1 "github.com/lukas016/controlplane/api/api/v1"
+	"github.com/lukas016/controlplane/api/internal/handler/remoteapisubscription/syncer"
 	// +kubebuilder:scaffold:imports
 )
 

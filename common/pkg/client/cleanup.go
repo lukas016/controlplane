@@ -8,8 +8,8 @@ import (
 	"context"
 	"strings"
 
+	"github.com/lukas016/controlplane/common/pkg/types"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/common/pkg/types"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"sigs.k8s.io/controller-runtime/pkg/client"

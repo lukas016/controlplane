@@ -10,9 +10,9 @@ import (
 	"github.com/bytedance/sonic"
 	"github.com/go-logr/logr"
 	"github.com/gofiber/fiber/v2"
-	"github.com/telekom/controlplane/common-server/pkg/problems"
-	"github.com/telekom/controlplane/common-server/pkg/server/middleware/security"
-	"github.com/telekom/controlplane/common-server/pkg/store"
+	"github.com/lukas016/controlplane/common-server/pkg/problems"
+	"github.com/lukas016/controlplane/common-server/pkg/server/middleware/security"
+	"github.com/lukas016/controlplane/common-server/pkg/store"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 )

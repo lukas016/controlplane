@@ -7,15 +7,16 @@ package handler
 import (
 	"context"
 	"fmt"
-	cclient "github.com/telekom/controlplane/common/pkg/client"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/handler"
-	notificationv1 "github.com/telekom/controlplane/notification/api/v1"
-	"github.com/telekom/controlplane/notification/internal/config"
+	"time"
+
+	cclient "github.com/lukas016/controlplane/common/pkg/client"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/handler"
+	notificationv1 "github.com/lukas016/controlplane/notification/api/v1"
+	"github.com/lukas016/controlplane/notification/internal/config"
 	"k8s.io/apimachinery/pkg/api/meta"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/log"
-	"time"
 )
 
 const (

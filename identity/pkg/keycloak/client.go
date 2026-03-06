@@ -7,8 +7,8 @@ package keycloak
 import (
 	"context"
 
-	identityv1 "github.com/telekom/controlplane/identity/api/v1"
-	"github.com/telekom/controlplane/identity/pkg/api"
+	identityv1 "github.com/lukas016/controlplane/identity/api/v1"
+	"github.com/lukas016/controlplane/identity/pkg/api"
 )
 
 type RealmClient interface {

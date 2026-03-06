@@ -7,11 +7,11 @@ package secrets_test
 import (
 	"context"
 
+	"github.com/lukas016/controlplane/common-server/pkg/store/secrets"
+	"github.com/lukas016/controlplane/secret-manager/api"
+	"github.com/lukas016/controlplane/secret-manager/api/fake"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/common-server/pkg/store/secrets"
-	"github.com/telekom/controlplane/secret-manager/api"
-	"github.com/telekom/controlplane/secret-manager/api/fake"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 )
 

@@ -13,10 +13,10 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/controller"
 
-	apiv1 "github.com/telekom/controlplane/api/api/v1"
-	"github.com/telekom/controlplane/api/internal/handler/apicategory"
-	cconfig "github.com/telekom/controlplane/common/pkg/config"
-	cc "github.com/telekom/controlplane/common/pkg/controller"
+	apiv1 "github.com/lukas016/controlplane/api/api/v1"
+	"github.com/lukas016/controlplane/api/internal/handler/apicategory"
+	cconfig "github.com/lukas016/controlplane/common/pkg/config"
+	cc "github.com/lukas016/controlplane/common/pkg/controller"
 )
 
 // ApiCategoryReconciler reconciles a ApiCategory object

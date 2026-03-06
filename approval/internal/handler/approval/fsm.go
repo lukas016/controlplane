@@ -5,8 +5,8 @@
 package approval
 
 import (
-	v1 "github.com/telekom/controlplane/approval/api/v1"
-	"github.com/telekom/controlplane/approval/internal/fsm"
+	v1 "github.com/lukas016/controlplane/approval/api/v1"
+	"github.com/lukas016/controlplane/approval/internal/fsm"
 )
 
 var auto = fsm.Transitions{

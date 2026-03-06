@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/telekom/controlplane/common-server/internal/crd"
-	"github.com/telekom/controlplane/common-server/pkg/server"
-	"github.com/telekom/controlplane/common-server/pkg/server/template"
-	"github.com/telekom/controlplane/common-server/pkg/store"
+	"github.com/lukas016/controlplane/common-server/internal/crd"
+	"github.com/lukas016/controlplane/common-server/pkg/server"
+	"github.com/lukas016/controlplane/common-server/pkg/server/template"
+	"github.com/lukas016/controlplane/common-server/pkg/store"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 )

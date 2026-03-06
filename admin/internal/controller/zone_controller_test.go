@@ -7,10 +7,10 @@ package controller
 import (
 	"context"
 
-	gatewayapi "github.com/telekom/controlplane/gateway/api/v1"
+	gatewayapi "github.com/lukas016/controlplane/gateway/api/v1"
 
-	"github.com/telekom/controlplane/common/pkg/types"
-	identityapi "github.com/telekom/controlplane/identity/api/v1"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	identityapi "github.com/lukas016/controlplane/identity/api/v1"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
@@ -18,9 +18,9 @@ import (
 	"k8s.io/apimachinery/pkg/api/meta"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	adminv1 "github.com/telekom/controlplane/admin/api/v1"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/config"
+	adminv1 "github.com/lukas016/controlplane/admin/api/v1"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/config"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

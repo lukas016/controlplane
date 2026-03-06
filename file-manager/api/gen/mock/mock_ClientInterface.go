@@ -10,7 +10,7 @@ import (
 	context "context"
 	http "net/http"
 
-	gen "github.com/telekom/controlplane/file-manager/api/gen"
+	gen "github.com/lukas016/controlplane/file-manager/api/gen"
 
 	io "io"
 

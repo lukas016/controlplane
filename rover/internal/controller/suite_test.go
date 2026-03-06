@@ -16,9 +16,9 @@ import (
 	"k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
+	"github.com/lukas016/controlplane/common/pkg/test/mock"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/common/pkg/test/mock"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/client-go/kubernetes/scheme"
 	"k8s.io/client-go/rest"
@@ -29,12 +29,12 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 	"sigs.k8s.io/controller-runtime/pkg/metrics/server"
 
-	apiapi "github.com/telekom/controlplane/api/api/v1"
-	applicationv1 "github.com/telekom/controlplane/application/api/v1"
-	organizationv1 "github.com/telekom/controlplane/organization/api/v1"
-	roverv1 "github.com/telekom/controlplane/rover/api/v1"
-	secretsapi "github.com/telekom/controlplane/secret-manager/api"
-	secretsapifake "github.com/telekom/controlplane/secret-manager/api/fake"
+	apiapi "github.com/lukas016/controlplane/api/api/v1"
+	applicationv1 "github.com/lukas016/controlplane/application/api/v1"
+	organizationv1 "github.com/lukas016/controlplane/organization/api/v1"
+	roverv1 "github.com/lukas016/controlplane/rover/api/v1"
+	secretsapi "github.com/lukas016/controlplane/secret-manager/api"
+	secretsapifake "github.com/lukas016/controlplane/secret-manager/api/fake"
 	//+kubebuilder:scaffold:imports
 )
 
@@ -84,7 +84,7 @@ var _ = BeforeSuite(func() {
 			filepath.Join("..", "..", "..", "organization", "config", "crd", "bases"),
 		),
 		//CRDDirectoryPaths: append(
-		//	testutil.GetCrdPathsOrDie("github.com/telekom/controlplane/(api|application|organization)/api"),
+		//	testutil.GetCrdPathsOrDie("github.com/lukas016/controlplane/(api|application|organization)/api"),
 		//	filepath.Join("..", "..", "config", "crd", "bases"),
 		//),
 		ErrorIfCRDPathMissing: true,

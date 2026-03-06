@@ -6,10 +6,10 @@ package in
 
 import (
 	"github.com/gkampitakis/go-snaps/snaps"
+	roverv1 "github.com/lukas016/controlplane/rover/api/v1"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/spf13/viper"
-	roverv1 "github.com/telekom/controlplane/rover/api/v1"
 )
 
 var _ = Describe("Rover Mapper", func() {

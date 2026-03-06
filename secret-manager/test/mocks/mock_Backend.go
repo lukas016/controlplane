@@ -9,7 +9,7 @@ package mocks
 import (
 	context "context"
 
-	backend "github.com/telekom/controlplane/secret-manager/pkg/backend"
+	backend "github.com/lukas016/controlplane/secret-manager/pkg/backend"
 
 	mock "github.com/stretchr/testify/mock"
 )

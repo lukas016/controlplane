@@ -4,7 +4,7 @@
 
 package config
 
-import kong "github.com/telekom/controlplane/gateway/pkg/kong/api"
+import kong "github.com/lukas016/controlplane/gateway/pkg/kong/api"
 
 type CircuitBreaker struct {
 	Passive PassiveHealthcheck `json:"passive"`

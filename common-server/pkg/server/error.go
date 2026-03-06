@@ -9,8 +9,8 @@ import (
 
 	"github.com/go-logr/logr"
 	"github.com/gofiber/fiber/v2"
+	"github.com/lukas016/controlplane/common-server/pkg/problems"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/common-server/pkg/problems"
 )
 
 func ReturnWithProblem(ctx *fiber.Ctx, problem problems.Problem, err error) error {

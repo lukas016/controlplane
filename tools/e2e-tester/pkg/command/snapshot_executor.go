@@ -12,10 +12,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/lukas016/controlplane/tools/e2e-tester/pkg/config"
+	"github.com/lukas016/controlplane/tools/e2e-tester/pkg/snapshot"
+	"github.com/lukas016/controlplane/tools/e2e-tester/pkg/util"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/tools/e2e-tester/pkg/config"
-	"github.com/telekom/controlplane/tools/e2e-tester/pkg/snapshot"
-	"github.com/telekom/controlplane/tools/e2e-tester/pkg/util"
 	"go.uber.org/zap"
 )
 

@@ -9,9 +9,9 @@ import (
 	"errors"
 	"time"
 
+	"github.com/lukas016/controlplane/secret-manager/pkg/backend/conjur/bouncer"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/secret-manager/pkg/backend/conjur/bouncer"
 )
 
 var _ = Describe("Locker", func() {

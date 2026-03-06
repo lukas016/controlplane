@@ -8,10 +8,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/telekom/controlplane/common/pkg/handler"
+	"github.com/lukas016/controlplane/common/pkg/handler"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	identityv1 "github.com/telekom/controlplane/identity/api/v1"
+	identityv1 "github.com/lukas016/controlplane/identity/api/v1"
 )
 
 var _ handler.Handler[*identityv1.IdentityProvider] = &HandlerIdentityProvider{}

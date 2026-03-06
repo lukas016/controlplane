@@ -8,8 +8,8 @@ import (
 	"context"
 	"path/filepath"
 
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/diffmatcher"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/store"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/diffmatcher"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/store"
 	"go.uber.org/zap"
 )
 

@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/lukas016/controlplane/file-manager/pkg/backend"
 	"github.com/minio/minio-go/v7"
-	"github.com/telekom/controlplane/file-manager/pkg/backend"
 )
 
 func TestBucketFileUploader_UploadFile(t *testing.T) {

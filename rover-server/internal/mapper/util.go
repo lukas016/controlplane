@@ -9,9 +9,9 @@ import (
 	"encoding/json"
 	"regexp"
 
+	"github.com/lukas016/controlplane/common-server/pkg/problems"
+	"github.com/lukas016/controlplane/common-server/pkg/server/middleware/security"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/common-server/pkg/problems"
-	"github.com/telekom/controlplane/common-server/pkg/server/middleware/security"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 )
 

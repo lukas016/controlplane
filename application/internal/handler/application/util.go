@@ -7,12 +7,12 @@ package application
 import (
 	"context"
 
+	admin "github.com/lukas016/controlplane/admin/api/v1"
+	application "github.com/lukas016/controlplane/application/api/v1"
+	"github.com/lukas016/controlplane/common/pkg/client"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	identity "github.com/lukas016/controlplane/identity/api/v1"
 	"github.com/pkg/errors"
-	admin "github.com/telekom/controlplane/admin/api/v1"
-	application "github.com/telekom/controlplane/application/api/v1"
-	"github.com/telekom/controlplane/common/pkg/client"
-	"github.com/telekom/controlplane/common/pkg/types"
-	identity "github.com/telekom/controlplane/identity/api/v1"
 )
 
 func MakeClientName(obj *application.Application) string {

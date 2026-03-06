@@ -9,12 +9,12 @@ import (
 	"context"
 	"errors"
 
+	"github.com/lukas016/controlplane/rover-ctl/pkg/commands/base"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/config"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/log"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/spf13/viper"
-	"github.com/telekom/controlplane/rover-ctl/pkg/commands/base"
-	"github.com/telekom/controlplane/rover-ctl/pkg/config"
-	"github.com/telekom/controlplane/rover-ctl/pkg/log"
 )
 
 var _ = Describe("BaseCommand", func() {

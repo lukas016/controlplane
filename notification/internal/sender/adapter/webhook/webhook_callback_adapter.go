@@ -6,8 +6,9 @@ package webhook
 
 import (
 	"context"
+
 	"github.com/go-logr/logr"
-	"github.com/telekom/controlplane/notification/internal/sender/adapter"
+	"github.com/lukas016/controlplane/notification/internal/sender/adapter"
 )
 
 var _ adapter.NotificationAdapter[adapter.CallbackChannelConfiguration] = &WebhookAdapter{}

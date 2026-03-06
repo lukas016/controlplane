@@ -5,9 +5,9 @@
 package types_test
 
 import (
+	"github.com/lukas016/controlplane/rover-ctl/pkg/types"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/rover-ctl/pkg/types"
 )
 
 var _ = Describe("Util", func() {

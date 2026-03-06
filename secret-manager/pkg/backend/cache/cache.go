@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/telekom/controlplane/secret-manager/pkg/backend"
+	"github.com/lukas016/controlplane/secret-manager/pkg/backend"
 )
 
 var _ Cache[backend.SecretId, backend.Secret[backend.SecretId]] = (*SimpleCache[backend.SecretId, backend.Secret[backend.SecretId]])(nil)

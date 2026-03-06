@@ -7,9 +7,9 @@ package contextutil
 import (
 	"context"
 
+	"github.com/lukas016/controlplane/common/pkg/test/mock"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/common/pkg/test/mock"
 )
 
 var _ = Describe("Recorder", func() {

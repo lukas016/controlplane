@@ -7,10 +7,10 @@ package apicategory
 import (
 	"context"
 
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/handler"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/handler"
 
-	apiv1 "github.com/telekom/controlplane/api/api/v1"
+	apiv1 "github.com/lukas016/controlplane/api/api/v1"
 )
 
 var _ handler.Handler[*apiv1.ApiCategory] = (*ApiCategoryHandler)(nil)

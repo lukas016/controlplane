@@ -10,11 +10,11 @@ import (
 	"strings"
 
 	"github.com/go-logr/logr"
+	"github.com/lukas016/controlplane/common/pkg/controller"
+	"github.com/lukas016/controlplane/common/pkg/util/labelutil"
+	roverv1 "github.com/lukas016/controlplane/rover/api/v1"
+	secretsapi "github.com/lukas016/controlplane/secret-manager/api"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/common/pkg/controller"
-	"github.com/telekom/controlplane/common/pkg/util/labelutil"
-	roverv1 "github.com/telekom/controlplane/rover/api/v1"
-	secretsapi "github.com/telekom/controlplane/secret-manager/api"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 )
 

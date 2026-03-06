@@ -19,13 +19,13 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	cclient "github.com/telekom/controlplane/common/pkg/client"
-	fakeclient "github.com/telekom/controlplane/common/pkg/client/fake"
-	"github.com/telekom/controlplane/common/pkg/types"
+	cclient "github.com/lukas016/controlplane/common/pkg/client"
+	fakeclient "github.com/lukas016/controlplane/common/pkg/client/fake"
+	"github.com/lukas016/controlplane/common/pkg/types"
 
-	"github.com/telekom/controlplane/common/pkg/test"
-	notificationv1 "github.com/telekom/controlplane/notification/api/v1"
-	"github.com/telekom/controlplane/notification/api/v1/builder"
+	"github.com/lukas016/controlplane/common/pkg/test"
+	notificationv1 "github.com/lukas016/controlplane/notification/api/v1"
+	"github.com/lukas016/controlplane/notification/api/v1/builder"
 )
 
 var _ = Describe("NotificationBuilder", func() {

@@ -5,16 +5,16 @@
 package controller
 
 import (
+	adminapi "github.com/lukas016/controlplane/admin/api/v1"
+	apiapi "github.com/lukas016/controlplane/api/api/v1"
+	apiv1 "github.com/lukas016/controlplane/api/api/v1"
+	applicationv1 "github.com/lukas016/controlplane/application/api/v1"
+	approvalapi "github.com/lukas016/controlplane/approval/api/v1"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/test/testutil"
+	"github.com/lukas016/controlplane/common/pkg/types"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	adminapi "github.com/telekom/controlplane/admin/api/v1"
-	apiapi "github.com/telekom/controlplane/api/api/v1"
-	apiv1 "github.com/telekom/controlplane/api/api/v1"
-	applicationv1 "github.com/telekom/controlplane/application/api/v1"
-	approvalapi "github.com/telekom/controlplane/approval/api/v1"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/test/testutil"
-	"github.com/telekom/controlplane/common/pkg/types"
 	"k8s.io/apimachinery/pkg/api/meta"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 )

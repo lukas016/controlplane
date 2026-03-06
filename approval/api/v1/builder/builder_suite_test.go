@@ -26,10 +26,10 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/manager"
 	"sigs.k8s.io/controller-runtime/pkg/metrics/server"
 
-	approvalv1 "github.com/telekom/controlplane/approval/api/v1"
-	"github.com/telekom/controlplane/common/pkg/controller/index"
-	"github.com/telekom/controlplane/common/pkg/test"
-	"github.com/telekom/controlplane/common/pkg/test/testutil"
+	approvalv1 "github.com/lukas016/controlplane/approval/api/v1"
+	"github.com/lukas016/controlplane/common/pkg/controller/index"
+	"github.com/lukas016/controlplane/common/pkg/test"
+	"github.com/lukas016/controlplane/common/pkg/test/testutil"
 	ctrl "sigs.k8s.io/controller-runtime"
 	crscheme "sigs.k8s.io/controller-runtime/pkg/scheme"
 	// +kubebuilder:scaffold:imports

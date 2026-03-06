@@ -12,9 +12,9 @@ import (
 	"runtime"
 	"testing"
 
+	v1 "github.com/lukas016/controlplane/rover/api/v1"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	v1 "github.com/telekom/controlplane/rover/api/v1"
 	"k8s.io/client-go/kubernetes/scheme"
 	"k8s.io/client-go/rest"
 	ctrl "sigs.k8s.io/controller-runtime"

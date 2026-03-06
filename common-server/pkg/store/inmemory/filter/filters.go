@@ -7,7 +7,7 @@ package filter
 import (
 	"bytes"
 
-	"github.com/telekom/controlplane/common-server/pkg/store"
+	"github.com/lukas016/controlplane/common-server/pkg/store"
 	"github.com/tidwall/gjson"
 )
 

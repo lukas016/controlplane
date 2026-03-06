@@ -8,9 +8,9 @@ import (
 	"context"
 	"testing"
 
+	"github.com/lukas016/controlplane/file-manager/api/constants"
 	"github.com/minio/minio-go/v7"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/file-manager/api/constants"
 )
 
 // MockMinioWrapper provides a mock implementation for testing the validator

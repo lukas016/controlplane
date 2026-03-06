@@ -5,10 +5,10 @@
 package identityprovider
 
 import (
-	"github.com/telekom/controlplane/common/pkg/config"
+	"github.com/lukas016/controlplane/common/pkg/config"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	identityv1 "github.com/telekom/controlplane/identity/api/v1"
+	identityv1 "github.com/lukas016/controlplane/identity/api/v1"
 )
 
 func NewIdentityProviderSpec() *identityv1.IdentityProviderSpec {

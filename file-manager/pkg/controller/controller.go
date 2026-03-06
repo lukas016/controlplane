@@ -5,7 +5,7 @@
 package controller
 
 import (
-	"github.com/telekom/controlplane/file-manager/pkg/backend"
+	"github.com/lukas016/controlplane/file-manager/pkg/backend"
 )
 
 type Controller interface {

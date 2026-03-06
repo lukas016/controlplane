@@ -11,8 +11,8 @@ import (
 
 	"github.com/go-logr/logr"
 
-	"github.com/telekom/controlplane/secret-manager/pkg/backend"
-	"github.com/telekom/controlplane/secret-manager/pkg/backend/cache/metrics"
+	"github.com/lukas016/controlplane/secret-manager/pkg/backend"
+	"github.com/lukas016/controlplane/secret-manager/pkg/backend/cache/metrics"
 )
 
 type Cache[T backend.SecretId, S backend.Secret[T]] interface {

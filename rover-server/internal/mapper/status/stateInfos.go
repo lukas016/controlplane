@@ -7,9 +7,9 @@ package status
 import (
 	"context"
 
-	v1 "github.com/telekom/controlplane/rover/api/v1"
+	v1 "github.com/lukas016/controlplane/rover/api/v1"
 
-	"github.com/telekom/controlplane/rover-server/internal/api"
+	"github.com/lukas016/controlplane/rover-server/internal/api"
 )
 
 // GetAllStateInfos retrieves all state information for a given Rover resource including all sub resources.

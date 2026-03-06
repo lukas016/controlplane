@@ -7,15 +7,16 @@ package handler
 import (
 	"context"
 	"encoding/json"
+
+	"github.com/lukas016/controlplane/common/pkg/errors/ctrlerrors"
+	"github.com/lukas016/controlplane/notification/internal/rendering"
+	"github.com/lukas016/controlplane/notification/internal/templatecache"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/common/pkg/errors/ctrlerrors"
-	"github.com/telekom/controlplane/notification/internal/rendering"
-	"github.com/telekom/controlplane/notification/internal/templatecache"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/handler"
-	notificationv1 "github.com/telekom/controlplane/notification/api/v1"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/handler"
+	notificationv1 "github.com/lukas016/controlplane/notification/api/v1"
 )
 
 var _ handler.Handler[*notificationv1.NotificationTemplate] = &NotificationTemplateHandler{}

@@ -5,9 +5,9 @@
 package backend_test
 
 import (
+	"github.com/lukas016/controlplane/secret-manager/pkg/backend"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/secret-manager/pkg/backend"
 )
 
 var _ = Describe("Secret Value", func() {

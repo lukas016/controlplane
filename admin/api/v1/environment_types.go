@@ -8,7 +8,7 @@ import (
 	"k8s.io/apimachinery/pkg/api/meta"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/telekom/controlplane/common/pkg/types"
+	"github.com/lukas016/controlplane/common/pkg/types"
 )
 
 // EnvironmentSpec defines the desired state of Environment

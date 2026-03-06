@@ -10,8 +10,8 @@ import (
 	"os"
 
 	"github.com/goccy/go-yaml"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/diffmatcher"
 	"github.com/spf13/cobra"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/diffmatcher"
 	"go.uber.org/zap"
 )
 

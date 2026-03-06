@@ -9,21 +9,21 @@ import (
 	"fmt"
 	"strings"
 
+	apiapi "github.com/lukas016/controlplane/api/api/v1"
+	"github.com/lukas016/controlplane/api/internal/handler/apisubscription/remote"
+	"github.com/lukas016/controlplane/api/internal/handler/util"
+	cclient "github.com/lukas016/controlplane/common/pkg/client"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/errors/ctrlerrors"
+	"github.com/lukas016/controlplane/common/pkg/handler"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	"github.com/lukas016/controlplane/common/pkg/util/contextutil"
+	gatewayapi "github.com/lukas016/controlplane/gateway/api/v1"
 	"github.com/pkg/errors"
-	apiapi "github.com/telekom/controlplane/api/api/v1"
-	"github.com/telekom/controlplane/api/internal/handler/apisubscription/remote"
-	"github.com/telekom/controlplane/api/internal/handler/util"
-	cclient "github.com/telekom/controlplane/common/pkg/client"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/errors/ctrlerrors"
-	"github.com/telekom/controlplane/common/pkg/handler"
-	"github.com/telekom/controlplane/common/pkg/types"
-	"github.com/telekom/controlplane/common/pkg/util/contextutil"
-	gatewayapi "github.com/telekom/controlplane/gateway/api/v1"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	approvalapi "github.com/telekom/controlplane/approval/api/v1"
-	"github.com/telekom/controlplane/approval/api/v1/builder"
+	approvalapi "github.com/lukas016/controlplane/approval/api/v1"
+	"github.com/lukas016/controlplane/approval/api/v1/builder"
 )
 
 var _ handler.Handler[*apiapi.ApiSubscription] = (*ApiSubscriptionHandler)(nil)

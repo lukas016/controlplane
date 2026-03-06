@@ -5,7 +5,7 @@
 package common
 
 import (
-	"github.com/telekom/controlplane/rover-ctl/pkg/types"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/types"
 )
 
 var _ types.ObjectStatus = &ObjectStatusResponse{}

@@ -18,9 +18,9 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	v1 "github.com/telekom/controlplane/approval/api/v1"
-	cclient "github.com/telekom/controlplane/common/pkg/client"
-	"github.com/telekom/controlplane/common/pkg/types"
+	v1 "github.com/lukas016/controlplane/approval/api/v1"
+	cclient "github.com/lukas016/controlplane/common/pkg/client"
+	"github.com/lukas016/controlplane/common/pkg/types"
 )
 
 type ApprovalResult string

@@ -20,11 +20,11 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	kconfig "sigs.k8s.io/controller-runtime/pkg/client/config"
 
-	applicationv1 "github.com/telekom/controlplane/application/api/v1"
-	accesstoken "github.com/telekom/controlplane/common-server/pkg/client/token"
-	"github.com/telekom/controlplane/common/pkg/util/labelutil"
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
-	secretsapi "github.com/telekom/controlplane/secret-manager/api"
+	applicationv1 "github.com/lukas016/controlplane/application/api/v1"
+	accesstoken "github.com/lukas016/controlplane/common-server/pkg/client/token"
+	"github.com/lukas016/controlplane/common/pkg/util/labelutil"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
+	secretsapi "github.com/lukas016/controlplane/secret-manager/api"
 )
 
 var (

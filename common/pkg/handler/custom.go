@@ -7,7 +7,7 @@ package handler
 import (
 	"context"
 
-	"github.com/telekom/controlplane/common/pkg/types"
+	"github.com/lukas016/controlplane/common/pkg/types"
 )
 
 type CreateOrUpdateFunc[T types.Object] func(ctx context.Context, object T) error

@@ -15,10 +15,10 @@ import (
 
 	"github.com/go-logr/logr"
 	"github.com/google/uuid"
+	"github.com/lukas016/controlplane/common/pkg/util/contextutil"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/common/pkg/util/contextutil"
 
-	kong "github.com/telekom/controlplane/gateway/pkg/kong/api"
+	kong "github.com/lukas016/controlplane/gateway/pkg/kong/api"
 )
 
 type MutatorFunc[T any] func(T) (T, error)

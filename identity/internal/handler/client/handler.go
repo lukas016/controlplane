@@ -8,18 +8,18 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/handler"
+	"github.com/lukas016/controlplane/common/pkg/util/contextutil"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/handler"
-	"github.com/telekom/controlplane/common/pkg/util/contextutil"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	identityv1 "github.com/telekom/controlplane/identity/api/v1"
-	realmHandler "github.com/telekom/controlplane/identity/internal/handler/realm"
-	"github.com/telekom/controlplane/identity/pkg/keycloak"
-	"github.com/telekom/controlplane/identity/pkg/keycloak/mapper"
-	secrets "github.com/telekom/controlplane/secret-manager/api"
+	identityv1 "github.com/lukas016/controlplane/identity/api/v1"
+	realmHandler "github.com/lukas016/controlplane/identity/internal/handler/realm"
+	"github.com/lukas016/controlplane/identity/pkg/keycloak"
+	"github.com/lukas016/controlplane/identity/pkg/keycloak/mapper"
+	secrets "github.com/lukas016/controlplane/secret-manager/api"
 )
 
 var _ handler.Handler[*identityv1.Client] = &HandlerClient{}

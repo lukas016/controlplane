@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	identityv1 "github.com/telekom/controlplane/identity/api/v1"
-	"github.com/telekom/controlplane/identity/pkg/keycloak"
+	identityv1 "github.com/lukas016/controlplane/identity/api/v1"
+	"github.com/lukas016/controlplane/identity/pkg/keycloak"
 )
 
 func TestMapToRealmStatusMapsCorrectly(t *testing.T) {

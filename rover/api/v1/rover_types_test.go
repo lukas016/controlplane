@@ -5,9 +5,9 @@
 package v1_test
 
 import (
+	v1 "github.com/lukas016/controlplane/rover/api/v1"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	v1 "github.com/telekom/controlplane/rover/api/v1"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

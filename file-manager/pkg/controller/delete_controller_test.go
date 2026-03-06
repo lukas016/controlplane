@@ -11,9 +11,9 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/pkg/errors"
 
-	"github.com/telekom/controlplane/file-manager/pkg/backend"
-	"github.com/telekom/controlplane/file-manager/pkg/controller"
-	"github.com/telekom/controlplane/file-manager/test/mocks"
+	"github.com/lukas016/controlplane/file-manager/pkg/backend"
+	"github.com/lukas016/controlplane/file-manager/pkg/controller"
+	"github.com/lukas016/controlplane/file-manager/test/mocks"
 )
 
 var _ = Describe("DeleteController", func() {

@@ -8,10 +8,10 @@ import (
 	"net/http"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/telekom/controlplane/common-server/pkg/problems"
-	"github.com/telekom/controlplane/common-server/pkg/server"
+	"github.com/lukas016/controlplane/common-server/pkg/problems"
+	"github.com/lukas016/controlplane/common-server/pkg/server"
 
-	"github.com/telekom/controlplane/rover-server/internal/api"
+	"github.com/lukas016/controlplane/rover-server/internal/api"
 )
 
 func (s *Server) GetAllEventSpecifications(c *fiber.Ctx) error {

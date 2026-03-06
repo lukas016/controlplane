@@ -26,9 +26,9 @@ import (
 	metricsserver "sigs.k8s.io/controller-runtime/pkg/metrics/server"
 	"sigs.k8s.io/controller-runtime/pkg/webhook"
 
-	identityv1 "github.com/telekom/controlplane/identity/api/v1"
-	"github.com/telekom/controlplane/identity/internal/controller"
-	secretmetrics "github.com/telekom/controlplane/secret-manager/api/metrics"
+	identityv1 "github.com/lukas016/controlplane/identity/api/v1"
+	"github.com/lukas016/controlplane/identity/internal/controller"
+	secretmetrics "github.com/lukas016/controlplane/secret-manager/api/metrics"
 	// +kubebuilder:scaffold:imports
 )
 

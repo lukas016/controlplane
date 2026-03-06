@@ -8,13 +8,13 @@ import (
 	"context"
 	"fmt"
 
+	adminapi "github.com/lukas016/controlplane/admin/api/v1"
+	apiapi "github.com/lukas016/controlplane/api/api/v1"
+	approvalapi "github.com/lukas016/controlplane/approval/api/v1"
+	"github.com/lukas016/controlplane/common/pkg/client"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	gatewayapi "github.com/lukas016/controlplane/gateway/api/v1"
 	"github.com/pkg/errors"
-	adminapi "github.com/telekom/controlplane/admin/api/v1"
-	apiapi "github.com/telekom/controlplane/api/api/v1"
-	approvalapi "github.com/telekom/controlplane/approval/api/v1"
-	"github.com/telekom/controlplane/common/pkg/client"
-	"github.com/telekom/controlplane/common/pkg/types"
-	gatewayapi "github.com/telekom/controlplane/gateway/api/v1"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 )
 

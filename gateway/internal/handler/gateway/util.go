@@ -7,12 +7,12 @@ package gateway
 import (
 	"context"
 
+	"github.com/lukas016/controlplane/common/pkg/client"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
+	secrets "github.com/lukas016/controlplane/secret-manager/api"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/common/pkg/client"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/types"
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
-	secrets "github.com/telekom/controlplane/secret-manager/api"
 	"k8s.io/apimachinery/pkg/api/meta"
 )
 

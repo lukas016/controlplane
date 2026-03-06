@@ -6,9 +6,9 @@ package api
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/orchestrator"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/snapshot"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/store"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/orchestrator"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/snapshot"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/store"
 )
 
 type API struct {

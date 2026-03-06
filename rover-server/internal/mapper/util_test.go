@@ -8,8 +8,8 @@ import (
 	"context"
 	"testing"
 
+	roverv1 "github.com/lukas016/controlplane/rover/api/v1"
 	"github.com/stretchr/testify/assert"
-	roverv1 "github.com/telekom/controlplane/rover/api/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

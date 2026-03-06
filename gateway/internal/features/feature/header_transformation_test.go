@@ -7,10 +7,10 @@ package feature
 import (
 	"context"
 
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
+	featuresmock "github.com/lukas016/controlplane/gateway/internal/features/mock"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
-	featuresmock "github.com/telekom/controlplane/gateway/internal/features/mock"
 	"go.uber.org/mock/gomock"
 )
 

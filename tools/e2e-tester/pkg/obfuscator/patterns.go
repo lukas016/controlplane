@@ -5,7 +5,7 @@
 package obfuscator
 
 import (
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/obfuscator"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/obfuscator"
 )
 
 // Common obfuscation patterns for e2e tests

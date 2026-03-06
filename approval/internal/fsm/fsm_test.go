@@ -5,9 +5,9 @@
 package fsm
 
 import (
+	. "github.com/lukas016/controlplane/approval/api/v1"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/telekom/controlplane/approval/api/v1"
 )
 
 var _ = Describe("Approval Finite State Machine", func() {

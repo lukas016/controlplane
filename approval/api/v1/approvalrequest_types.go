@@ -5,8 +5,8 @@
 package v1
 
 import (
-	"github.com/telekom/controlplane/common/pkg/types"
-	"github.com/telekom/controlplane/common/pkg/util/hash"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	"github.com/lukas016/controlplane/common/pkg/util/hash"
 	"k8s.io/apimachinery/pkg/api/meta"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

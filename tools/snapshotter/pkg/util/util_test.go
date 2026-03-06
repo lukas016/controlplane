@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"github.com/goccy/go-yaml"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/util"
 	"github.com/stretchr/testify/assert"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/util"
 )
 
 func TestDeepSort(t *testing.T) {

@@ -7,19 +7,19 @@ package controller
 import (
 	"context"
 
+	"github.com/lukas016/controlplane/common/pkg/config"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/common/pkg/config"
 	corev1 "k8s.io/api/core/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	adminv1 "github.com/telekom/controlplane/admin/api/v1"
-	applicationv1 "github.com/telekom/controlplane/application/api/v1"
-	ctypes "github.com/telekom/controlplane/common/pkg/types"
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
-	identityv1 "github.com/telekom/controlplane/identity/api/v1"
+	adminv1 "github.com/lukas016/controlplane/admin/api/v1"
+	applicationv1 "github.com/lukas016/controlplane/application/api/v1"
+	ctypes "github.com/lukas016/controlplane/common/pkg/types"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
+	identityv1 "github.com/lukas016/controlplane/identity/api/v1"
 )
 
 var _ = Describe("Application Controller", func() {

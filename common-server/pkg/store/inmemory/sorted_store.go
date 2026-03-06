@@ -13,10 +13,10 @@ import (
 
 	"github.com/bytedance/sonic"
 	"github.com/dgraph-io/badger/v4"
+	"github.com/lukas016/controlplane/common-server/internal/informer"
+	"github.com/lukas016/controlplane/common-server/pkg/problems"
+	"github.com/lukas016/controlplane/common-server/pkg/store"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/common-server/internal/informer"
-	"github.com/telekom/controlplane/common-server/pkg/problems"
-	"github.com/telekom/controlplane/common-server/pkg/store"
 )
 
 type SortableStore[T store.Object] struct {

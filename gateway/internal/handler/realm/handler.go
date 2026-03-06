@@ -7,11 +7,11 @@ package realm
 import (
 	"context"
 
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/handler"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/handler"
-	"github.com/telekom/controlplane/common/pkg/types"
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
 )
 
 var _ handler.Handler[*gatewayv1.Realm] = &RealmHandler{}

@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	accesstoken "github.com/telekom/controlplane/common-server/pkg/client/token"
-	"github.com/telekom/controlplane/common-server/pkg/util"
+	accesstoken "github.com/lukas016/controlplane/common-server/pkg/client/token"
+	"github.com/lukas016/controlplane/common-server/pkg/util"
 
 	"github.com/pkg/errors"
 )

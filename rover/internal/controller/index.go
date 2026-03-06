@@ -8,9 +8,9 @@ import (
 	"context"
 	"os"
 
-	apiapi "github.com/telekom/controlplane/api/api/v1"
-	applicationv1 "github.com/telekom/controlplane/application/api/v1"
-	"github.com/telekom/controlplane/common/pkg/controller/index"
+	apiapi "github.com/lukas016/controlplane/api/api/v1"
+	applicationv1 "github.com/lukas016/controlplane/application/api/v1"
+	"github.com/lukas016/controlplane/common/pkg/controller/index"
 
 	ctrl "sigs.k8s.io/controller-runtime"
 )

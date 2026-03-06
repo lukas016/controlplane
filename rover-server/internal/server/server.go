@@ -13,10 +13,10 @@ import (
 
 	"github.com/go-logr/logr"
 	"github.com/gofiber/fiber/v2"
-	"github.com/telekom/controlplane/common-server/pkg/server/middleware/security"
+	"github.com/lukas016/controlplane/common-server/pkg/server/middleware/security"
 
-	"github.com/telekom/controlplane/rover-server/internal/api"
-	"github.com/telekom/controlplane/rover-server/internal/config"
+	"github.com/lukas016/controlplane/rover-server/internal/api"
+	"github.com/lukas016/controlplane/rover-server/internal/config"
 )
 
 type RoverController interface {

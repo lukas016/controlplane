@@ -10,7 +10,7 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/telekom/controlplane/common-server/pkg/problems"
+	"github.com/lukas016/controlplane/common-server/pkg/problems"
 )
 
 func parseMockToken(rawToken string) (*jwt.Token, error) {

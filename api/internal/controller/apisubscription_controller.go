@@ -19,16 +19,16 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/predicate"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 
-	adminv1 "github.com/telekom/controlplane/admin/api/v1"
-	apiapi "github.com/telekom/controlplane/api/api/v1"
-	applicationapi "github.com/telekom/controlplane/application/api/v1"
-	approvalapi "github.com/telekom/controlplane/approval/api/v1"
-	cconfig "github.com/telekom/controlplane/common/pkg/config"
-	cc "github.com/telekom/controlplane/common/pkg/controller"
-	gatewayapi "github.com/telekom/controlplane/gateway/api/v1"
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
+	adminv1 "github.com/lukas016/controlplane/admin/api/v1"
+	apiapi "github.com/lukas016/controlplane/api/api/v1"
+	applicationapi "github.com/lukas016/controlplane/application/api/v1"
+	approvalapi "github.com/lukas016/controlplane/approval/api/v1"
+	cconfig "github.com/lukas016/controlplane/common/pkg/config"
+	cc "github.com/lukas016/controlplane/common/pkg/controller"
+	gatewayapi "github.com/lukas016/controlplane/gateway/api/v1"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
 
-	"github.com/telekom/controlplane/api/internal/handler/apisubscription"
+	"github.com/lukas016/controlplane/api/internal/handler/apisubscription"
 )
 
 // ApiSubscriptionReconciler reconciles a ApiSubscription object

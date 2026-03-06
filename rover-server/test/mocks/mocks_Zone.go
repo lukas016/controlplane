@@ -5,10 +5,10 @@
 package mocks
 
 import (
+	adminv1 "github.com/lukas016/controlplane/admin/api/v1"
+	"github.com/lukas016/controlplane/common-server/pkg/store"
 	"github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/mock"
-	adminv1 "github.com/telekom/controlplane/admin/api/v1"
-	"github.com/telekom/controlplane/common-server/pkg/store"
 )
 
 func NewZoneStoreMock(testing ginkgo.FullGinkgoTInterface) store.ObjectStore[*adminv1.Zone] {

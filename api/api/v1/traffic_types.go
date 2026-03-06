@@ -7,7 +7,7 @@ package v1
 import (
 	"slices"
 
-	ctypes "github.com/telekom/controlplane/common/pkg/types"
+	ctypes "github.com/lukas016/controlplane/common/pkg/types"
 )
 
 type Traffic struct {

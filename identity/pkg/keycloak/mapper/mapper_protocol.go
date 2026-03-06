@@ -9,7 +9,7 @@ import (
 
 	"k8s.io/utils/ptr"
 
-	"github.com/telekom/controlplane/identity/pkg/api"
+	"github.com/lukas016/controlplane/identity/pkg/api"
 )
 
 func MapToProtocolMapperRepresentation() api.ProtocolMapperRepresentation {

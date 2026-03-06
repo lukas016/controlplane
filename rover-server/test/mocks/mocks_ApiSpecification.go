@@ -5,11 +5,11 @@
 package mocks
 
 import (
+	"github.com/lukas016/controlplane/common-server/pkg/problems"
+	"github.com/lukas016/controlplane/common-server/pkg/store"
+	roverv1 "github.com/lukas016/controlplane/rover/api/v1"
 	"github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/mock"
-	"github.com/telekom/controlplane/common-server/pkg/problems"
-	"github.com/telekom/controlplane/common-server/pkg/store"
-	roverv1 "github.com/telekom/controlplane/rover/api/v1"
 )
 
 func NewApiSpecificationStoreMock(testing ginkgo.FullGinkgoTInterface) store.ObjectStore[*roverv1.ApiSpecification] {

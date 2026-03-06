@@ -17,10 +17,10 @@ import (
 	context "context"
 	reflect "reflect"
 
-	v1 "github.com/telekom/controlplane/gateway/api/v1"
-	features "github.com/telekom/controlplane/gateway/internal/features"
-	client "github.com/telekom/controlplane/gateway/pkg/kong/client"
-	plugin "github.com/telekom/controlplane/gateway/pkg/kong/client/plugin"
+	v1 "github.com/lukas016/controlplane/gateway/api/v1"
+	features "github.com/lukas016/controlplane/gateway/internal/features"
+	client "github.com/lukas016/controlplane/gateway/pkg/kong/client"
+	plugin "github.com/lukas016/controlplane/gateway/pkg/kong/client/plugin"
 	gomock "go.uber.org/mock/gomock"
 )
 

@@ -7,11 +7,11 @@ package client
 import (
 	"context"
 
+	"github.com/lukas016/controlplane/common/pkg/config"
+	"github.com/lukas016/controlplane/common/pkg/test"
+	"github.com/lukas016/controlplane/common/pkg/util/contextutil"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/common/pkg/config"
-	"github.com/telekom/controlplane/common/pkg/test"
-	"github.com/telekom/controlplane/common/pkg/util/contextutil"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"sigs.k8s.io/controller-runtime/pkg/client"

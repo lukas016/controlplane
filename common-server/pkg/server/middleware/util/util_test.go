@@ -7,7 +7,7 @@ package util_test
 import (
 	"testing"
 
-	"github.com/telekom/controlplane/common-server/pkg/server/middleware/util"
+	"github.com/lukas016/controlplane/common-server/pkg/server/middleware/util"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

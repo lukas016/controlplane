@@ -8,14 +8,14 @@ import (
 	"context"
 	"testing"
 
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	roverv1 "github.com/lukas016/controlplane/rover/api/v1"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	roverv1 "github.com/telekom/controlplane/rover/api/v1"
 	"k8s.io/apimachinery/pkg/api/meta"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/telekom/controlplane/rover-server/test/mocks"
+	"github.com/lukas016/controlplane/rover-server/test/mocks"
 )
 
 var (

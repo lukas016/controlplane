@@ -8,7 +8,7 @@ import (
 	"context"
 
 	"github.com/go-logr/logr"
-	"github.com/telekom/controlplane/secret-manager/pkg/backend"
+	"github.com/lukas016/controlplane/secret-manager/pkg/backend"
 	"github.com/tidwall/gjson"
 	"github.com/tidwall/sjson"
 	corev1 "k8s.io/api/core/v1"

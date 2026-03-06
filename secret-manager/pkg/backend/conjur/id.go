@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/telekom/controlplane/secret-manager/pkg/backend"
+	"github.com/lukas016/controlplane/secret-manager/pkg/backend"
 )
 
 var RootPolicyPath = ""

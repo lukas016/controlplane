@@ -19,8 +19,8 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 
-	accesstoken "github.com/telekom/controlplane/common-server/pkg/client/token"
-	"github.com/telekom/controlplane/file-manager/api"
+	accesstoken "github.com/lukas016/controlplane/common-server/pkg/client/token"
+	"github.com/lukas016/controlplane/file-manager/api"
 )
 
 var (

@@ -10,9 +10,9 @@ import (
 
 	"github.com/go-logr/logr"
 	"github.com/go-logr/zapr"
-	"github.com/telekom/controlplane/common-server/internal/config"
-	"github.com/telekom/controlplane/common-server/internal/crd"
-	"github.com/telekom/controlplane/common-server/pkg/server"
+	"github.com/lukas016/controlplane/common-server/internal/config"
+	"github.com/lukas016/controlplane/common-server/internal/crd"
+	"github.com/lukas016/controlplane/common-server/pkg/server"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"k8s.io/client-go/dynamic"

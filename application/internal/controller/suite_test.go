@@ -25,11 +25,11 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 	"sigs.k8s.io/controller-runtime/pkg/metrics/server"
 
-	adminv1 "github.com/telekom/controlplane/admin/api/v1"
-	applicationv1 "github.com/telekom/controlplane/application/api/v1"
-	"github.com/telekom/controlplane/common/pkg/test/mock"
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
-	identityv1 "github.com/telekom/controlplane/identity/api/v1"
+	adminv1 "github.com/lukas016/controlplane/admin/api/v1"
+	applicationv1 "github.com/lukas016/controlplane/application/api/v1"
+	"github.com/lukas016/controlplane/common/pkg/test/mock"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
+	identityv1 "github.com/lukas016/controlplane/identity/api/v1"
 	// +kubebuilder:scaffold:imports
 )
 
@@ -69,7 +69,7 @@ var _ = BeforeSuite(func() {
 			filepath.Join("..", "..", "..", "identity", "config", "crd", "bases"),
 			filepath.Join("..", "..", "..", "gateway", "config", "crd", "bases"),
 			filepath.Join("..", "..", "..", "admin", "config", "crd", "bases"),
-			//	testutil.GetCrdPathsOrDie("github.com/telekom/controlplane/(identity|gateway|admin)"),
+			//	testutil.GetCrdPathsOrDie("github.com/lukas016/controlplane/(identity|gateway|admin)"),
 		),
 
 		ErrorIfCRDPathMissing: true,

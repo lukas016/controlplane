@@ -9,7 +9,7 @@ package fake
 import (
 	context "context"
 
-	api "github.com/telekom/controlplane/secret-manager/api"
+	api "github.com/lukas016/controlplane/secret-manager/api"
 
 	mock "github.com/stretchr/testify/mock"
 )

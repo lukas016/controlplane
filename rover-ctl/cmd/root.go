@@ -9,16 +9,16 @@ import (
 	"os"
 
 	"github.com/go-logr/logr"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/commands/apply"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/commands/delete"
+	getinfo "github.com/lukas016/controlplane/rover-ctl/pkg/commands/get-info"
+	resetsecret "github.com/lukas016/controlplane/rover-ctl/pkg/commands/reset-secret"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/commands/resource"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/handlers"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/log"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/telekom/controlplane/rover-ctl/pkg/commands/apply"
-	"github.com/telekom/controlplane/rover-ctl/pkg/commands/delete"
-	getinfo "github.com/telekom/controlplane/rover-ctl/pkg/commands/get-info"
-	resetsecret "github.com/telekom/controlplane/rover-ctl/pkg/commands/reset-secret"
-	"github.com/telekom/controlplane/rover-ctl/pkg/commands/resource"
-	"github.com/telekom/controlplane/rover-ctl/pkg/handlers"
-	"github.com/telekom/controlplane/rover-ctl/pkg/log"
 )
 
 func ErrorHandler(err error, verbose bool) {

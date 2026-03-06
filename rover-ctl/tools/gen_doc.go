@@ -7,8 +7,8 @@ package main
 import (
 	"log"
 
+	"github.com/lukas016/controlplane/rover-ctl/cmd"
 	"github.com/spf13/cobra/doc"
-	"github.com/telekom/controlplane/rover-ctl/cmd"
 )
 
 func main() {

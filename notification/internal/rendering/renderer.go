@@ -6,12 +6,13 @@ package rendering
 
 import (
 	"bytes"
-	sprig "github.com/go-task/slim-sprig/v3"
-	"github.com/pkg/errors"
-	notificationv1 "github.com/telekom/controlplane/notification/api/v1"
-	"github.com/telekom/controlplane/notification/internal/templatecache"
-	"k8s.io/apimachinery/pkg/runtime"
 	texttemplate "text/template"
+
+	sprig "github.com/go-task/slim-sprig/v3"
+	notificationv1 "github.com/lukas016/controlplane/notification/api/v1"
+	"github.com/lukas016/controlplane/notification/internal/templatecache"
+	"github.com/pkg/errors"
+	"k8s.io/apimachinery/pkg/runtime"
 
 	"encoding/json"
 )

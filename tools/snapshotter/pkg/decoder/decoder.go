@@ -7,7 +7,7 @@ package decoder
 import (
 	"fmt"
 
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/snapshot"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/snapshot"
 )
 
 type DecoderTarget struct {

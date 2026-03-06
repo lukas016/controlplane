@@ -9,9 +9,9 @@ import (
 
 	"go.uber.org/mock/gomock"
 
-	"github.com/telekom/controlplane/common/pkg/types"
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
-	"github.com/telekom/controlplane/gateway/pkg/kong/client/mock"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
+	"github.com/lukas016/controlplane/gateway/pkg/kong/client/mock"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
 	. "github.com/onsi/ginkgo/v2"

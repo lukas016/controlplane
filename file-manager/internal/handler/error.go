@@ -9,8 +9,8 @@ import (
 
 	"github.com/go-logr/logr"
 	"github.com/gofiber/fiber/v2"
-	"github.com/telekom/controlplane/common-server/pkg/server"
-	"github.com/telekom/controlplane/file-manager/pkg/backend"
+	"github.com/lukas016/controlplane/common-server/pkg/server"
+	"github.com/lukas016/controlplane/file-manager/pkg/backend"
 )
 
 // ErrorHandler handles API errors and returns them in a standardized format

@@ -7,9 +7,9 @@ package environment
 import (
 	"context"
 
-	adminv1 "github.com/telekom/controlplane/admin/api/v1"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/handler"
+	adminv1 "github.com/lukas016/controlplane/admin/api/v1"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/handler"
 )
 
 var _ handler.Handler[*adminv1.Environment] = &EnvironmentHandler{}

@@ -9,12 +9,12 @@ import (
 	"errors"
 	"time"
 
+	"github.com/lukas016/controlplane/rover-ctl/pkg/handlers/common"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/types"
+	"github.com/lukas016/controlplane/rover-ctl/test/mocks"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/stretchr/testify/mock"
-	"github.com/telekom/controlplane/rover-ctl/pkg/handlers/common"
-	"github.com/telekom/controlplane/rover-ctl/pkg/types"
-	"github.com/telekom/controlplane/rover-ctl/test/mocks"
 )
 
 var _ = Describe("StatusPoller", func() {

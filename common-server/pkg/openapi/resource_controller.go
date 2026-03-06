@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/telekom/controlplane/common-server/internal/crd"
-	"github.com/telekom/controlplane/common-server/pkg/server"
+	"github.com/lukas016/controlplane/common-server/internal/crd"
+	"github.com/lukas016/controlplane/common-server/pkg/server"
 )
 
 func AddResourceController(builder *DocumentBuilder, ctrl *server.ResourceController, opts server.ControllerOpts) {

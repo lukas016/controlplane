@@ -8,10 +8,10 @@ import (
 	"context"
 	"net/url"
 
+	cclient "github.com/lukas016/controlplane/common/pkg/client"
+	gatewayapi "github.com/lukas016/controlplane/gateway/api/v1"
+	identityapi "github.com/lukas016/controlplane/identity/api/v1"
 	"github.com/pkg/errors"
-	cclient "github.com/telekom/controlplane/common/pkg/client"
-	gatewayapi "github.com/telekom/controlplane/gateway/api/v1"
-	identityapi "github.com/telekom/controlplane/identity/api/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 )

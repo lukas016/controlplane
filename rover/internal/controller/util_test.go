@@ -5,11 +5,11 @@
 package controller
 
 import (
-	"github.com/telekom/controlplane/common/pkg/config"
-	organizationv1 "github.com/telekom/controlplane/organization/api/v1"
+	"github.com/lukas016/controlplane/common/pkg/config"
+	organizationv1 "github.com/lukas016/controlplane/organization/api/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	roverv1 "github.com/telekom/controlplane/rover/api/v1"
+	roverv1 "github.com/lukas016/controlplane/rover/api/v1"
 )
 
 func createRover(name string, ns string, env string, spec roverv1.RoverSpec) *roverv1.Rover {

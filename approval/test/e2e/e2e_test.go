@@ -12,7 +12,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/telekom/controlplane/approval/test/utils"
+	"github.com/lukas016/controlplane/approval/test/utils"
 )
 
 const (

@@ -7,8 +7,8 @@ package v0
 import (
 	"context"
 
-	"github.com/telekom/controlplane/rover-ctl/pkg/handlers/common"
-	"github.com/telekom/controlplane/rover-ctl/pkg/types"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/handlers/common"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/types"
 )
 
 // ApiSpecHandler is a specialized handler for ApiSpecification resources

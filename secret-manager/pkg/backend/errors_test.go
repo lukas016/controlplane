@@ -7,10 +7,10 @@ package backend_test
 import (
 	"fmt"
 
+	"github.com/lukas016/controlplane/secret-manager/pkg/backend"
+	"github.com/lukas016/controlplane/secret-manager/test/mocks"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/secret-manager/pkg/backend"
-	"github.com/telekom/controlplane/secret-manager/test/mocks"
 )
 
 var _ = Describe("Errors", func() {

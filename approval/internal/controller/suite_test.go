@@ -24,11 +24,11 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 	"sigs.k8s.io/controller-runtime/pkg/metrics/server"
 
-	approvalv1 "github.com/telekom/controlplane/approval/api/v1"
-	"github.com/telekom/controlplane/common/pkg/test"
-	"github.com/telekom/controlplane/common/pkg/test/mock"
-	"github.com/telekom/controlplane/common/pkg/test/testutil"
-	notificationv1 "github.com/telekom/controlplane/notification/api/v1"
+	approvalv1 "github.com/lukas016/controlplane/approval/api/v1"
+	"github.com/lukas016/controlplane/common/pkg/test"
+	"github.com/lukas016/controlplane/common/pkg/test/mock"
+	"github.com/lukas016/controlplane/common/pkg/test/testutil"
+	notificationv1 "github.com/lukas016/controlplane/notification/api/v1"
 	ctrl "sigs.k8s.io/controller-runtime"
 
 	crscheme "sigs.k8s.io/controller-runtime/pkg/scheme"

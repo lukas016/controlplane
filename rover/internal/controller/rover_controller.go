@@ -7,19 +7,19 @@ package controller
 import (
 	"context"
 
-	cconfig "github.com/telekom/controlplane/common/pkg/config"
-	cc "github.com/telekom/controlplane/common/pkg/controller"
+	cconfig "github.com/lukas016/controlplane/common/pkg/config"
+	cc "github.com/lukas016/controlplane/common/pkg/controller"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/tools/record"
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/controller"
 
-	rover_handler "github.com/telekom/controlplane/rover/internal/handler/rover"
+	rover_handler "github.com/lukas016/controlplane/rover/internal/handler/rover"
 
-	apiapi "github.com/telekom/controlplane/api/api/v1"
-	application "github.com/telekom/controlplane/application/api/v1"
-	rover "github.com/telekom/controlplane/rover/api/v1"
+	apiapi "github.com/lukas016/controlplane/api/api/v1"
+	application "github.com/lukas016/controlplane/application/api/v1"
+	rover "github.com/lukas016/controlplane/rover/api/v1"
 )
 
 // RoverReconciler reconciles a Rover object

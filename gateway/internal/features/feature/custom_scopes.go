@@ -8,9 +8,9 @@ import (
 	"context"
 	"strings"
 
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
-	"github.com/telekom/controlplane/gateway/internal/features"
-	"github.com/telekom/controlplane/gateway/pkg/kong/client/plugin"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
+	"github.com/lukas016/controlplane/gateway/internal/features"
+	"github.com/lukas016/controlplane/gateway/pkg/kong/client/plugin"
 )
 
 var _ features.Feature = &CustomScopesFeature{}

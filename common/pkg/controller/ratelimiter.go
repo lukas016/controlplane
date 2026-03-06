@@ -5,7 +5,7 @@
 package controller
 
 import (
-	"github.com/telekom/controlplane/common/pkg/config"
+	"github.com/lukas016/controlplane/common/pkg/config"
 	"k8s.io/client-go/util/workqueue"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 )

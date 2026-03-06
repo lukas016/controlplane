@@ -7,11 +7,11 @@ package feature
 import (
 	"context"
 
-	"github.com/telekom/controlplane/gateway/pkg/kong/client"
-	"github.com/telekom/controlplane/gateway/pkg/kong/client/plugin"
+	"github.com/lukas016/controlplane/gateway/pkg/kong/client"
+	"github.com/lukas016/controlplane/gateway/pkg/kong/client/plugin"
 
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
-	"github.com/telekom/controlplane/gateway/internal/features"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
+	"github.com/lukas016/controlplane/gateway/internal/features"
 )
 
 var _ features.Feature = &LoadBalancingFeature{}

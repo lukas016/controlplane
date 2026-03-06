@@ -10,8 +10,8 @@ import (
 
 	"github.com/dgraph-io/ristretto/v2"
 	"github.com/go-logr/logr"
-	"github.com/telekom/controlplane/secret-manager/pkg/backend"
-	"github.com/telekom/controlplane/secret-manager/pkg/backend/cache/metrics"
+	"github.com/lukas016/controlplane/secret-manager/pkg/backend"
+	"github.com/lukas016/controlplane/secret-manager/pkg/backend/cache/metrics"
 )
 
 var _ backend.Backend[backend.SecretId, backend.Secret[backend.SecretId]] = (*CachedBackend[backend.SecretId, backend.Secret[backend.SecretId]])(nil)

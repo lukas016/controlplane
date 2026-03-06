@@ -8,11 +8,11 @@ import (
 	"context"
 	"slices"
 
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/handler"
+	v1 "github.com/lukas016/controlplane/gateway/api/v1"
+	"github.com/lukas016/controlplane/gateway/internal/handler/route"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/handler"
-	v1 "github.com/telekom/controlplane/gateway/api/v1"
-	"github.com/telekom/controlplane/gateway/internal/handler/route"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
 	apierrors "k8s.io/apimachinery/pkg/api/errors"

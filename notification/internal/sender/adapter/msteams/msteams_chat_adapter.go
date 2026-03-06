@@ -12,8 +12,9 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+
+	"github.com/lukas016/controlplane/notification/internal/sender/adapter"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/notification/internal/sender/adapter"
 
 	"github.com/go-logr/logr"
 	"github.com/go-resty/resty/v2"

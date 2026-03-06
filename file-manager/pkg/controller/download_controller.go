@@ -8,8 +8,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/telekom/controlplane/file-manager/pkg/backend"
-	"github.com/telekom/controlplane/file-manager/pkg/backend/identifier"
+	"github.com/lukas016/controlplane/file-manager/pkg/backend"
+	"github.com/lukas016/controlplane/file-manager/pkg/backend/identifier"
 )
 
 type DownloadResponse struct {

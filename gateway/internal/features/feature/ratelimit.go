@@ -8,11 +8,11 @@ import (
 	"context"
 	"slices"
 
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
+	"github.com/lukas016/controlplane/gateway/internal/features"
+	"github.com/lukas016/controlplane/gateway/pkg/kong/client/plugin"
+	secretManagerApi "github.com/lukas016/controlplane/secret-manager/api"
 	"github.com/pkg/errors"
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
-	"github.com/telekom/controlplane/gateway/internal/features"
-	"github.com/telekom/controlplane/gateway/pkg/kong/client/plugin"
-	secretManagerApi "github.com/telekom/controlplane/secret-manager/api"
 )
 
 var _ features.Feature = &RateLimitFeature{}

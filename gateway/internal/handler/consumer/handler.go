@@ -7,16 +7,16 @@ package consumer
 import (
 	"context"
 
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/errors/ctrlerrors"
+	"github.com/lukas016/controlplane/common/pkg/handler"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
+	"github.com/lukas016/controlplane/gateway/internal/features"
+	"github.com/lukas016/controlplane/gateway/internal/features/feature"
+	"github.com/lukas016/controlplane/gateway/internal/handler/gateway"
+	"github.com/lukas016/controlplane/gateway/internal/handler/realm"
+	"github.com/lukas016/controlplane/gateway/pkg/kongutil"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/errors/ctrlerrors"
-	"github.com/telekom/controlplane/common/pkg/handler"
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
-	"github.com/telekom/controlplane/gateway/internal/features"
-	"github.com/telekom/controlplane/gateway/internal/features/feature"
-	"github.com/telekom/controlplane/gateway/internal/handler/gateway"
-	"github.com/telekom/controlplane/gateway/internal/handler/realm"
-	"github.com/telekom/controlplane/gateway/pkg/kongutil"
 )
 
 var _ handler.Handler[*gatewayv1.Consumer] = &ConsumerHandler{}

@@ -6,14 +6,15 @@ package controller
 
 import (
 	"context"
-	cconfig "github.com/telekom/controlplane/common/pkg/config"
-	cc "github.com/telekom/controlplane/common/pkg/controller"
-	notificationv1 "github.com/telekom/controlplane/notification/api/v1"
-	"github.com/telekom/controlplane/notification/internal/sender"
-	"github.com/telekom/controlplane/notification/internal/sender/adapter/mail"
-	"github.com/telekom/controlplane/notification/internal/sender/adapter/msteams"
-	"github.com/telekom/controlplane/notification/internal/sender/adapter/webhook"
-	"github.com/telekom/controlplane/notification/internal/templatecache"
+
+	cconfig "github.com/lukas016/controlplane/common/pkg/config"
+	cc "github.com/lukas016/controlplane/common/pkg/controller"
+	notificationv1 "github.com/lukas016/controlplane/notification/api/v1"
+	"github.com/lukas016/controlplane/notification/internal/sender"
+	"github.com/lukas016/controlplane/notification/internal/sender/adapter/mail"
+	"github.com/lukas016/controlplane/notification/internal/sender/adapter/msteams"
+	"github.com/lukas016/controlplane/notification/internal/sender/adapter/webhook"
+	"github.com/lukas016/controlplane/notification/internal/templatecache"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/tools/record"
 	ctrl "sigs.k8s.io/controller-runtime"
@@ -24,9 +25,9 @@ import (
 
 	"sigs.k8s.io/controller-runtime/pkg/handler"
 
-	notificationhandler "github.com/telekom/controlplane/notification/internal/handler"
+	notificationhandler "github.com/lukas016/controlplane/notification/internal/handler"
 
-	notificationsconfig "github.com/telekom/controlplane/notification/internal/config"
+	notificationsconfig "github.com/lukas016/controlplane/notification/internal/config"
 )
 
 // NotificationReconciler reconciles a Notification object

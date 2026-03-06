@@ -7,7 +7,7 @@ package command
 import (
 	"fmt"
 
-	"github.com/telekom/controlplane/tools/e2e-tester/pkg/config"
+	"github.com/lukas016/controlplane/tools/e2e-tester/pkg/config"
 	"go.uber.org/zap"
 )
 

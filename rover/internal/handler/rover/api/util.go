@@ -7,9 +7,9 @@ package api
 import (
 	"strings"
 
-	apiapi "github.com/telekom/controlplane/api/api/v1"
-	"github.com/telekom/controlplane/common/pkg/types"
-	rover "github.com/telekom/controlplane/rover/api/v1"
+	apiapi "github.com/lukas016/controlplane/api/api/v1"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	rover "github.com/lukas016/controlplane/rover/api/v1"
 )
 
 func MakeName(ownerName, basePath, organization string) string {

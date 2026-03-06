@@ -10,10 +10,10 @@ import (
 	"github.com/pkg/errors"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	cc "github.com/telekom/controlplane/common/pkg/client"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/handler"
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
+	cc "github.com/lukas016/controlplane/common/pkg/client"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/handler"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
 )
 
 var _ handler.Handler[*gatewayv1.Gateway] = &GatewayHandler{}

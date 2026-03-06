@@ -8,11 +8,11 @@ import (
 	"context"
 	"fmt"
 
+	cclient "github.com/lukas016/controlplane/common/pkg/client"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/handler"
+	organizationv1 "github.com/lukas016/controlplane/organization/api/v1"
 	"github.com/pkg/errors"
-	cclient "github.com/telekom/controlplane/common/pkg/client"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/handler"
-	organizationv1 "github.com/telekom/controlplane/organization/api/v1"
 )
 
 var _ handler.Handler[*organizationv1.Group] = &GroupHandler{}

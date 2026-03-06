@@ -7,17 +7,17 @@ package controller // nolint: dupl
 import (
 	"context"
 
-	cconfig "github.com/telekom/controlplane/common/pkg/config"
-	cc "github.com/telekom/controlplane/common/pkg/controller"
+	cconfig "github.com/lukas016/controlplane/common/pkg/config"
+	cc "github.com/lukas016/controlplane/common/pkg/controller"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/tools/record"
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/controller"
 
-	approvalv1 "github.com/telekom/controlplane/approval/api/v1"
+	approvalv1 "github.com/lukas016/controlplane/approval/api/v1"
 
-	approvalreq_handler "github.com/telekom/controlplane/approval/internal/handler/approvalrequest"
+	approvalreq_handler "github.com/lukas016/controlplane/approval/internal/handler/approvalrequest"
 )
 
 // ApprovalRequestReconciler reconciles a ApprovalRequest object

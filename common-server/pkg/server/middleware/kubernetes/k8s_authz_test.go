@@ -11,10 +11,10 @@ import (
 	jwtware "github.com/gofiber/contrib/jwt"
 	"github.com/gofiber/fiber/v2"
 	"github.com/golang-jwt/jwt/v5"
+	"github.com/lukas016/controlplane/common-server/pkg/server"
+	k8s "github.com/lukas016/controlplane/common-server/pkg/server/middleware/kubernetes"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/common-server/pkg/server"
-	k8s "github.com/telekom/controlplane/common-server/pkg/server/middleware/kubernetes"
 )
 
 // Test constants

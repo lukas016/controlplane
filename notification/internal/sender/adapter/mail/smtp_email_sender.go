@@ -8,11 +8,12 @@ import (
 	"context"
 	"crypto/tls"
 	"fmt"
-	"github.com/go-logr/logr"
-	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/notification/internal/config"
-	"gopkg.in/gomail.v2"
 	"time"
+
+	"github.com/go-logr/logr"
+	"github.com/lukas016/controlplane/notification/internal/config"
+	"github.com/pkg/errors"
+	"gopkg.in/gomail.v2"
 )
 
 var _ EmailSender = SMTPEmailSender{}

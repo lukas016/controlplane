@@ -13,7 +13,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/telekom/controlplane/notification/test/utils"
+	"github.com/lukas016/controlplane/notification/test/utils"
 )
 
 var (

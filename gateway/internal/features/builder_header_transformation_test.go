@@ -6,15 +6,15 @@ package features_test
 import (
 	"context"
 
+	"github.com/lukas016/controlplane/common/pkg/types"
+	"github.com/lukas016/controlplane/common/pkg/util/contextutil"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
+	"github.com/lukas016/controlplane/gateway/internal/features"
+	"github.com/lukas016/controlplane/gateway/internal/features/feature"
+	"github.com/lukas016/controlplane/gateway/pkg/kong/client/mock"
+	"github.com/lukas016/controlplane/gateway/pkg/kong/client/plugin"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/common/pkg/types"
-	"github.com/telekom/controlplane/common/pkg/util/contextutil"
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
-	"github.com/telekom/controlplane/gateway/internal/features"
-	"github.com/telekom/controlplane/gateway/internal/features/feature"
-	"github.com/telekom/controlplane/gateway/pkg/kong/client/mock"
-	"github.com/telekom/controlplane/gateway/pkg/kong/client/plugin"
 	"go.uber.org/mock/gomock"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

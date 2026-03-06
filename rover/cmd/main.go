@@ -26,20 +26,20 @@ import (
 	metricsserver "sigs.k8s.io/controller-runtime/pkg/metrics/server"
 	"sigs.k8s.io/controller-runtime/pkg/webhook"
 
-	"github.com/telekom/controlplane/rover/internal/controller"
+	"github.com/lukas016/controlplane/rover/internal/controller"
 
-	adminv1 "github.com/telekom/controlplane/admin/api/v1"
-	apiapi "github.com/telekom/controlplane/api/api/v1"
-	applicationv1 "github.com/telekom/controlplane/application/api/v1"
-	organizationv1 "github.com/telekom/controlplane/organization/api/v1"
+	adminv1 "github.com/lukas016/controlplane/admin/api/v1"
+	apiapi "github.com/lukas016/controlplane/api/api/v1"
+	applicationv1 "github.com/lukas016/controlplane/application/api/v1"
+	organizationv1 "github.com/lukas016/controlplane/organization/api/v1"
 
-	roverv1 "github.com/telekom/controlplane/rover/api/v1"
+	roverv1 "github.com/lukas016/controlplane/rover/api/v1"
 
-	webhookv1 "github.com/telekom/controlplane/rover/internal/webhook/v1"
+	webhookv1 "github.com/lukas016/controlplane/rover/internal/webhook/v1"
 	//+kubebuilder:scaffold:imports
 
-	secretsapi "github.com/telekom/controlplane/secret-manager/api"
-	secretmetrics "github.com/telekom/controlplane/secret-manager/api/metrics"
+	secretsapi "github.com/lukas016/controlplane/secret-manager/api"
+	secretmetrics "github.com/lukas016/controlplane/secret-manager/api/metrics"
 )
 
 var (

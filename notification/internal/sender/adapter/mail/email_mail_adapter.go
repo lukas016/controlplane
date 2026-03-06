@@ -6,10 +6,11 @@ package mail
 
 import (
 	"context"
+
 	"github.com/go-logr/logr"
+	"github.com/lukas016/controlplane/notification/internal/config"
+	"github.com/lukas016/controlplane/notification/internal/sender/adapter"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/notification/internal/config"
-	"github.com/telekom/controlplane/notification/internal/sender/adapter"
 )
 
 var _ adapter.NotificationAdapter[adapter.MailChannelConfiguration] = &EmailAdapter{}

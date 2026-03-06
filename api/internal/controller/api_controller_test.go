@@ -6,11 +6,11 @@ package controller
 import (
 	"time"
 
-	apiv1 "github.com/telekom/controlplane/api/api/v1"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/config"
-	"github.com/telekom/controlplane/common/pkg/test/testutil"
-	"github.com/telekom/controlplane/common/pkg/util/labelutil"
+	apiv1 "github.com/lukas016/controlplane/api/api/v1"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/config"
+	"github.com/lukas016/controlplane/common/pkg/test/testutil"
+	"github.com/lukas016/controlplane/common/pkg/util/labelutil"
 	"k8s.io/apimachinery/pkg/api/meta"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"

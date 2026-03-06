@@ -7,8 +7,8 @@ package errors
 import (
 	"fmt"
 
-	"github.com/telekom/controlplane/common/pkg/config"
-	"github.com/telekom/controlplane/common/pkg/types"
+	"github.com/lukas016/controlplane/common/pkg/config"
+	"github.com/lukas016/controlplane/common/pkg/types"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/util/validation/field"

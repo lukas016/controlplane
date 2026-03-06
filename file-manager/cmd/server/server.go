@@ -17,15 +17,15 @@ import (
 	"go.uber.org/zap/zapcore"
 	ctrlr "sigs.k8s.io/controller-runtime"
 
-	cs "github.com/telekom/controlplane/common-server/pkg/server"
-	k8s "github.com/telekom/controlplane/common-server/pkg/server/middleware/kubernetes"
-	"github.com/telekom/controlplane/common-server/pkg/server/serve"
-	"github.com/telekom/controlplane/common-server/pkg/util"
-	"github.com/telekom/controlplane/file-manager/cmd/server/config"
-	"github.com/telekom/controlplane/file-manager/internal/api"
-	"github.com/telekom/controlplane/file-manager/internal/handler"
-	"github.com/telekom/controlplane/file-manager/pkg/backend/buckets"
-	"github.com/telekom/controlplane/file-manager/pkg/controller"
+	cs "github.com/lukas016/controlplane/common-server/pkg/server"
+	k8s "github.com/lukas016/controlplane/common-server/pkg/server/middleware/kubernetes"
+	"github.com/lukas016/controlplane/common-server/pkg/server/serve"
+	"github.com/lukas016/controlplane/common-server/pkg/util"
+	"github.com/lukas016/controlplane/file-manager/cmd/server/config"
+	"github.com/lukas016/controlplane/file-manager/internal/api"
+	"github.com/lukas016/controlplane/file-manager/internal/handler"
+	"github.com/lukas016/controlplane/file-manager/pkg/backend/buckets"
+	"github.com/lukas016/controlplane/file-manager/pkg/controller"
 )
 
 var (

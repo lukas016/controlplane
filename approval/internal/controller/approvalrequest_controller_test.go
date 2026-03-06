@@ -7,20 +7,20 @@ package controller
 import (
 	"context"
 
+	notificationv1 "github.com/lukas016/controlplane/notification/api/v1"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	notificationv1 "github.com/telekom/controlplane/notification/api/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
 	"k8s.io/apimachinery/pkg/api/meta"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	approvalv1 "github.com/telekom/controlplane/approval/api/v1"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/config"
-	"github.com/telekom/controlplane/common/pkg/test"
-	ctypes "github.com/telekom/controlplane/common/pkg/types"
+	approvalv1 "github.com/lukas016/controlplane/approval/api/v1"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/config"
+	"github.com/lukas016/controlplane/common/pkg/test"
+	ctypes "github.com/lukas016/controlplane/common/pkg/types"
 )
 
 var _ = Describe("ApprovalRequest Controller", func() {

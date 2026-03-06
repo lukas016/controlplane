@@ -11,9 +11,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/telekom/controlplane/file-manager/api/constants"
-	"github.com/telekom/controlplane/file-manager/internal/api"
-	"github.com/telekom/controlplane/file-manager/pkg/controller"
+	"github.com/lukas016/controlplane/file-manager/api/constants"
+	"github.com/lukas016/controlplane/file-manager/internal/api"
+	"github.com/lukas016/controlplane/file-manager/pkg/controller"
 )
 
 var _ api.StrictServerInterface = &Handler{}

@@ -14,7 +14,7 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 
 	"github.com/go-logr/logr"
-	"github.com/telekom/controlplane/common-server/pkg/store"
+	"github.com/lukas016/controlplane/common-server/pkg/store"
 )
 
 var _ = Describe("Sorted Store", func() {

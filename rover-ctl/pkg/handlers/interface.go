@@ -7,7 +7,7 @@ package handlers
 import (
 	"context"
 
-	"github.com/telekom/controlplane/rover-ctl/pkg/types"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/types"
 )
 
 type Sortable interface {

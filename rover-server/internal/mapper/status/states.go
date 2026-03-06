@@ -5,7 +5,7 @@
 package status
 
 import (
-	"github.com/telekom/controlplane/rover-server/internal/api"
+	"github.com/lukas016/controlplane/rover-server/internal/api"
 )
 
 func CalculateOverallStatus(s api.State, ps api.ProcessingState) api.OverallStatus {

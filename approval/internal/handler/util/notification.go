@@ -8,15 +8,16 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/pkg/errors"
 	"strings"
 
-	approvalv1 "github.com/telekom/controlplane/approval/api/v1"
-	"github.com/telekom/controlplane/common/pkg/types"
-	"github.com/telekom/controlplane/common/pkg/util/contextutil"
-	"github.com/telekom/controlplane/common/pkg/util/labelutil"
-	notificationv1 "github.com/telekom/controlplane/notification/api/v1"
-	"github.com/telekom/controlplane/notification/api/v1/builder"
+	"github.com/pkg/errors"
+
+	approvalv1 "github.com/lukas016/controlplane/approval/api/v1"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	"github.com/lukas016/controlplane/common/pkg/util/contextutil"
+	"github.com/lukas016/controlplane/common/pkg/util/labelutil"
+	notificationv1 "github.com/lukas016/controlplane/notification/api/v1"
+	"github.com/lukas016/controlplane/notification/api/v1/builder"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 )
 

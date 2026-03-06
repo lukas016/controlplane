@@ -7,15 +7,15 @@ package remoteapisubscription
 import (
 	"context"
 
+	adminapi "github.com/lukas016/controlplane/admin/api/v1"
+	apiapi "github.com/lukas016/controlplane/api/api/v1"
+	"github.com/lukas016/controlplane/api/internal/handler/remoteapisubscription/syncer"
+	"github.com/lukas016/controlplane/common/pkg/client"
+	"github.com/lukas016/controlplane/common/pkg/handler"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	"github.com/lukas016/controlplane/common/pkg/util/contextutil"
+	gatewayapi "github.com/lukas016/controlplane/gateway/api/v1"
 	"github.com/pkg/errors"
-	adminapi "github.com/telekom/controlplane/admin/api/v1"
-	apiapi "github.com/telekom/controlplane/api/api/v1"
-	"github.com/telekom/controlplane/api/internal/handler/remoteapisubscription/syncer"
-	"github.com/telekom/controlplane/common/pkg/client"
-	"github.com/telekom/controlplane/common/pkg/handler"
-	"github.com/telekom/controlplane/common/pkg/types"
-	"github.com/telekom/controlplane/common/pkg/util/contextutil"
-	gatewayapi "github.com/telekom/controlplane/gateway/api/v1"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
 	apierrors "k8s.io/apimachinery/pkg/api/errors"

@@ -5,12 +5,12 @@
 package resource
 
 import (
+	"github.com/lukas016/controlplane/rover-ctl/pkg/commands/base"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/handlers"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/util"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/telekom/controlplane/rover-ctl/pkg/commands/base"
-	"github.com/telekom/controlplane/rover-ctl/pkg/handlers"
-	"github.com/telekom/controlplane/rover-ctl/pkg/util"
 )
 
 var defaultApiVersion = "tcp.ei.telekom.de/v1"

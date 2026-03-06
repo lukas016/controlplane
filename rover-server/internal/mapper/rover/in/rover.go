@@ -5,14 +5,14 @@
 package in
 
 import (
+	"github.com/lukas016/controlplane/common/pkg/config"
+	roverv1 "github.com/lukas016/controlplane/rover/api/v1"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
-	"github.com/telekom/controlplane/common/pkg/config"
-	roverv1 "github.com/telekom/controlplane/rover/api/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/telekom/controlplane/rover-server/internal/api"
-	"github.com/telekom/controlplane/rover-server/internal/mapper"
+	"github.com/lukas016/controlplane/rover-server/internal/api"
+	"github.com/lukas016/controlplane/rover-server/internal/mapper"
 )
 
 func MapRequest(in *api.RoverUpdateRequest, id mapper.ResourceIdInfo) (res *roverv1.Rover, err error) {

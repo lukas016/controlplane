@@ -11,8 +11,8 @@ import (
 	"strings"
 
 	"github.com/go-logr/logr"
+	secrets "github.com/lukas016/controlplane/secret-manager/api"
 	"github.com/pkg/errors"
-	secrets "github.com/telekom/controlplane/secret-manager/api"
 	"github.com/tidwall/gjson"
 	"github.com/tidwall/sjson"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"

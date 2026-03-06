@@ -8,9 +8,9 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/lukas016/controlplane/rover-ctl/pkg/commands/base"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/rover-ctl/pkg/commands/base"
 )
 
 var _ = Describe("FileCommand", func() {

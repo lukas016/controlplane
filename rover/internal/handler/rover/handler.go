@@ -9,18 +9,18 @@ import (
 	"strings"
 
 	"github.com/go-logr/logr"
-	"github.com/telekom/controlplane/common/pkg/types"
-	"github.com/telekom/controlplane/common/pkg/util/contextutil"
-	"github.com/telekom/controlplane/rover/internal/handler/rover/api"
-	"github.com/telekom/controlplane/rover/internal/handler/rover/application"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	"github.com/lukas016/controlplane/common/pkg/util/contextutil"
+	"github.com/lukas016/controlplane/rover/internal/handler/rover/api"
+	"github.com/lukas016/controlplane/rover/internal/handler/rover/application"
 
+	apiapi "github.com/lukas016/controlplane/api/api/v1"
+	"github.com/lukas016/controlplane/common/pkg/client"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/handler"
+	roverv1 "github.com/lukas016/controlplane/rover/api/v1"
+	secretsapi "github.com/lukas016/controlplane/secret-manager/api"
 	"github.com/pkg/errors"
-	apiapi "github.com/telekom/controlplane/api/api/v1"
-	"github.com/telekom/controlplane/common/pkg/client"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/handler"
-	roverv1 "github.com/telekom/controlplane/rover/api/v1"
-	secretsapi "github.com/telekom/controlplane/secret-manager/api"
 )
 
 var _ handler.Handler[*roverv1.Rover] = (*RoverHandler)(nil)

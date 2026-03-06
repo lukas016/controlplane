@@ -8,8 +8,8 @@ import (
 	"context"
 
 	"github.com/google/uuid"
-	"github.com/telekom/controlplane/secret-manager/api"
-	"github.com/telekom/controlplane/secret-manager/pkg/backend"
+	"github.com/lukas016/controlplane/secret-manager/api"
+	"github.com/lukas016/controlplane/secret-manager/pkg/backend"
 )
 
 type SecretResponse struct {

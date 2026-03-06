@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/lukas016/controlplane/common-server/pkg/client"
+	"github.com/lukas016/controlplane/secret-manager/api/gen"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/common-server/pkg/client"
-	"github.com/telekom/controlplane/secret-manager/api/gen"
 )
 
 const (

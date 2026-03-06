@@ -8,14 +8,14 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/lukas016/controlplane/common/pkg/client"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	common "github.com/lukas016/controlplane/common/pkg/types"
+	secrets "github.com/lukas016/controlplane/secret-manager/api"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/common/pkg/client"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	common "github.com/telekom/controlplane/common/pkg/types"
-	secrets "github.com/telekom/controlplane/secret-manager/api"
 	"k8s.io/apimachinery/pkg/api/meta"
 
-	identityv1 "github.com/telekom/controlplane/identity/api/v1"
+	identityv1 "github.com/lukas016/controlplane/identity/api/v1"
 )
 
 func GetRealmByName(ctx context.Context, realmRef *common.ObjectRef, resolveSecret bool) (bool, *identityv1.Realm, error) {

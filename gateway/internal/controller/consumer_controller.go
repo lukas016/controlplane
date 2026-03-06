@@ -7,8 +7,8 @@ package controller
 import (
 	"context"
 
-	cconfig "github.com/telekom/controlplane/common/pkg/config"
-	cc "github.com/telekom/controlplane/common/pkg/controller"
+	cconfig "github.com/lukas016/controlplane/common/pkg/config"
+	cc "github.com/lukas016/controlplane/common/pkg/controller"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/tools/record"
 	ctrl "sigs.k8s.io/controller-runtime"
@@ -19,9 +19,9 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/predicate"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 
-	"github.com/telekom/controlplane/common/pkg/types"
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
-	consumer_handler "github.com/telekom/controlplane/gateway/internal/handler/consumer"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
+	consumer_handler "github.com/lukas016/controlplane/gateway/internal/handler/consumer"
 )
 
 // ConsumerReconciler reconciles a Consumer object

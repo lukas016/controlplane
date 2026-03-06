@@ -7,7 +7,7 @@ package secret
 import (
 	"sync"
 
-	"github.com/telekom/controlplane/secret-manager/api"
+	"github.com/lukas016/controlplane/secret-manager/api"
 )
 
 var (

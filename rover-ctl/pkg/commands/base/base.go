@@ -9,12 +9,12 @@ import (
 	"fmt"
 
 	"github.com/go-logr/logr"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/config"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/handlers/common"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/log"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/telekom/controlplane/rover-ctl/pkg/config"
-	"github.com/telekom/controlplane/rover-ctl/pkg/handlers/common"
-	"github.com/telekom/controlplane/rover-ctl/pkg/log"
 )
 
 // BaseCommand is the base structure for all commands

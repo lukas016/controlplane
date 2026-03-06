@@ -13,15 +13,15 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
-	"github.com/telekom/controlplane/organization/internal/handler/team/handler/identity_client"
-	"github.com/telekom/controlplane/organization/internal/index"
+	"github.com/lukas016/controlplane/organization/internal/handler/team/handler/identity_client"
+	"github.com/lukas016/controlplane/organization/internal/index"
 	"k8s.io/apimachinery/pkg/util/uuid"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	adminv1 "github.com/telekom/controlplane/admin/api/v1"
-	organisationv1 "github.com/telekom/controlplane/organization/api/v1"
-	"github.com/telekom/controlplane/organization/internal/secret"
-	secretsapi "github.com/telekom/controlplane/secret-manager/api"
+	adminv1 "github.com/lukas016/controlplane/admin/api/v1"
+	organisationv1 "github.com/lukas016/controlplane/organization/api/v1"
+	"github.com/lukas016/controlplane/organization/internal/secret"
+	secretsapi "github.com/lukas016/controlplane/secret-manager/api"
 	"k8s.io/apimachinery/pkg/api/errors"
 )
 

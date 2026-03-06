@@ -9,9 +9,9 @@ import (
 
 	"github.com/go-logr/logr"
 	"github.com/gofiber/fiber/v2"
-	"github.com/telekom/controlplane/common-server/pkg/server"
-	"github.com/telekom/controlplane/secret-manager/internal/api"
-	"github.com/telekom/controlplane/secret-manager/pkg/backend"
+	"github.com/lukas016/controlplane/common-server/pkg/server"
+	"github.com/lukas016/controlplane/secret-manager/internal/api"
+	"github.com/lukas016/controlplane/secret-manager/pkg/backend"
 )
 
 func ErrorHandler(c *fiber.Ctx, err error) error {

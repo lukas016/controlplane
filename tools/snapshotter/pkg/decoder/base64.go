@@ -11,8 +11,8 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/snapshot"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/snapshot"
 )
 
 func DecodeBase64Content(s *snapshot.State, patterns ...string) error {

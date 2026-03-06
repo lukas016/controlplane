@@ -5,8 +5,8 @@
 package plugin
 
 import (
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
-	"github.com/telekom/controlplane/gateway/pkg/kong/client"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
+	"github.com/lukas016/controlplane/gateway/pkg/kong/client"
 
 	"github.com/emirpasic/gods/sets/hashset"
 )

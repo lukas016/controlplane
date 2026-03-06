@@ -5,26 +5,26 @@
 package controller
 
 import (
+	adminv1 "github.com/lukas016/controlplane/admin/api/v1"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/config"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
+	notificationv1 "github.com/lukas016/controlplane/notification/api/v1"
+	"github.com/lukas016/controlplane/secret-manager/api"
+	"github.com/lukas016/controlplane/secret-manager/api/fake"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/stretchr/testify/mock"
-	adminv1 "github.com/telekom/controlplane/admin/api/v1"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/config"
-	"github.com/telekom/controlplane/common/pkg/types"
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
-	notificationv1 "github.com/telekom/controlplane/notification/api/v1"
-	"github.com/telekom/controlplane/secret-manager/api"
-	"github.com/telekom/controlplane/secret-manager/api/fake"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/api/meta"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	identityv1 "github.com/telekom/controlplane/identity/api/v1"
-	organizationv1 "github.com/telekom/controlplane/organization/api/v1"
-	"github.com/telekom/controlplane/organization/internal/secret"
+	identityv1 "github.com/lukas016/controlplane/identity/api/v1"
+	organizationv1 "github.com/lukas016/controlplane/organization/api/v1"
+	"github.com/lukas016/controlplane/organization/internal/secret"
 )
 
 func NewGroupForTeam(teamObj *organizationv1.Team) *organizationv1.Group {

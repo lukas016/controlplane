@@ -12,11 +12,11 @@ import (
 	"net/http"
 	"net/http/httptest"
 
+	fileApi "github.com/lukas016/controlplane/file-manager/api"
+	"github.com/lukas016/controlplane/rover-server/internal/api"
 	. "github.com/onsi/ginkgo/v2"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/mock"
-	fileApi "github.com/telekom/controlplane/file-manager/api"
-	"github.com/telekom/controlplane/rover-server/internal/api"
 )
 
 var _ = Describe("ApiSpecification Controller", func() {
@@ -26,7 +26,7 @@ openapi: "3.0.0"
 info:
   version: "1.0.0"
   title: "Rover API"
-servers: 
+servers:
   - url: "http://rover-api.com/eni/distr/v1"
 `
 

@@ -7,8 +7,8 @@ package controller
 import (
 	"context"
 
-	cconfig "github.com/telekom/controlplane/common/pkg/config"
-	cc "github.com/telekom/controlplane/common/pkg/controller"
+	cconfig "github.com/lukas016/controlplane/common/pkg/config"
+	cc "github.com/lukas016/controlplane/common/pkg/controller"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/tools/record"
 	ctrl "sigs.k8s.io/controller-runtime"
@@ -19,9 +19,9 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/predicate"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
 
-	realm_handler "github.com/telekom/controlplane/gateway/internal/handler/realm"
+	realm_handler "github.com/lukas016/controlplane/gateway/internal/handler/realm"
 )
 
 // RealmReconciler reconciles a Realm object

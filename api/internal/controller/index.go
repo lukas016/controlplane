@@ -8,11 +8,11 @@ import (
 	"context"
 	"os"
 
-	apiapi "github.com/telekom/controlplane/api/api/v1"
-	applicationapi "github.com/telekom/controlplane/application/api/v1"
-	approvalapi "github.com/telekom/controlplane/approval/api/v1"
-	"github.com/telekom/controlplane/common/pkg/controller/index"
-	gatewayapi "github.com/telekom/controlplane/gateway/api/v1"
+	apiapi "github.com/lukas016/controlplane/api/api/v1"
+	applicationapi "github.com/lukas016/controlplane/application/api/v1"
+	approvalapi "github.com/lukas016/controlplane/approval/api/v1"
+	"github.com/lukas016/controlplane/common/pkg/controller/index"
+	gatewayapi "github.com/lukas016/controlplane/gateway/api/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
 	ctrl "sigs.k8s.io/controller-runtime"

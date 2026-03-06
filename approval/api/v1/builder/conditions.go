@@ -5,7 +5,7 @@
 package builder
 
 import (
-	approvalv1 "github.com/telekom/controlplane/approval/api/v1"
+	approvalv1 "github.com/lukas016/controlplane/approval/api/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

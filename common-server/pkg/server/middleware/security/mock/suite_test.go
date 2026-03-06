@@ -10,9 +10,9 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/golang-jwt/jwt/v5"
+	"github.com/lukas016/controlplane/common-server/pkg/server/middleware/security/mock"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/common-server/pkg/server/middleware/security/mock"
 )
 
 func TestMock(t *testing.T) {

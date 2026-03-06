@@ -7,8 +7,8 @@ package security
 import (
 	"strings"
 
-	"github.com/telekom/controlplane/common-server/pkg/problems"
-	"github.com/telekom/controlplane/common-server/pkg/server/middleware/util"
+	"github.com/lukas016/controlplane/common-server/pkg/problems"
+	"github.com/lukas016/controlplane/common-server/pkg/server/middleware/util"
 )
 
 type ValueDecoder func(map[string]any, string) (string, problems.Problem)

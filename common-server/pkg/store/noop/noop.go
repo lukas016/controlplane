@@ -8,8 +8,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/telekom/controlplane/common-server/pkg/problems"
-	"github.com/telekom/controlplane/common-server/pkg/store"
+	"github.com/lukas016/controlplane/common-server/pkg/problems"
+	"github.com/lukas016/controlplane/common-server/pkg/store"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 )
 

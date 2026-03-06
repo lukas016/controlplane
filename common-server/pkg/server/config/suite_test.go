@@ -8,11 +8,11 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/telekom/controlplane/common-server/pkg/server/config"
+	"github.com/lukas016/controlplane/common-server/pkg/server/config"
 
+	"github.com/lukas016/controlplane/common-server/pkg/server"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/common-server/pkg/server"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 )
 

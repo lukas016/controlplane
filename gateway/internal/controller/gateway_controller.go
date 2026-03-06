@@ -7,16 +7,16 @@ package controller
 import (
 	"context"
 
-	cconfig "github.com/telekom/controlplane/common/pkg/config"
-	cc "github.com/telekom/controlplane/common/pkg/controller"
+	cconfig "github.com/lukas016/controlplane/common/pkg/config"
+	cc "github.com/lukas016/controlplane/common/pkg/controller"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/tools/record"
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/controller"
 
-	v1 "github.com/telekom/controlplane/gateway/api/v1"
-	handler "github.com/telekom/controlplane/gateway/internal/handler/gateway"
+	v1 "github.com/lukas016/controlplane/gateway/api/v1"
+	handler "github.com/lukas016/controlplane/gateway/internal/handler/gateway"
 )
 
 // GatewayReconciler reconciles a Gateway object

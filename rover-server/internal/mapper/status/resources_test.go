@@ -8,19 +8,19 @@ import (
 	"context"
 	"fmt"
 
+	apiv1 "github.com/lukas016/controlplane/api/api/v1"
+	commonStore "github.com/lukas016/controlplane/common-server/pkg/store"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	v1 "github.com/lukas016/controlplane/rover/api/v1"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/stretchr/testify/mock"
-	apiv1 "github.com/telekom/controlplane/api/api/v1"
-	commonStore "github.com/telekom/controlplane/common-server/pkg/store"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/types"
-	v1 "github.com/telekom/controlplane/rover/api/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/utils/ptr"
 
-	"github.com/telekom/controlplane/rover-server/internal/api"
+	"github.com/lukas016/controlplane/rover-server/internal/api"
 )
 
 // MockObjectStore is a mock implementation of the ObjectStore interface.

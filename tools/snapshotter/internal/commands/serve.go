@@ -9,10 +9,10 @@ import (
 	"fmt"
 
 	"github.com/gofiber/fiber/v2"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/api"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/config"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/orchestrator"
 	"github.com/spf13/cobra"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/api"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/config"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/orchestrator"
 	"go.uber.org/zap"
 )
 

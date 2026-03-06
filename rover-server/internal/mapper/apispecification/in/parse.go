@@ -17,8 +17,8 @@ import (
 	"go.uber.org/zap"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	"github.com/telekom/controlplane/common-server/pkg/problems"
-	roverv1 "github.com/telekom/controlplane/rover/api/v1"
+	"github.com/lukas016/controlplane/common-server/pkg/problems"
+	roverv1 "github.com/lukas016/controlplane/rover/api/v1"
 
 	"go.yaml.in/yaml/v4"
 )

@@ -14,15 +14,15 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	"github.com/telekom/controlplane/common/pkg/client"
-	"github.com/telekom/controlplane/common/pkg/config"
-	"github.com/telekom/controlplane/common/pkg/types"
-	"github.com/telekom/controlplane/common/pkg/util/contextutil"
-	"github.com/telekom/controlplane/common/pkg/util/labelutil"
+	"github.com/lukas016/controlplane/common/pkg/client"
+	"github.com/lukas016/controlplane/common/pkg/config"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	"github.com/lukas016/controlplane/common/pkg/util/contextutil"
+	"github.com/lukas016/controlplane/common/pkg/util/labelutil"
 
-	applicationv1 "github.com/telekom/controlplane/application/api/v1"
-	organizationv1 "github.com/telekom/controlplane/organization/api/v1"
-	roverv1 "github.com/telekom/controlplane/rover/api/v1"
+	applicationv1 "github.com/lukas016/controlplane/application/api/v1"
+	organizationv1 "github.com/lukas016/controlplane/organization/api/v1"
+	roverv1 "github.com/lukas016/controlplane/rover/api/v1"
 )
 
 func HandleApplication(ctx context.Context, c client.JanitorClient, owner *roverv1.Rover) error {

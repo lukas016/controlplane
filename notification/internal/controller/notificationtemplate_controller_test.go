@@ -6,8 +6,9 @@ package controller
 
 import (
 	"context"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/config"
+
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/config"
 	"k8s.io/apimachinery/pkg/api/meta"
 	"k8s.io/apimachinery/pkg/runtime"
 
@@ -17,7 +18,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	notificationv1 "github.com/telekom/controlplane/notification/api/v1"
+	notificationv1 "github.com/lukas016/controlplane/notification/api/v1"
 )
 
 var _ = Describe("NotificationTemplate Controller", func() {

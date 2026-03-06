@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/telekom/controlplane/tools/e2e-tester/pkg/config"
-	"github.com/telekom/controlplane/tools/e2e-tester/pkg/environment"
-	"github.com/telekom/controlplane/tools/e2e-tester/pkg/report"
-	"github.com/telekom/controlplane/tools/e2e-tester/pkg/snapshot"
+	"github.com/lukas016/controlplane/tools/e2e-tester/pkg/config"
+	"github.com/lukas016/controlplane/tools/e2e-tester/pkg/environment"
+	"github.com/lukas016/controlplane/tools/e2e-tester/pkg/report"
+	"github.com/lukas016/controlplane/tools/e2e-tester/pkg/snapshot"
 	"go.uber.org/zap"
 )
 

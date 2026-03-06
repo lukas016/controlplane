@@ -6,9 +6,10 @@ package e2e
 
 import (
 	"fmt"
-	"github.com/telekom/controlplane/rover/test/utils"
 	"os/exec"
 	"time"
+
+	"github.com/lukas016/controlplane/rover/test/utils"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

@@ -12,15 +12,15 @@ import (
 	. "github.com/onsi/gomega"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	adminapi "github.com/telekom/controlplane/admin/api/v1"
-	"github.com/telekom/controlplane/api/internal/handler/util"
-	"github.com/telekom/controlplane/common/pkg/client"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/config"
-	"github.com/telekom/controlplane/common/pkg/types"
-	"github.com/telekom/controlplane/common/pkg/util/contextutil"
-	gatewayapi "github.com/telekom/controlplane/gateway/api/v1"
-	identityapi "github.com/telekom/controlplane/identity/api/v1"
+	adminapi "github.com/lukas016/controlplane/admin/api/v1"
+	"github.com/lukas016/controlplane/api/internal/handler/util"
+	"github.com/lukas016/controlplane/common/pkg/client"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/config"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	"github.com/lukas016/controlplane/common/pkg/util/contextutil"
+	gatewayapi "github.com/lukas016/controlplane/gateway/api/v1"
+	identityapi "github.com/lukas016/controlplane/identity/api/v1"
 )
 
 func CreateZone(name string) *adminapi.Zone {

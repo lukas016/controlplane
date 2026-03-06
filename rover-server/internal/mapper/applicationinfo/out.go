@@ -7,16 +7,16 @@ package applicationinfo
 import (
 	"context"
 
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/config"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	roverv1 "github.com/lukas016/controlplane/rover/api/v1"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/config"
-	"github.com/telekom/controlplane/common/pkg/types"
-	roverv1 "github.com/telekom/controlplane/rover/api/v1"
 	"k8s.io/apimachinery/pkg/api/meta"
 
-	"github.com/telekom/controlplane/rover-server/internal/api"
-	"github.com/telekom/controlplane/rover-server/internal/mapper/status"
-	"github.com/telekom/controlplane/rover-server/pkg/store"
+	"github.com/lukas016/controlplane/rover-server/internal/api"
+	"github.com/lukas016/controlplane/rover-server/internal/mapper/status"
+	"github.com/lukas016/controlplane/rover-server/pkg/store"
 )
 
 const (

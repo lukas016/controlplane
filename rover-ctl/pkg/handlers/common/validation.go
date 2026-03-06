@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/telekom/controlplane/rover-ctl/pkg/types"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/types"
 )
 
 // The main validation is done on server-side, but we can already do some basic checks here

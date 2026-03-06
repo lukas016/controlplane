@@ -7,7 +7,7 @@ package security
 import (
 	"github.com/go-logr/logr"
 	"github.com/gofiber/fiber/v2"
-	"github.com/telekom/controlplane/common-server/pkg/server/middleware/security/mock"
+	"github.com/lukas016/controlplane/common-server/pkg/server/middleware/security/mock"
 )
 
 type contextKey string

@@ -15,17 +15,17 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/webhook"
 	"sigs.k8s.io/controller-runtime/pkg/webhook/admission"
 
-	"github.com/telekom/controlplane/common/pkg/controller"
-	cerrors "github.com/telekom/controlplane/common/pkg/errors"
-	"github.com/telekom/controlplane/common/pkg/types"
-	organizationv1 "github.com/telekom/controlplane/organization/api/v1"
-	roverv1 "github.com/telekom/controlplane/rover/api/v1"
+	"github.com/lukas016/controlplane/common/pkg/controller"
+	cerrors "github.com/lukas016/controlplane/common/pkg/errors"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	organizationv1 "github.com/lukas016/controlplane/organization/api/v1"
+	roverv1 "github.com/lukas016/controlplane/rover/api/v1"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	apiv1 "github.com/telekom/controlplane/api/api/v1"
+	apiv1 "github.com/lukas016/controlplane/api/api/v1"
 
-	cclient "github.com/telekom/controlplane/common/pkg/client"
+	cclient "github.com/lukas016/controlplane/common/pkg/client"
 )
 
 // SetupApiSpecificationWebhookWithManager registers the webhook for ApiSpecification in the manager.

@@ -10,13 +10,13 @@ import (
 	"strings"
 
 	"github.com/go-logr/logr"
+	adminv1 "github.com/lukas016/controlplane/admin/api/v1"
+	"github.com/lukas016/controlplane/common/pkg/controller"
+	cerrors "github.com/lukas016/controlplane/common/pkg/errors"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	organizationv1 "github.com/lukas016/controlplane/organization/api/v1"
+	roverv1 "github.com/lukas016/controlplane/rover/api/v1"
 	"github.com/pkg/errors"
-	adminv1 "github.com/telekom/controlplane/admin/api/v1"
-	"github.com/telekom/controlplane/common/pkg/controller"
-	cerrors "github.com/telekom/controlplane/common/pkg/errors"
-	"github.com/telekom/controlplane/common/pkg/types"
-	organizationv1 "github.com/telekom/controlplane/organization/api/v1"
-	roverv1 "github.com/telekom/controlplane/rover/api/v1"
 
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/runtime"
@@ -27,7 +27,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/webhook"
 	"sigs.k8s.io/controller-runtime/pkg/webhook/admission"
 
-	secretsapi "github.com/telekom/controlplane/secret-manager/api"
+	secretsapi "github.com/lukas016/controlplane/secret-manager/api"
 )
 
 // log is for logging in this package.

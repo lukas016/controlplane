@@ -6,7 +6,7 @@ package api
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/orchestrator"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/orchestrator"
 )
 
 // POST /snapshots?instance={instanceID}

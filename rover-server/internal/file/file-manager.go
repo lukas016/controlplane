@@ -7,7 +7,7 @@ package file
 import (
 	"sync"
 
-	"github.com/telekom/controlplane/file-manager/api"
+	"github.com/lukas016/controlplane/file-manager/api"
 )
 
 var (

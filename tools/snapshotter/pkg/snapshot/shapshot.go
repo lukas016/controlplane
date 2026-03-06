@@ -12,8 +12,8 @@ import (
 	"strings"
 
 	"github.com/goccy/go-yaml"
-	kong "github.com/telekom/controlplane/gateway/pkg/kong/api"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/util"
+	kong "github.com/lukas016/controlplane/gateway/pkg/kong/api"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/util"
 )
 
 type State struct {

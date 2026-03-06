@@ -5,13 +5,13 @@
 package in
 
 import (
+	"github.com/lukas016/controlplane/common/pkg/config"
+	filesapi "github.com/lukas016/controlplane/file-manager/api"
+	roverv1 "github.com/lukas016/controlplane/rover/api/v1"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/common/pkg/config"
-	filesapi "github.com/telekom/controlplane/file-manager/api"
-	roverv1 "github.com/telekom/controlplane/rover/api/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/telekom/controlplane/rover-server/internal/mapper"
+	"github.com/lukas016/controlplane/rover-server/internal/mapper"
 )
 
 var (

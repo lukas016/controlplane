@@ -13,12 +13,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/test/mock"
-	"github.com/telekom/controlplane/common/pkg/types"
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
-	notificationv1 "github.com/telekom/controlplane/notification/api/v1"
-	"github.com/telekom/controlplane/organization/internal/index"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/test/mock"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
+	notificationv1 "github.com/lukas016/controlplane/notification/api/v1"
+	"github.com/lukas016/controlplane/organization/internal/index"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/meta"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -35,9 +35,9 @@ import (
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	adminv1 "github.com/telekom/controlplane/admin/api/v1"
-	identityv1 "github.com/telekom/controlplane/identity/api/v1"
-	organizationv1 "github.com/telekom/controlplane/organization/api/v1"
+	adminv1 "github.com/lukas016/controlplane/admin/api/v1"
+	identityv1 "github.com/lukas016/controlplane/identity/api/v1"
+	organizationv1 "github.com/lukas016/controlplane/organization/api/v1"
 	// +kubebuilder:scaffold:imports
 )
 

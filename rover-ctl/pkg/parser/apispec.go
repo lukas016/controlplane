@@ -9,10 +9,10 @@ import (
 	"net/url"
 	"strings"
 
+	"github.com/lukas016/controlplane/rover-ctl/pkg/types"
 	"github.com/pb33f/libopenapi"
 	"github.com/pb33f/libopenapi/datamodel"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/rover-ctl/pkg/types"
 )
 
 // ParseApiSpecification is needed because we need to extract the name

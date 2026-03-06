@@ -5,10 +5,10 @@
 package realm
 
 import (
-	"github.com/telekom/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/condition"
 
-	identityv1 "github.com/telekom/controlplane/identity/api/v1"
-	"github.com/telekom/controlplane/identity/pkg/keycloak"
+	identityv1 "github.com/lukas016/controlplane/identity/api/v1"
+	"github.com/lukas016/controlplane/identity/pkg/keycloak"
 )
 
 var (

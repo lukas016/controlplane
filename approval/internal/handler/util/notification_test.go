@@ -6,13 +6,14 @@ package util
 
 import (
 	"encoding/json"
-	ctypes "github.com/telekom/controlplane/common/pkg/types"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"testing"
 
+	ctypes "github.com/lukas016/controlplane/common/pkg/types"
+	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+
+	approvalv1 "github.com/lukas016/controlplane/approval/api/v1"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	approvalv1 "github.com/telekom/controlplane/approval/api/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 )
 

@@ -10,11 +10,11 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	apiv1 "github.com/telekom/controlplane/api/api/v1"
-	"github.com/telekom/controlplane/common/pkg/config"
-	"github.com/telekom/controlplane/common/pkg/types"
-	organizationv1 "github.com/telekom/controlplane/organization/api/v1"
-	roverv1 "github.com/telekom/controlplane/rover/api/v1"
+	apiv1 "github.com/lukas016/controlplane/api/api/v1"
+	"github.com/lukas016/controlplane/common/pkg/config"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	organizationv1 "github.com/lukas016/controlplane/organization/api/v1"
+	roverv1 "github.com/lukas016/controlplane/rover/api/v1"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

@@ -14,9 +14,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"k8s.io/utils/ptr"
 
-	"github.com/telekom/controlplane/identity/pkg/api"
-	"github.com/telekom/controlplane/identity/pkg/keycloak"
-	"github.com/telekom/controlplane/identity/test/mocks"
+	"github.com/lukas016/controlplane/identity/pkg/api"
+	"github.com/lukas016/controlplane/identity/pkg/keycloak"
+	"github.com/lukas016/controlplane/identity/test/mocks"
 )
 
 const (

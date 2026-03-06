@@ -8,18 +8,18 @@ import (
 	"bytes"
 	"context"
 
+	"github.com/lukas016/controlplane/rover-ctl/pkg/commands/base"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/commands/resource"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/config"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/handlers"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/log"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/types"
+	"github.com/lukas016/controlplane/rover-ctl/test/mocks"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/mock"
-	"github.com/telekom/controlplane/rover-ctl/pkg/commands/base"
-	"github.com/telekom/controlplane/rover-ctl/pkg/commands/resource"
-	"github.com/telekom/controlplane/rover-ctl/pkg/config"
-	"github.com/telekom/controlplane/rover-ctl/pkg/handlers"
-	"github.com/telekom/controlplane/rover-ctl/pkg/log"
-	"github.com/telekom/controlplane/rover-ctl/pkg/types"
-	"github.com/telekom/controlplane/rover-ctl/test/mocks"
 )
 
 var _ = Describe("Resource Command", func() {

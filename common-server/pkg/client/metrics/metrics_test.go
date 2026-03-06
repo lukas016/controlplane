@@ -14,11 +14,11 @@ import (
 	"os"
 	"regexp"
 
+	client "github.com/lukas016/controlplane/common-server/pkg/client/metrics"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/prometheus/client_golang/prometheus"
 	prometheusdto "github.com/prometheus/client_model/go"
-	client "github.com/telekom/controlplane/common-server/pkg/client/metrics"
 )
 
 var _ = Describe("Client Metrics", func() {

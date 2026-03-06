@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/lukas016/controlplane/rover-ctl/pkg/types"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/rover-ctl/pkg/types"
 )
 
 type FieldError struct {

@@ -9,7 +9,7 @@ package fake
 import (
 	context "context"
 
-	api "github.com/telekom/controlplane/file-manager/api"
+	api "github.com/lukas016/controlplane/file-manager/api"
 
 	io "io"
 

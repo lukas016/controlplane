@@ -7,7 +7,7 @@ package controller
 import (
 	"context"
 
-	"github.com/telekom/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/condition"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
@@ -18,9 +18,9 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	adminv1 "github.com/telekom/controlplane/admin/api/v1"
-	"github.com/telekom/controlplane/common/pkg/config"
-	"github.com/telekom/controlplane/common/pkg/types"
+	adminv1 "github.com/lukas016/controlplane/admin/api/v1"
+	"github.com/lukas016/controlplane/common/pkg/config"
+	"github.com/lukas016/controlplane/common/pkg/types"
 )
 
 var _ = Describe("RemoteOrganization Controller", func() {

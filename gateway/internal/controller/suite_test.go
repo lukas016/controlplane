@@ -29,13 +29,13 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 	"sigs.k8s.io/controller-runtime/pkg/metrics/server"
 
-	"github.com/telekom/controlplane/common/pkg/test/mock"
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
-	"github.com/telekom/controlplane/gateway/internal/features"
-	features_mock "github.com/telekom/controlplane/gateway/internal/features/mock"
-	kong_client "github.com/telekom/controlplane/gateway/pkg/kong/client"
-	kong_clientmock "github.com/telekom/controlplane/gateway/pkg/kong/client/mock"
-	"github.com/telekom/controlplane/gateway/pkg/kongutil"
+	"github.com/lukas016/controlplane/common/pkg/test/mock"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
+	"github.com/lukas016/controlplane/gateway/internal/features"
+	features_mock "github.com/lukas016/controlplane/gateway/internal/features/mock"
+	kong_client "github.com/lukas016/controlplane/gateway/pkg/kong/client"
+	kong_clientmock "github.com/lukas016/controlplane/gateway/pkg/kong/client/mock"
+	"github.com/lukas016/controlplane/gateway/pkg/kongutil"
 	// +kubebuilder:scaffold:imports
 )
 

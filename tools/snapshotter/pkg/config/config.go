@@ -6,9 +6,9 @@ package config
 
 import (
 	"github.com/go-playground/validator/v10"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/decoder"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/obfuscator"
 	"github.com/spf13/viper"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/decoder"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/obfuscator"
 	"k8s.io/client-go/util/homedir"
 )
 

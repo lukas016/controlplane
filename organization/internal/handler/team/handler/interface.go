@@ -7,7 +7,7 @@ package handler
 import (
 	"context"
 
-	organizationv1 "github.com/telekom/controlplane/organization/api/v1"
+	organizationv1 "github.com/lukas016/controlplane/organization/api/v1"
 )
 
 const Separator = "--"

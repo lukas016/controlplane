@@ -7,8 +7,8 @@ package handlers
 import (
 	"sort"
 
-	"github.com/telekom/controlplane/rover-ctl/pkg/log"
-	"github.com/telekom/controlplane/rover-ctl/pkg/types"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/log"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/types"
 )
 
 // Sort sorts the given objects based on their handler priority

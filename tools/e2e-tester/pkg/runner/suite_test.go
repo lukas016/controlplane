@@ -8,7 +8,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/telekom/controlplane/tools/e2e-tester/pkg/config"
+	"github.com/lukas016/controlplane/tools/e2e-tester/pkg/config"
 )
 
 type testCase struct {

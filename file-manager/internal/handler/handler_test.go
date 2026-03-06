@@ -13,7 +13,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/telekom/controlplane/file-manager/internal/api"
+	"github.com/lukas016/controlplane/file-manager/internal/api"
 )
 
 // MockController is a mock implementation of the controller.Controller interface for testing

@@ -12,12 +12,12 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/lukas016/controlplane/file-manager/api"
+	"github.com/lukas016/controlplane/file-manager/api/constants"
+	gen_test "github.com/lukas016/controlplane/file-manager/api/gen/mock"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
-	"github.com/telekom/controlplane/file-manager/api"
-	"github.com/telekom/controlplane/file-manager/api/constants"
-	gen_test "github.com/telekom/controlplane/file-manager/api/gen/mock"
 )
 
 func TestUploadFile(t *testing.T) {

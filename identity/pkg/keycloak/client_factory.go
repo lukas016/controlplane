@@ -10,12 +10,12 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/lukas016/controlplane/common-server/pkg/client/metrics"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/common-server/pkg/client/metrics"
 	"golang.org/x/oauth2"
 
-	identityv1 "github.com/telekom/controlplane/identity/api/v1"
-	"github.com/telekom/controlplane/identity/pkg/api"
+	identityv1 "github.com/lukas016/controlplane/identity/api/v1"
+	"github.com/lukas016/controlplane/identity/pkg/api"
 )
 
 type AdminConfig interface {

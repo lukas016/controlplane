@@ -7,10 +7,10 @@ package namespace
 import (
 	"context"
 
-	"github.com/telekom/controlplane/common/pkg/client"
-	"github.com/telekom/controlplane/common/pkg/util/contextutil"
-	organizationv1 "github.com/telekom/controlplane/organization/api/v1"
-	handler "github.com/telekom/controlplane/organization/internal/handler/team/handler"
+	"github.com/lukas016/controlplane/common/pkg/client"
+	"github.com/lukas016/controlplane/common/pkg/util/contextutil"
+	organizationv1 "github.com/lukas016/controlplane/organization/api/v1"
+	handler "github.com/lukas016/controlplane/organization/internal/handler/team/handler"
 )
 
 type NamespaceHandler struct {

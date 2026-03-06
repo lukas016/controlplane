@@ -11,10 +11,10 @@ import (
 	"sync"
 	"time"
 
+	metrics "github.com/lukas016/controlplane/common-server/pkg/client/metrics"
+	kong "github.com/lukas016/controlplane/gateway/pkg/kong/api"
+	"github.com/lukas016/controlplane/gateway/pkg/kong/client"
 	"github.com/pkg/errors"
-	metrics "github.com/telekom/controlplane/common-server/pkg/client/metrics"
-	kong "github.com/telekom/controlplane/gateway/pkg/kong/api"
-	"github.com/telekom/controlplane/gateway/pkg/kong/client"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/clientcredentials"
 )

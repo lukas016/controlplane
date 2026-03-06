@@ -17,8 +17,8 @@ import (
 	context "context"
 	reflect "reflect"
 
-	kong "github.com/telekom/controlplane/gateway/pkg/kong/api"
-	client "github.com/telekom/controlplane/gateway/pkg/kong/client"
+	kong "github.com/lukas016/controlplane/gateway/pkg/kong/api"
+	client "github.com/lukas016/controlplane/gateway/pkg/kong/client"
 	gomock "go.uber.org/mock/gomock"
 )
 

@@ -14,9 +14,9 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/adaptor"
 	"github.com/gofiber/fiber/v2/utils"
+	"github.com/lukas016/controlplane/common-server/pkg/problems"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/telekom/controlplane/common-server/pkg/problems"
 )
 
 var (

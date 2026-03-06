@@ -7,9 +7,9 @@ package feature_test
 import (
 	"testing"
 
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

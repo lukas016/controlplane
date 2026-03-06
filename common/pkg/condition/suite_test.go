@@ -7,9 +7,9 @@ package condition
 import (
 	"testing"
 
+	"github.com/lukas016/controlplane/common/pkg/test"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/common/pkg/test"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

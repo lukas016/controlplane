@@ -6,19 +6,20 @@ package feature_test
 
 import (
 	"context"
-	"github.com/telekom/controlplane/common/pkg/util/contextutil"
-	"github.com/telekom/controlplane/gateway/internal/features/feature/config"
-	kong "github.com/telekom/controlplane/gateway/pkg/kong/api"
-	"github.com/telekom/controlplane/gateway/pkg/kong/client/mock"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"net/http"
 
+	"github.com/lukas016/controlplane/common/pkg/util/contextutil"
+	"github.com/lukas016/controlplane/gateway/internal/features/feature/config"
+	kong "github.com/lukas016/controlplane/gateway/pkg/kong/api"
+	"github.com/lukas016/controlplane/gateway/pkg/kong/client/mock"
+	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
+	"github.com/lukas016/controlplane/gateway/internal/features/feature"
+	featuresmock "github.com/lukas016/controlplane/gateway/internal/features/mock"
+	"github.com/lukas016/controlplane/gateway/pkg/kong/client"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
-	"github.com/telekom/controlplane/gateway/internal/features/feature"
-	featuresmock "github.com/telekom/controlplane/gateway/internal/features/mock"
-	"github.com/telekom/controlplane/gateway/pkg/kong/client"
 	"go.uber.org/mock/gomock"
 )
 

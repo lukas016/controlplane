@@ -11,10 +11,10 @@ import (
 	"maps"
 
 	"github.com/go-logr/logr"
+	"github.com/lukas016/controlplane/file-manager/api/constants"
+	"github.com/lukas016/controlplane/file-manager/pkg/backend"
+	"github.com/lukas016/controlplane/file-manager/pkg/backend/identifier"
 	"github.com/minio/minio-go/v7"
-	"github.com/telekom/controlplane/file-manager/api/constants"
-	"github.com/telekom/controlplane/file-manager/pkg/backend"
-	"github.com/telekom/controlplane/file-manager/pkg/backend/identifier"
 )
 
 var _ backend.FileUploader = &BucketFileUploader{}

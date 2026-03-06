@@ -10,14 +10,14 @@ import (
 	"strings"
 
 	"github.com/go-logr/logr"
-	"github.com/telekom/controlplane/common/pkg/util/contextutil"
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
-	"github.com/telekom/controlplane/gateway/pkg/kong/client"
-	"github.com/telekom/controlplane/gateway/pkg/kong/client/plugin"
+	"github.com/lukas016/controlplane/common/pkg/util/contextutil"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
+	"github.com/lukas016/controlplane/gateway/pkg/kong/client"
+	"github.com/lukas016/controlplane/gateway/pkg/kong/client/plugin"
 
-	"github.com/telekom/controlplane/gateway/internal/features"
+	"github.com/lukas016/controlplane/gateway/internal/features"
 
-	secrets "github.com/telekom/controlplane/secret-manager/api"
+	secrets "github.com/lukas016/controlplane/secret-manager/api"
 )
 
 var _ features.Feature = &LastMileSecurityFeature{}

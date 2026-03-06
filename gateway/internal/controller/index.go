@@ -8,7 +8,7 @@ import (
 	"context"
 	"os"
 
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 )

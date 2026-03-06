@@ -4,7 +4,7 @@
 
 package controller
 
-import "github.com/telekom/controlplane/secret-manager/pkg/backend"
+import "github.com/lukas016/controlplane/secret-manager/pkg/backend"
 
 type Controller interface {
 	SecretsController

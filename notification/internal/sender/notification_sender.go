@@ -6,9 +6,10 @@ package sender
 
 import (
 	"context"
+
+	notificationv1 "github.com/lukas016/controlplane/notification/api/v1"
+	"github.com/lukas016/controlplane/notification/internal/sender/adapter"
 	"github.com/pkg/errors"
-	notificationv1 "github.com/telekom/controlplane/notification/api/v1"
-	"github.com/telekom/controlplane/notification/internal/sender/adapter"
 )
 
 type NotificationSender interface {

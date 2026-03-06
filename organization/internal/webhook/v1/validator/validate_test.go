@@ -7,8 +7,8 @@ package validator
 import (
 	"testing"
 
+	organizationv1 "github.com/lukas016/controlplane/organization/api/v1"
 	"github.com/stretchr/testify/assert"
-	organizationv1 "github.com/telekom/controlplane/organization/api/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

@@ -10,8 +10,8 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/log"
 
-	"github.com/telekom/controlplane/rover-server/internal/api"
-	"github.com/telekom/controlplane/rover-server/internal/server"
+	"github.com/lukas016/controlplane/rover-server/internal/api"
+	"github.com/lukas016/controlplane/rover-server/internal/server"
 )
 
 var _ server.EventSpecificationController = &EventSpecificationController{}

@@ -14,10 +14,10 @@ import (
 
 	"github.com/go-playground/validator/v10"
 	yaml "github.com/goccy/go-yaml"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/cmderrors"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/log"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/types"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/rover-ctl/pkg/cmderrors"
-	"github.com/telekom/controlplane/rover-ctl/pkg/log"
-	"github.com/telekom/controlplane/rover-ctl/pkg/types"
 )
 
 type HookStage string

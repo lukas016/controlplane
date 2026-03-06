@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/telekom/controlplane/secret-manager/pkg/backend"
+	"github.com/lukas016/controlplane/secret-manager/pkg/backend"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 )
 

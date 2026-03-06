@@ -6,8 +6,9 @@ package controller
 
 import (
 	"context"
-	"github.com/telekom/controlplane/notification/internal/templatecache"
 	texttemplate "text/template"
+
+	"github.com/lukas016/controlplane/notification/internal/templatecache"
 
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/tools/record"
@@ -15,10 +16,10 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/controller"
 
-	cconfig "github.com/telekom/controlplane/common/pkg/config"
-	cc "github.com/telekom/controlplane/common/pkg/controller"
-	notificationv1 "github.com/telekom/controlplane/notification/api/v1"
-	"github.com/telekom/controlplane/notification/internal/handler"
+	cconfig "github.com/lukas016/controlplane/common/pkg/config"
+	cc "github.com/lukas016/controlplane/common/pkg/controller"
+	notificationv1 "github.com/lukas016/controlplane/notification/api/v1"
+	"github.com/lukas016/controlplane/notification/internal/handler"
 )
 
 // NotificationTemplateReconciler reconciles a NotificationTemplate object

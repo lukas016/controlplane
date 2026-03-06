@@ -8,7 +8,7 @@ import (
 	"context"
 	"strings"
 
-	apiapi "github.com/telekom/controlplane/api/api/v1"
+	apiapi "github.com/lukas016/controlplane/api/api/v1"
 )
 
 type ApprovalResult string

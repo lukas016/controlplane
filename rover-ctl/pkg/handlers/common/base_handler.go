@@ -15,11 +15,11 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/config"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/log"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/types"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
-	"github.com/telekom/controlplane/rover-ctl/pkg/config"
-	"github.com/telekom/controlplane/rover-ctl/pkg/log"
-	"github.com/telekom/controlplane/rover-ctl/pkg/types"
 )
 
 type HandlerHookStage string

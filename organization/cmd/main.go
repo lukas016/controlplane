@@ -10,8 +10,8 @@ import (
 	"os"
 	"path/filepath"
 
-	notificationv1 "github.com/telekom/controlplane/notification/api/v1"
-	secretmetrics "github.com/telekom/controlplane/secret-manager/api/metrics"
+	notificationv1 "github.com/lukas016/controlplane/notification/api/v1"
+	secretmetrics "github.com/lukas016/controlplane/secret-manager/api/metrics"
 	"sigs.k8s.io/controller-runtime/pkg/metrics"
 
 	// Import all Kubernetes client auth plugins (e.g. Azure, GCP, OIDC, etc.)
@@ -29,14 +29,14 @@ import (
 	metricsserver "sigs.k8s.io/controller-runtime/pkg/metrics/server"
 	"sigs.k8s.io/controller-runtime/pkg/webhook"
 
-	adminv1 "github.com/telekom/controlplane/admin/api/v1"
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
-	identityv1 "github.com/telekom/controlplane/identity/api/v1"
+	adminv1 "github.com/lukas016/controlplane/admin/api/v1"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
+	identityv1 "github.com/lukas016/controlplane/identity/api/v1"
 
-	organizationv1 "github.com/telekom/controlplane/organization/api/v1"
-	"github.com/telekom/controlplane/organization/internal/controller"
-	"github.com/telekom/controlplane/organization/internal/index"
-	webhookorganizationv1 "github.com/telekom/controlplane/organization/internal/webhook/v1"
+	organizationv1 "github.com/lukas016/controlplane/organization/api/v1"
+	"github.com/lukas016/controlplane/organization/internal/controller"
+	"github.com/lukas016/controlplane/organization/internal/index"
+	webhookorganizationv1 "github.com/lukas016/controlplane/organization/internal/webhook/v1"
 	// +kubebuilder:scaffold:imports
 )
 

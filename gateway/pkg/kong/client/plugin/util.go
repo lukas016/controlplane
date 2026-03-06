@@ -5,7 +5,7 @@
 package plugin
 
 import (
-	"github.com/telekom/controlplane/gateway/pkg/kong/client"
+	"github.com/lukas016/controlplane/gateway/pkg/kong/client"
 )
 
 func As[T client.CustomPlugin](s client.CustomPlugin, t *T) bool {

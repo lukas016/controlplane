@@ -5,11 +5,11 @@
 package handlers_test
 
 import (
+	"github.com/lukas016/controlplane/rover-ctl/pkg/handlers"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/types"
+	"github.com/lukas016/controlplane/rover-ctl/test/mocks"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/rover-ctl/pkg/handlers"
-	"github.com/telekom/controlplane/rover-ctl/pkg/types"
-	"github.com/telekom/controlplane/rover-ctl/test/mocks"
 )
 
 var _ = Describe("Sorter", func() {

@@ -7,11 +7,11 @@ package builder
 import (
 	"strings"
 
-	cconfig "github.com/telekom/controlplane/common/pkg/config"
-	"github.com/telekom/controlplane/common/pkg/types"
-	"github.com/telekom/controlplane/common/pkg/util/hash"
-	"github.com/telekom/controlplane/common/pkg/util/labelutil"
-	notificationv1 "github.com/telekom/controlplane/notification/api/v1"
+	cconfig "github.com/lukas016/controlplane/common/pkg/config"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	"github.com/lukas016/controlplane/common/pkg/util/hash"
+	"github.com/lukas016/controlplane/common/pkg/util/labelutil"
+	notificationv1 "github.com/lukas016/controlplane/notification/api/v1"
 )
 
 func makeName(name string, notification *notificationv1.Notification) string {

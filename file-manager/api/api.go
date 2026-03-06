@@ -19,11 +19,11 @@ import (
 	"github.com/go-logr/logr"
 	"github.com/pkg/errors"
 
-	"github.com/telekom/controlplane/common-server/pkg/client"
-	accesstoken "github.com/telekom/controlplane/common-server/pkg/client/token"
-	"github.com/telekom/controlplane/common-server/pkg/util"
-	"github.com/telekom/controlplane/file-manager/api/constants"
-	"github.com/telekom/controlplane/file-manager/api/gen"
+	"github.com/lukas016/controlplane/common-server/pkg/client"
+	accesstoken "github.com/lukas016/controlplane/common-server/pkg/client/token"
+	"github.com/lukas016/controlplane/common-server/pkg/util"
+	"github.com/lukas016/controlplane/file-manager/api/constants"
+	"github.com/lukas016/controlplane/file-manager/api/gen"
 )
 
 const (

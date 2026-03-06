@@ -7,17 +7,18 @@ package builder
 import (
 	"context"
 	"encoding/json"
+	"maps"
+
 	"github.com/go-logr/logr"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
-	"maps"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
+	cclient "github.com/lukas016/controlplane/common/pkg/client"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	notificationv1 "github.com/lukas016/controlplane/notification/api/v1"
 	"github.com/pkg/errors"
-	cclient "github.com/telekom/controlplane/common/pkg/client"
-	"github.com/telekom/controlplane/common/pkg/types"
-	notificationv1 "github.com/telekom/controlplane/notification/api/v1"
 )
 
 // +kubebuilder:rbac:groups=notification.cp.ei.telekom.de,resources=notifications,verbs=get;list;watch;create;update;patch;delete

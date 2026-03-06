@@ -25,9 +25,9 @@ import (
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	identityv1 "github.com/telekom/controlplane/identity/api/v1"
-	"github.com/telekom/controlplane/identity/pkg/keycloak"
-	"github.com/telekom/controlplane/identity/test/utils"
+	identityv1 "github.com/lukas016/controlplane/identity/api/v1"
+	"github.com/lukas016/controlplane/identity/pkg/keycloak"
+	"github.com/lukas016/controlplane/identity/test/utils"
 	// +kubebuilder:scaffold:imports
 )
 

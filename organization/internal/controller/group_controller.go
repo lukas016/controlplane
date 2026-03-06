@@ -7,10 +7,10 @@ package controller
 import (
 	"context"
 
-	cconfig "github.com/telekom/controlplane/common/pkg/config"
-	cc "github.com/telekom/controlplane/common/pkg/controller"
-	organizationv1 "github.com/telekom/controlplane/organization/api/v1"
-	handler "github.com/telekom/controlplane/organization/internal/handler/group"
+	cconfig "github.com/lukas016/controlplane/common/pkg/config"
+	cc "github.com/lukas016/controlplane/common/pkg/controller"
+	organizationv1 "github.com/lukas016/controlplane/organization/api/v1"
+	handler "github.com/lukas016/controlplane/organization/internal/handler/group"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/tools/record"
 	ctrl "sigs.k8s.io/controller-runtime"

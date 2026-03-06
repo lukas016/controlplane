@@ -5,8 +5,8 @@
 package base
 
 import (
+	"github.com/lukas016/controlplane/rover-ctl/pkg/parser"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/rover-ctl/pkg/parser"
 )
 
 // FileCommand extends the base Command for file operations

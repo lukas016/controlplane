@@ -15,9 +15,9 @@ import (
 	"k8s.io/utils/ptr"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	identityv1 "github.com/telekom/controlplane/identity/api/v1"
-	"github.com/telekom/controlplane/identity/pkg/api"
-	"github.com/telekom/controlplane/identity/pkg/keycloak/mapper"
+	identityv1 "github.com/lukas016/controlplane/identity/api/v1"
+	"github.com/lukas016/controlplane/identity/pkg/api"
+	"github.com/lukas016/controlplane/identity/pkg/keycloak/mapper"
 )
 
 var _ RealmClient = &realmClient{}

@@ -7,7 +7,7 @@ package command
 import (
 	"context"
 
-	"github.com/telekom/controlplane/tools/e2e-tester/pkg/snapshot"
+	"github.com/lukas016/controlplane/tools/e2e-tester/pkg/snapshot"
 )
 
 // CommandExecutor defines an interface for different command execution types

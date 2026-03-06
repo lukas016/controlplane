@@ -11,7 +11,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/telekom/controlplane/common/pkg/test/testutil"
+	"github.com/lukas016/controlplane/common/pkg/test/testutil"
 )
 
 const reStr = `^github\.com/telekom/controlplane/.*$`

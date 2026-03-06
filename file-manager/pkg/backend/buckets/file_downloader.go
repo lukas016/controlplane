@@ -10,9 +10,9 @@ import (
 	"io"
 
 	"github.com/go-logr/logr"
+	"github.com/lukas016/controlplane/file-manager/pkg/backend"
 	"github.com/minio/minio-go/v7"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/file-manager/pkg/backend"
 )
 
 var _ backend.FileDownloader = &BucketFileDownloader{}

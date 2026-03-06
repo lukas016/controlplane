@@ -10,9 +10,9 @@ import (
 	"runtime"
 	"testing"
 
+	"github.com/lukas016/controlplane/common/pkg/test"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/common/pkg/test"
 
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/kubernetes/scheme"

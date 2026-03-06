@@ -23,11 +23,11 @@ import (
 	metricsserver "sigs.k8s.io/controller-runtime/pkg/metrics/server"
 	"sigs.k8s.io/controller-runtime/pkg/webhook"
 
-	admin "github.com/telekom/controlplane/admin/api/v1"
-	applicationv1 "github.com/telekom/controlplane/application/api/v1"
-	"github.com/telekom/controlplane/application/internal/controller"
-	gateway "github.com/telekom/controlplane/gateway/api/v1"
-	identity "github.com/telekom/controlplane/identity/api/v1"
+	admin "github.com/lukas016/controlplane/admin/api/v1"
+	applicationv1 "github.com/lukas016/controlplane/application/api/v1"
+	"github.com/lukas016/controlplane/application/internal/controller"
+	gateway "github.com/lukas016/controlplane/gateway/api/v1"
+	identity "github.com/lukas016/controlplane/identity/api/v1"
 	// +kubebuilder:scaffold:imports
 )
 

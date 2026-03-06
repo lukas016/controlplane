@@ -8,11 +8,11 @@ import (
 	"context"
 	"fmt"
 
+	cclient "github.com/lukas016/controlplane/common/pkg/client"
+	"github.com/lukas016/controlplane/common/pkg/util/contextutil"
+	organizationv1 "github.com/lukas016/controlplane/organization/api/v1"
+	"github.com/lukas016/controlplane/organization/internal/index"
 	"github.com/pkg/errors"
-	cclient "github.com/telekom/controlplane/common/pkg/client"
-	"github.com/telekom/controlplane/common/pkg/util/contextutil"
-	organizationv1 "github.com/telekom/controlplane/organization/api/v1"
-	"github.com/telekom/controlplane/organization/internal/index"
 	"k8s.io/apimachinery/pkg/types"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 )

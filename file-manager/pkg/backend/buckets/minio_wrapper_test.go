@@ -10,8 +10,8 @@ import (
 	"testing"
 
 	"github.com/go-logr/logr"
+	"github.com/lukas016/controlplane/file-manager/api/constants"
 	"github.com/minio/minio-go/v7"
-	"github.com/telekom/controlplane/file-manager/api/constants"
 )
 
 func TestMinioWrapper_ValidateClient(t *testing.T) {

@@ -19,16 +19,16 @@ import (
 
 	"github.com/cyberark/conjur-api-go/conjurapi"
 	"github.com/gofiber/fiber/v2"
+	cs "github.com/lukas016/controlplane/common-server/pkg/server"
+	"github.com/lukas016/controlplane/secret-manager/internal/api"
+	"github.com/lukas016/controlplane/secret-manager/internal/handler"
+	"github.com/lukas016/controlplane/secret-manager/pkg/backend/cache"
+	"github.com/lukas016/controlplane/secret-manager/pkg/backend/conjur"
+	"github.com/lukas016/controlplane/secret-manager/pkg/controller"
+	"github.com/lukas016/controlplane/secret-manager/test/mocks"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/expfmt"
 	"github.com/stretchr/testify/mock"
-	cs "github.com/telekom/controlplane/common-server/pkg/server"
-	"github.com/telekom/controlplane/secret-manager/internal/api"
-	"github.com/telekom/controlplane/secret-manager/internal/handler"
-	"github.com/telekom/controlplane/secret-manager/pkg/backend/cache"
-	"github.com/telekom/controlplane/secret-manager/pkg/backend/conjur"
-	"github.com/telekom/controlplane/secret-manager/pkg/controller"
-	"github.com/telekom/controlplane/secret-manager/test/mocks"
 )
 
 var (

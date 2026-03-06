@@ -6,17 +6,18 @@ package approvalrequest
 
 import (
 	"context"
+
+	approvalv1 "github.com/lukas016/controlplane/approval/api/v1"
+	approval_condition "github.com/lukas016/controlplane/approval/internal/condition"
+	"github.com/lukas016/controlplane/approval/internal/handler/util"
 	"github.com/pkg/errors"
-	approvalv1 "github.com/telekom/controlplane/approval/api/v1"
-	approval_condition "github.com/telekom/controlplane/approval/internal/condition"
-	"github.com/telekom/controlplane/approval/internal/handler/util"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	"github.com/telekom/controlplane/common/pkg/client"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/handler"
-	"github.com/telekom/controlplane/common/pkg/types"
-	"github.com/telekom/controlplane/common/pkg/util/contextutil"
+	"github.com/lukas016/controlplane/common/pkg/client"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/handler"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	"github.com/lukas016/controlplane/common/pkg/util/contextutil"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/utils/ptr"

@@ -5,10 +5,10 @@
 package in
 
 import (
+	roverv1 "github.com/lukas016/controlplane/rover/api/v1"
 	"github.com/pkg/errors"
-	roverv1 "github.com/telekom/controlplane/rover/api/v1"
 
-	"github.com/telekom/controlplane/rover-server/internal/api"
+	"github.com/lukas016/controlplane/rover-server/internal/api"
 )
 
 func mapSubscription(in *api.Subscription, out *roverv1.Subscription) error {

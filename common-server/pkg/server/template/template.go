@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/telekom/controlplane/common-server/pkg/problems"
+	"github.com/lukas016/controlplane/common-server/pkg/problems"
 )
 
 const placeholderChars = "$<>"

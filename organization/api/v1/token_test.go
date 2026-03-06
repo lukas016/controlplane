@@ -14,7 +14,7 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"github.com/telekom/controlplane/organization/api/v1"
+	v1 "github.com/lukas016/controlplane/organization/api/v1"
 )
 
 func TestEncodeTeamToken(t *testing.T) {

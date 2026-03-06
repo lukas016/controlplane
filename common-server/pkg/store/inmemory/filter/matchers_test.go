@@ -5,9 +5,9 @@
 package filter_test
 
 import (
+	"github.com/lukas016/controlplane/common-server/pkg/store/inmemory/filter"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/common-server/pkg/store/inmemory/filter"
 )
 
 var _ = Describe("Matchers", func() {

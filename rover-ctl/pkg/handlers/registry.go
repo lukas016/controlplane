@@ -8,9 +8,9 @@ import (
 	"strings"
 	"sync"
 
+	v0 "github.com/lukas016/controlplane/rover-ctl/pkg/handlers/v0"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/log"
 	"github.com/pkg/errors"
-	v0 "github.com/telekom/controlplane/rover-ctl/pkg/handlers/v0"
-	"github.com/telekom/controlplane/rover-ctl/pkg/log"
 )
 
 // handlerRegistry stores the mapping between resource kinds and their handlers

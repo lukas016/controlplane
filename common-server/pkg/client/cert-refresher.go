@@ -12,8 +12,8 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
+	"github.com/lukas016/controlplane/common-server/pkg/util"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/common-server/pkg/util"
 )
 
 // CertRefresher is a utility to refresh the CA certificates from a file periodically.

@@ -7,12 +7,12 @@ package status
 import (
 	"context"
 
-	"github.com/telekom/controlplane/common/pkg/condition"
-	v1 "github.com/telekom/controlplane/rover/api/v1"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	v1 "github.com/lukas016/controlplane/rover/api/v1"
 	"k8s.io/apimachinery/pkg/api/meta"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/telekom/controlplane/rover-server/internal/api"
+	"github.com/lukas016/controlplane/rover-server/internal/api"
 )
 
 func fillStateInfo(conditions []metav1.Condition, status *api.Status) {

@@ -9,8 +9,8 @@ import (
 	"fmt"
 
 	"github.com/go-logr/logr"
-	"github.com/telekom/controlplane/organization/internal/webhook/v1/mutator"
-	"github.com/telekom/controlplane/organization/internal/webhook/v1/validator"
+	"github.com/lukas016/controlplane/organization/internal/webhook/v1/mutator"
+	"github.com/lukas016/controlplane/organization/internal/webhook/v1/validator"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/runtime"
 	ctrl "sigs.k8s.io/controller-runtime"
@@ -19,7 +19,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/webhook"
 	"sigs.k8s.io/controller-runtime/pkg/webhook/admission"
 
-	organizationv1 "github.com/telekom/controlplane/organization/api/v1"
+	organizationv1 "github.com/lukas016/controlplane/organization/api/v1"
 )
 
 // nolint:unused

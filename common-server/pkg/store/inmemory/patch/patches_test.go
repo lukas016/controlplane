@@ -7,10 +7,10 @@ package patch_test
 import (
 	"testing"
 
+	"github.com/lukas016/controlplane/common-server/pkg/store"
+	"github.com/lukas016/controlplane/common-server/pkg/store/inmemory/patch"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/common-server/pkg/store"
-	"github.com/telekom/controlplane/common-server/pkg/store/inmemory/patch"
 )
 
 func TestPatch(t *testing.T) {

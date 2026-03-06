@@ -7,9 +7,9 @@ package controller
 import (
 	"context"
 
-	cconfig "github.com/telekom/controlplane/common/pkg/config"
-	cc "github.com/telekom/controlplane/common/pkg/controller"
-	"github.com/telekom/controlplane/common/pkg/types"
+	cconfig "github.com/lukas016/controlplane/common/pkg/config"
+	cc "github.com/lukas016/controlplane/common/pkg/controller"
+	"github.com/lukas016/controlplane/common/pkg/types"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/tools/record"
 	ctrl "sigs.k8s.io/controller-runtime"
@@ -20,8 +20,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/predicate"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
-	routehandler "github.com/telekom/controlplane/gateway/internal/handler/route"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
+	routehandler "github.com/lukas016/controlplane/gateway/internal/handler/route"
 )
 
 // RouteReconciler reconciles a Route object

@@ -7,7 +7,7 @@ package source
 import (
 	"context"
 
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/snapshot"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/snapshot"
 )
 
 type Source interface {

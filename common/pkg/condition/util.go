@@ -7,7 +7,7 @@ package condition
 import (
 	"fmt"
 
-	"github.com/telekom/controlplane/common/pkg/types"
+	"github.com/lukas016/controlplane/common/pkg/types"
 
 	"k8s.io/apimachinery/pkg/api/meta"
 )

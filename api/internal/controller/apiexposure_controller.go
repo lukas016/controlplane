@@ -7,12 +7,12 @@ package controller
 import (
 	"context"
 
-	adminv1 "github.com/telekom/controlplane/admin/api/v1"
-	apiv1 "github.com/telekom/controlplane/api/api/v1"
-	"github.com/telekom/controlplane/api/internal/handler/apiexposure"
-	cconfig "github.com/telekom/controlplane/common/pkg/config"
-	cc "github.com/telekom/controlplane/common/pkg/controller"
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
+	adminv1 "github.com/lukas016/controlplane/admin/api/v1"
+	apiv1 "github.com/lukas016/controlplane/api/api/v1"
+	"github.com/lukas016/controlplane/api/internal/handler/apiexposure"
+	cconfig "github.com/lukas016/controlplane/common/pkg/config"
+	cc "github.com/lukas016/controlplane/common/pkg/controller"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/tools/record"
 	ctrl "sigs.k8s.io/controller-runtime"

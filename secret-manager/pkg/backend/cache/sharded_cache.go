@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"hash/fnv"
 
-	"github.com/telekom/controlplane/secret-manager/pkg/backend"
-	"github.com/telekom/controlplane/secret-manager/pkg/backend/cache/metrics"
+	"github.com/lukas016/controlplane/secret-manager/pkg/backend"
+	"github.com/lukas016/controlplane/secret-manager/pkg/backend/cache/metrics"
 )
 
 var _ Cache[backend.SecretId, backend.Secret[backend.SecretId]] = (*ShardedCache[backend.SecretId, backend.Secret[backend.SecretId]])(nil)

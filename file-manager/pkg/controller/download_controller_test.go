@@ -8,10 +8,10 @@ import (
 	"bytes"
 	"context"
 
+	"github.com/lukas016/controlplane/file-manager/pkg/controller"
+	"github.com/lukas016/controlplane/file-manager/test/mocks"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/file-manager/pkg/controller"
-	"github.com/telekom/controlplane/file-manager/test/mocks"
 
 	"io"
 )

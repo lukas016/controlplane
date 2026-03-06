@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/lukas016/controlplane/rover-ctl/cmd"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/config"
 	"github.com/spf13/viper"
-	"github.com/telekom/controlplane/rover-ctl/cmd"
-	"github.com/telekom/controlplane/rover-ctl/pkg/config"
 )
 
 var (

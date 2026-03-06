@@ -8,8 +8,8 @@ import (
 	"github.com/pkg/errors"
 	"k8s.io/utils/ptr"
 
-	identityv1 "github.com/telekom/controlplane/identity/api/v1"
-	"github.com/telekom/controlplane/identity/pkg/api"
+	identityv1 "github.com/lukas016/controlplane/identity/api/v1"
+	"github.com/lukas016/controlplane/identity/pkg/api"
 )
 
 func GetClient(getRealmClients api.GetRealmClientsResponse) (*api.ClientRepresentation, error) {

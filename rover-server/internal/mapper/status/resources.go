@@ -8,17 +8,17 @@ import (
 	"context"
 	"fmt"
 
-	apiv1 "github.com/telekom/controlplane/api/api/v1"
-	applicationv1 "github.com/telekom/controlplane/application/api/v1"
-	commonStore "github.com/telekom/controlplane/common-server/pkg/store"
-	cstore "github.com/telekom/controlplane/common-server/pkg/store"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/types"
-	v1 "github.com/telekom/controlplane/rover/api/v1"
+	apiv1 "github.com/lukas016/controlplane/api/api/v1"
+	applicationv1 "github.com/lukas016/controlplane/application/api/v1"
+	commonStore "github.com/lukas016/controlplane/common-server/pkg/store"
+	cstore "github.com/lukas016/controlplane/common-server/pkg/store"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	v1 "github.com/lukas016/controlplane/rover/api/v1"
 	"k8s.io/apimachinery/pkg/api/meta"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/telekom/controlplane/rover-server/internal/api"
+	"github.com/lukas016/controlplane/rover-server/internal/api"
 )
 
 // SubResource defines an interface that all allowed types must implement

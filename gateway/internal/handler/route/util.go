@@ -7,11 +7,11 @@ package route
 import (
 	"context"
 
+	"github.com/lukas016/controlplane/common/pkg/client"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	v1 "github.com/lukas016/controlplane/gateway/api/v1"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/common/pkg/client"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/types"
-	v1 "github.com/telekom/controlplane/gateway/api/v1"
 	"k8s.io/apimachinery/pkg/api/meta"
 )
 

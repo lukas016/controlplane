@@ -6,7 +6,7 @@ package openapi
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/telekom/controlplane/common-server/pkg/server"
+	"github.com/lukas016/controlplane/common-server/pkg/server"
 )
 
 var _ server.Controller = &OpenAPIController{}

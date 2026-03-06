@@ -7,7 +7,7 @@ package labelutil
 import (
 	"strings"
 
-	"github.com/telekom/controlplane/common/pkg/util/hash"
+	"github.com/lukas016/controlplane/common/pkg/util/hash"
 )
 
 const (

@@ -7,7 +7,7 @@ package syncer
 import (
 	"context"
 
-	apiv1 "github.com/telekom/controlplane/api/api/v1"
+	apiv1 "github.com/lukas016/controlplane/api/api/v1"
 )
 
 const NOT_UPDATED = false

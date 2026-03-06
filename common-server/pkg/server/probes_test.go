@@ -9,9 +9,9 @@ import (
 	"net/http/httptest"
 
 	"github.com/gofiber/fiber/v2"
+	"github.com/lukas016/controlplane/common-server/pkg/server"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/common-server/pkg/server"
 )
 
 var _ = Describe("Probes Controller", func() {

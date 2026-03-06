@@ -9,11 +9,11 @@ import (
 	"sort"
 
 	"github.com/go-logr/logr"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
 	"github.com/pkg/errors"
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
 
-	"github.com/telekom/controlplane/gateway/pkg/kong/client"
-	"github.com/telekom/controlplane/gateway/pkg/kong/client/plugin"
+	"github.com/lukas016/controlplane/gateway/pkg/kong/client"
+	"github.com/lukas016/controlplane/gateway/pkg/kong/client/plugin"
 )
 
 var ErrNoRoute = errors.New("no route found in builder context")

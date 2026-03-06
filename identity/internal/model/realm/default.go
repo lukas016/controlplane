@@ -5,11 +5,11 @@
 package realm
 
 import (
-	"github.com/telekom/controlplane/common/pkg/config"
-	"github.com/telekom/controlplane/common/pkg/types"
+	"github.com/lukas016/controlplane/common/pkg/config"
+	"github.com/lukas016/controlplane/common/pkg/types"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	identityv1 "github.com/telekom/controlplane/identity/api/v1"
+	identityv1 "github.com/lukas016/controlplane/identity/api/v1"
 )
 
 func NewRealmSpec(identityProviderName string, namespace string) *identityv1.RealmSpec {

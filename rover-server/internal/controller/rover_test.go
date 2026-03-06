@@ -11,10 +11,10 @@ import (
 	"net/http/httptest"
 
 	"github.com/gkampitakis/go-snaps/match"
+	"github.com/lukas016/controlplane/common-server/pkg/server/middleware/security/mock"
 	. "github.com/onsi/ginkgo/v2"
-	"github.com/telekom/controlplane/common-server/pkg/server/middleware/security/mock"
 
-	"github.com/telekom/controlplane/rover-server/internal/api"
+	"github.com/lukas016/controlplane/rover-server/internal/api"
 )
 
 var _ = Describe("Rover Controller", func() {

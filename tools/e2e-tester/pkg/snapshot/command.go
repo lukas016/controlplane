@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/goccy/go-yaml"
-	"github.com/telekom/controlplane/tools/e2e-tester/pkg/obfuscator"
+	"github.com/lukas016/controlplane/tools/e2e-tester/pkg/obfuscator"
 )
 
 // CommandOutput represents the output of a command execution

@@ -5,13 +5,13 @@
 package getinfo
 
 import (
+	"github.com/lukas016/controlplane/rover-ctl/pkg/commands/base"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/handlers"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/parser"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/util"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/telekom/controlplane/rover-ctl/pkg/commands/base"
-	"github.com/telekom/controlplane/rover-ctl/pkg/handlers"
-	"github.com/telekom/controlplane/rover-ctl/pkg/parser"
-	"github.com/telekom/controlplane/rover-ctl/pkg/util"
 )
 
 const (

@@ -11,12 +11,12 @@ import (
 	"sync"
 	"time"
 
+	kong "github.com/lukas016/controlplane/gateway/pkg/kong/api"
+	"github.com/lukas016/controlplane/gateway/pkg/kongutil"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/config"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/snapshot"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/util"
 	"github.com/pkg/errors"
-	kong "github.com/telekom/controlplane/gateway/pkg/kong/api"
-	"github.com/telekom/controlplane/gateway/pkg/kongutil"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/config"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/snapshot"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/util"
 	"go.uber.org/zap"
 	"golang.org/x/time/rate"
 )

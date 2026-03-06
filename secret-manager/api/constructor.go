@@ -12,11 +12,11 @@ import (
 	"os"
 	"strings"
 
+	"github.com/lukas016/controlplane/common-server/pkg/client"
+	accesstoken "github.com/lukas016/controlplane/common-server/pkg/client/token"
+	"github.com/lukas016/controlplane/common-server/pkg/util"
+	"github.com/lukas016/controlplane/secret-manager/api/gen"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/common-server/pkg/client"
-	accesstoken "github.com/telekom/controlplane/common-server/pkg/client/token"
-	"github.com/telekom/controlplane/common-server/pkg/util"
-	"github.com/telekom/controlplane/secret-manager/api/gen"
 )
 
 type Options struct {

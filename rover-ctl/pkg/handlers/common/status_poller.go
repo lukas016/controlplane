@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
-	"github.com/telekom/controlplane/rover-ctl/pkg/log"
-	"github.com/telekom/controlplane/rover-ctl/pkg/types"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/log"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/types"
 )
 
 type StatusHandler interface {

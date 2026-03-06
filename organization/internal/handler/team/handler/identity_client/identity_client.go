@@ -7,12 +7,12 @@ package identity_client
 import (
 	"context"
 
-	cclient "github.com/telekom/controlplane/common/pkg/client"
-	"github.com/telekom/controlplane/common/pkg/types"
-	identityv1 "github.com/telekom/controlplane/identity/api/v1"
-	organisationv1 "github.com/telekom/controlplane/organization/api/v1"
-	"github.com/telekom/controlplane/organization/internal/handler/team/handler"
-	"github.com/telekom/controlplane/organization/internal/handler/util"
+	cclient "github.com/lukas016/controlplane/common/pkg/client"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	identityv1 "github.com/lukas016/controlplane/identity/api/v1"
+	organisationv1 "github.com/lukas016/controlplane/organization/api/v1"
+	"github.com/lukas016/controlplane/organization/internal/handler/team/handler"
+	"github.com/lukas016/controlplane/organization/internal/handler/util"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

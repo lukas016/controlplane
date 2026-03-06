@@ -8,10 +8,10 @@ import (
 	"context"
 
 	"github.com/gkampitakis/go-snaps/snaps"
+	"github.com/lukas016/controlplane/common-server/pkg/server/middleware/security"
+	filesapi "github.com/lukas016/controlplane/file-manager/api"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/common-server/pkg/server/middleware/security"
-	filesapi "github.com/telekom/controlplane/file-manager/api"
 	"gopkg.in/yaml.v3"
 )
 

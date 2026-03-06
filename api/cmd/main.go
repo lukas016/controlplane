@@ -23,8 +23,8 @@ import (
 	metricsserver "sigs.k8s.io/controller-runtime/pkg/metrics/server"
 	"sigs.k8s.io/controller-runtime/pkg/webhook"
 
-	"github.com/telekom/controlplane/api/internal/controller"
-	"github.com/telekom/controlplane/api/internal/handler/remoteapisubscription/syncer"
+	"github.com/lukas016/controlplane/api/internal/controller"
+	"github.com/lukas016/controlplane/api/internal/handler/remoteapisubscription/syncer"
 	// +kubebuilder:scaffold:imports
 )
 

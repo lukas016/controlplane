@@ -9,14 +9,14 @@ import (
 	"maps"
 	"slices"
 
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/config"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/decoder"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/diffmatcher"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/obfuscator"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/snapshot"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/source"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/store"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/config"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/decoder"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/diffmatcher"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/obfuscator"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/snapshot"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/source"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/store"
 	"go.uber.org/zap"
 )
 

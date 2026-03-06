@@ -7,16 +7,16 @@ package controller
 import (
 	"context"
 
-	cconfig "github.com/telekom/controlplane/common/pkg/config"
-	cc "github.com/telekom/controlplane/common/pkg/controller"
+	cconfig "github.com/lukas016/controlplane/common/pkg/config"
+	cc "github.com/lukas016/controlplane/common/pkg/controller"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/tools/record"
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/controller"
 
-	identityv1 "github.com/telekom/controlplane/identity/api/v1"
-	identityproviderHandler "github.com/telekom/controlplane/identity/internal/handler/identityprovider"
+	identityv1 "github.com/lukas016/controlplane/identity/api/v1"
+	identityproviderHandler "github.com/lukas016/controlplane/identity/internal/handler/identityprovider"
 )
 
 // IdentityProviderReconciler reconciles a IdentityProvider object

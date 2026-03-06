@@ -5,7 +5,7 @@
 package v1
 
 import (
-	ctypes "github.com/telekom/controlplane/common/pkg/types"
+	ctypes "github.com/lukas016/controlplane/common/pkg/types"
 	"k8s.io/apimachinery/pkg/api/meta"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

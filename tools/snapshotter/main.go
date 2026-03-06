@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/telekom/controlplane/tools/snapshotter/internal/commands"
+	"github.com/lukas016/controlplane/tools/snapshotter/internal/commands"
 )
 
 func main() {

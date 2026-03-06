@@ -9,7 +9,7 @@ package mocks
 import (
 	context "context"
 
-	api "github.com/telekom/controlplane/identity/pkg/api"
+	api "github.com/lukas016/controlplane/identity/pkg/api"
 
 	mock "github.com/stretchr/testify/mock"
 )

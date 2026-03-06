@@ -8,9 +8,9 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/lukas016/controlplane/common-server/pkg/server/middleware/security"
+	"github.com/lukas016/controlplane/common-server/pkg/store"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/common-server/pkg/server/middleware/security"
-	"github.com/telekom/controlplane/common-server/pkg/store"
 )
 
 // Replacer is an interface for replacing secret values in different types of objects.

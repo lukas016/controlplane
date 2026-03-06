@@ -11,9 +11,9 @@ import (
 	"runtime"
 	"testing"
 
+	approvalv1 "github.com/lukas016/controlplane/approval/api/v1"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	approvalv1 "github.com/telekom/controlplane/approval/api/v1"
 	admissionv1 "k8s.io/api/admission/v1"
 
 	// +kubebuilder:scaffold:imports

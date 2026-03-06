@@ -5,7 +5,7 @@
 package fsm
 
 import (
-	v1 "github.com/telekom/controlplane/approval/api/v1"
+	v1 "github.com/lukas016/controlplane/approval/api/v1"
 )
 
 type Transition struct {

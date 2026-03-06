@@ -8,8 +8,8 @@ import (
 	"context"
 
 	"github.com/go-logr/logr"
-	"github.com/telekom/controlplane/secret-manager/internal/api"
-	"github.com/telekom/controlplane/secret-manager/pkg/controller"
+	"github.com/lukas016/controlplane/secret-manager/internal/api"
+	"github.com/lukas016/controlplane/secret-manager/pkg/controller"
 )
 
 var _ api.StrictServerInterface = &Handler{}

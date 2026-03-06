@@ -8,10 +8,10 @@ import (
 	"bytes"
 	"encoding/json"
 
+	"github.com/lukas016/controlplane/rover-ctl/pkg/handlers/common"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/types"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/rover-ctl/pkg/handlers/common"
-	"github.com/telekom/controlplane/rover-ctl/pkg/types"
 )
 
 var _ = Describe("StatusEval", func() {

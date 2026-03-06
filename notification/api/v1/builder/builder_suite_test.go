@@ -7,7 +7,7 @@ package builder_test
 import (
 	"testing"
 
-	fakeclient "github.com/telekom/controlplane/common/pkg/client/fake"
+	fakeclient "github.com/lukas016/controlplane/common/pkg/client/fake"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

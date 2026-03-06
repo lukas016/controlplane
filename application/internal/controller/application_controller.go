@@ -13,13 +13,13 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/controller"
 
-	applicationv1 "github.com/telekom/controlplane/application/api/v1"
-	"github.com/telekom/controlplane/application/internal/handler/application"
-	cconfig "github.com/telekom/controlplane/common/pkg/config"
-	cc "github.com/telekom/controlplane/common/pkg/controller"
-	"github.com/telekom/controlplane/common/pkg/controller/index"
-	gateway "github.com/telekom/controlplane/gateway/api/v1"
-	identity "github.com/telekom/controlplane/identity/api/v1"
+	applicationv1 "github.com/lukas016/controlplane/application/api/v1"
+	"github.com/lukas016/controlplane/application/internal/handler/application"
+	cconfig "github.com/lukas016/controlplane/common/pkg/config"
+	cc "github.com/lukas016/controlplane/common/pkg/controller"
+	"github.com/lukas016/controlplane/common/pkg/controller/index"
+	gateway "github.com/lukas016/controlplane/gateway/api/v1"
+	identity "github.com/lukas016/controlplane/identity/api/v1"
 )
 
 // ApplicationReconciler reconciles a Application object

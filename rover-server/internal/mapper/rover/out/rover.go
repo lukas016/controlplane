@@ -7,12 +7,12 @@ package out
 import (
 	"context"
 
+	roverv1 "github.com/lukas016/controlplane/rover/api/v1"
 	"github.com/pkg/errors"
-	roverv1 "github.com/telekom/controlplane/rover/api/v1"
 
-	"github.com/telekom/controlplane/rover-server/internal/api"
-	"github.com/telekom/controlplane/rover-server/internal/mapper"
-	"github.com/telekom/controlplane/rover-server/internal/mapper/status"
+	"github.com/lukas016/controlplane/rover-server/internal/api"
+	"github.com/lukas016/controlplane/rover-server/internal/mapper"
+	"github.com/lukas016/controlplane/rover-server/internal/mapper/status"
 )
 
 func MapRoverResponse(ctx context.Context, in *roverv1.Rover) (res api.RoverResponse, err error) {

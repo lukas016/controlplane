@@ -5,8 +5,8 @@
 package out
 
 import (
-	"github.com/telekom/controlplane/rover-server/internal/api"
-	roverv1 "github.com/telekom/controlplane/rover/api/v1"
+	"github.com/lukas016/controlplane/rover-server/internal/api"
+	roverv1 "github.com/lukas016/controlplane/rover/api/v1"
 )
 
 func mapExposureTraffic(in *roverv1.ApiExposure, out *api.ApiExposure) {

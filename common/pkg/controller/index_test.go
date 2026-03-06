@@ -7,10 +7,10 @@ package controller
 import (
 	"time"
 
+	"github.com/lukas016/controlplane/common/pkg/controller/index"
+	"github.com/lukas016/controlplane/common/pkg/test"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/common/pkg/controller/index"
-	"github.com/telekom/controlplane/common/pkg/test"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 )

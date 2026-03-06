@@ -7,10 +7,10 @@ package in
 import (
 	"context"
 
+	"github.com/lukas016/controlplane/common-server/pkg/problems"
+	roverv1 "github.com/lukas016/controlplane/rover/api/v1"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/common-server/pkg/problems"
-	roverv1 "github.com/telekom/controlplane/rover/api/v1"
 )
 
 var _ = Describe("Apispecification Parser", func() {
@@ -56,7 +56,7 @@ components:
           scopes:
             read: read dummy
             write: write dummy
-            admin: admin dummy	
+            admin: admin dummy
 `
 
 	specV3_0_without_basepath := `
@@ -80,7 +80,7 @@ components:
           scopes:
             read: read dummy
             write: write dummy
-            admin: admin dummy	
+            admin: admin dummy
 `
 
 	specV3_1 := `
@@ -113,7 +113,7 @@ info:
   version: "1.0.0"
   title: "Test API"
 servers:
-- url: "https://example.com/eni/foo/v1"	
+- url: "https://example.com/eni/foo/v1"
 `
 
 	Context("When parsing a specification", func() {

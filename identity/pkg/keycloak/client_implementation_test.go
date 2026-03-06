@@ -17,9 +17,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	identityv1 "github.com/telekom/controlplane/identity/api/v1"
-	"github.com/telekom/controlplane/identity/pkg/api"
-	"github.com/telekom/controlplane/identity/test/mocks"
+	identityv1 "github.com/lukas016/controlplane/identity/api/v1"
+	"github.com/lukas016/controlplane/identity/pkg/api"
+	"github.com/lukas016/controlplane/identity/test/mocks"
 )
 
 const (

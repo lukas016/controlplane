@@ -7,10 +7,11 @@ package main
 import (
 	"crypto/tls"
 	"flag"
-	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/notification/internal/templatecache"
 	"os"
 	"path/filepath"
+
+	"github.com/lukas016/controlplane/notification/internal/templatecache"
+	"github.com/pkg/errors"
 
 	// Import all Kubernetes client auth plugins (e.g. Azure, GCP, OIDC, etc.)
 	// to ensure that exec-entrypoint and run can make use of them.
@@ -27,10 +28,10 @@ import (
 	metricsserver "sigs.k8s.io/controller-runtime/pkg/metrics/server"
 	"sigs.k8s.io/controller-runtime/pkg/webhook"
 
-	notificationsconfig "github.com/telekom/controlplane/notification/internal/config"
+	notificationsconfig "github.com/lukas016/controlplane/notification/internal/config"
 
-	notificationv1 "github.com/telekom/controlplane/notification/api/v1"
-	"github.com/telekom/controlplane/notification/internal/controller"
+	notificationv1 "github.com/lukas016/controlplane/notification/api/v1"
+	"github.com/lukas016/controlplane/notification/internal/controller"
 	// +kubebuilder:scaffold:imports
 )
 

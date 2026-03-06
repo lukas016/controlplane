@@ -6,7 +6,8 @@ package v1
 
 import (
 	"encoding/json"
-	ctypes "github.com/telekom/controlplane/common/pkg/types"
+
+	ctypes "github.com/lukas016/controlplane/common/pkg/types"
 
 	"github.com/pkg/errors"
 	"k8s.io/apimachinery/pkg/runtime"

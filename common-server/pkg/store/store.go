@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/lukas016/controlplane/common-server/pkg/problems"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/common-server/pkg/problems"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime"

@@ -7,9 +7,9 @@ package buckets
 import (
 	"os"
 
+	accesstoken "github.com/lukas016/controlplane/common-server/pkg/client/token"
 	"github.com/minio/minio-go/v7/pkg/credentials"
 	"github.com/pkg/errors"
-	accesstoken "github.com/telekom/controlplane/common-server/pkg/client/token"
 )
 
 type CredentialProvider string

@@ -7,17 +7,17 @@ package controller
 import (
 	"context"
 
+	"github.com/lukas016/controlplane/common/pkg/condition"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/common/pkg/condition"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/api/meta"
 	k8sclient "sigs.k8s.io/controller-runtime/pkg/client"
 
-	identityv1 "github.com/telekom/controlplane/identity/api/v1"
-	clientModel "github.com/telekom/controlplane/identity/internal/model/client"
-	identityproviderModel "github.com/telekom/controlplane/identity/internal/model/identityprovider"
-	realmModel "github.com/telekom/controlplane/identity/internal/model/realm"
+	identityv1 "github.com/lukas016/controlplane/identity/api/v1"
+	clientModel "github.com/lukas016/controlplane/identity/internal/model/client"
+	identityproviderModel "github.com/lukas016/controlplane/identity/internal/model/identityprovider"
+	realmModel "github.com/lukas016/controlplane/identity/internal/model/realm"
 )
 
 var _ = Describe("Client Controller", func() {

@@ -11,12 +11,12 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	approvalv1 "github.com/telekom/controlplane/approval/api/v1"
-	cclient "github.com/telekom/controlplane/common/pkg/client"
-	"github.com/telekom/controlplane/common/pkg/config"
-	"github.com/telekom/controlplane/common/pkg/test"
-	"github.com/telekom/controlplane/common/pkg/test/testutil"
-	ctypes "github.com/telekom/controlplane/common/pkg/types"
+	approvalv1 "github.com/lukas016/controlplane/approval/api/v1"
+	cclient "github.com/lukas016/controlplane/common/pkg/client"
+	"github.com/lukas016/controlplane/common/pkg/config"
+	"github.com/lukas016/controlplane/common/pkg/test"
+	"github.com/lukas016/controlplane/common/pkg/test/testutil"
+	ctypes "github.com/lukas016/controlplane/common/pkg/types"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 )
 

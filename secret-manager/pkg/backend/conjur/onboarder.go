@@ -10,9 +10,9 @@ import (
 
 	"github.com/cyberark/conjur-api-go/conjurapi"
 	"github.com/go-logr/logr"
+	"github.com/lukas016/controlplane/secret-manager/pkg/backend"
+	"github.com/lukas016/controlplane/secret-manager/pkg/backend/conjur/bouncer"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/secret-manager/pkg/backend"
-	"github.com/telekom/controlplane/secret-manager/pkg/backend/conjur/bouncer"
 	"github.com/valyala/fasttemplate"
 )
 

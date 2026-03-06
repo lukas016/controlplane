@@ -7,22 +7,23 @@ package handler
 import (
 	"context"
 	"fmt"
+	"strings"
+
 	"github.com/go-logr/logr"
+	"github.com/lukas016/controlplane/common/pkg/client"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/handler"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	"github.com/lukas016/controlplane/common/pkg/util/contextutil"
+	notificationv1 "github.com/lukas016/controlplane/notification/api/v1"
+	"github.com/lukas016/controlplane/notification/internal/rendering"
+	"github.com/lukas016/controlplane/notification/internal/sender"
+	"github.com/lukas016/controlplane/notification/internal/templatecache"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/common/pkg/client"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/handler"
-	"github.com/telekom/controlplane/common/pkg/types"
-	"github.com/telekom/controlplane/common/pkg/util/contextutil"
-	notificationv1 "github.com/telekom/controlplane/notification/api/v1"
-	"github.com/telekom/controlplane/notification/internal/rendering"
-	"github.com/telekom/controlplane/notification/internal/sender"
-	"github.com/telekom/controlplane/notification/internal/templatecache"
 	"k8s.io/apimachinery/pkg/api/meta"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	k8sclient "sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/log"
-	"strings"
 )
 
 var _ handler.Handler[*notificationv1.Notification] = &NotificationHandler{}

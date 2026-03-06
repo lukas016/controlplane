@@ -6,20 +6,21 @@ package handler_test
 
 import (
 	"context"
+	"time"
+
+	cclient "github.com/lukas016/controlplane/common/pkg/client"
+	fakeclient "github.com/lukas016/controlplane/common/pkg/client/fake"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/config"
+	"github.com/lukas016/controlplane/common/pkg/test"
+	commontypes "github.com/lukas016/controlplane/common/pkg/types"
+	notificationv1 "github.com/lukas016/controlplane/notification/api/v1"
+	handlers "github.com/lukas016/controlplane/notification/internal/handler"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	cclient "github.com/telekom/controlplane/common/pkg/client"
-	fakeclient "github.com/telekom/controlplane/common/pkg/client/fake"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/config"
-	"github.com/telekom/controlplane/common/pkg/test"
-	commontypes "github.com/telekom/controlplane/common/pkg/types"
-	notificationv1 "github.com/telekom/controlplane/notification/api/v1"
-	handlers "github.com/telekom/controlplane/notification/internal/handler"
 	"k8s.io/apimachinery/pkg/api/meta"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
-	"time"
 )
 
 var _ = Describe("Notification Handler", func() {

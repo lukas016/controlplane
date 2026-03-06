@@ -4,7 +4,7 @@
 
 package naming
 
-import adminv1 "github.com/telekom/controlplane/admin/api/v1"
+import adminv1 "github.com/lukas016/controlplane/admin/api/v1"
 
 const (
 	teamApiIdentityRealmPrefix = "team-"

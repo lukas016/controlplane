@@ -10,14 +10,14 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/lukas016/controlplane/common/pkg/util/labelutil"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/common/pkg/util/labelutil"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	apiv1 "github.com/telekom/controlplane/api/api/v1"
+	apiv1 "github.com/lukas016/controlplane/api/api/v1"
 
-	cpv1 "github.com/telekom/controlplane/cpapi/api/v1"
+	cpv1 "github.com/lukas016/controlplane/cpapi/api/v1"
 )
 
 type Resource any

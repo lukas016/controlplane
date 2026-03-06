@@ -7,12 +7,12 @@ package commands
 import (
 	"fmt"
 
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/config"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/diffmatcher"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/snapshot"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/store"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/config"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/diffmatcher"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/snapshot"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/store"
 	"sigs.k8s.io/controller-runtime/pkg/manager/signals"
 )
 

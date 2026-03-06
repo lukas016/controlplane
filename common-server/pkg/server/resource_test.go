@@ -11,12 +11,12 @@ import (
 	"net/http/httptest"
 
 	"github.com/gofiber/fiber/v2"
+	"github.com/lukas016/controlplane/common-server/pkg/server"
+	"github.com/lukas016/controlplane/common-server/pkg/store"
+	"github.com/lukas016/controlplane/common-server/test/mocks"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/stretchr/testify/mock"
-	"github.com/telekom/controlplane/common-server/pkg/server"
-	"github.com/telekom/controlplane/common-server/pkg/store"
-	"github.com/telekom/controlplane/common-server/test/mocks"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 )

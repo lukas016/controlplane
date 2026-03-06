@@ -7,9 +7,9 @@ package gateway_consumer
 import (
 	"testing"
 
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
+	organizationv1 "github.com/lukas016/controlplane/organization/api/v1"
 	"github.com/stretchr/testify/assert"
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
-	organizationv1 "github.com/telekom/controlplane/organization/api/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

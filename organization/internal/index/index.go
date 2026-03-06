@@ -8,8 +8,8 @@ import (
 	"context"
 	"os"
 
-	adminv1 "github.com/telekom/controlplane/admin/api/v1"
-	organizationv1 "github.com/telekom/controlplane/organization/api/v1"
+	adminv1 "github.com/lukas016/controlplane/admin/api/v1"
+	organizationv1 "github.com/lukas016/controlplane/organization/api/v1"
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 )

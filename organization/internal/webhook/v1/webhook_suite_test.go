@@ -15,10 +15,10 @@ import (
 	"testing"
 	"time"
 
+	adminv1 "github.com/lukas016/controlplane/admin/api/v1"
+	"github.com/lukas016/controlplane/organization/internal/index"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	adminv1 "github.com/telekom/controlplane/admin/api/v1"
-	"github.com/telekom/controlplane/organization/internal/index"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
@@ -32,7 +32,7 @@ import (
 	metricsserver "sigs.k8s.io/controller-runtime/pkg/metrics/server"
 	"sigs.k8s.io/controller-runtime/pkg/webhook"
 
-	organizationv1 "github.com/telekom/controlplane/organization/api/v1"
+	organizationv1 "github.com/lukas016/controlplane/organization/api/v1"
 	// +kubebuilder:scaffold:imports
 )
 

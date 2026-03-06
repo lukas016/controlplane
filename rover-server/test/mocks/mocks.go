@@ -7,15 +7,15 @@ package mocks
 import (
 	"encoding/json"
 
+	adminv1 "github.com/lukas016/controlplane/admin/api/v1"
+	apiv1 "github.com/lukas016/controlplane/api/api/v1"
+	applicationv1 "github.com/lukas016/controlplane/application/api/v1"
+	roverv1 "github.com/lukas016/controlplane/rover/api/v1"
 	"github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/require"
-	adminv1 "github.com/telekom/controlplane/admin/api/v1"
-	apiv1 "github.com/telekom/controlplane/api/api/v1"
-	applicationv1 "github.com/telekom/controlplane/application/api/v1"
-	roverv1 "github.com/telekom/controlplane/rover/api/v1"
 	"gopkg.in/yaml.v3"
 
-	"github.com/telekom/controlplane/rover-server/test/mocks/data"
+	"github.com/lukas016/controlplane/rover-server/test/mocks/data"
 )
 
 const (

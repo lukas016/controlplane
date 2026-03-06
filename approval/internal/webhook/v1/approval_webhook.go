@@ -7,7 +7,7 @@ package v1
 import (
 	"context"
 
-	approvalv1 "github.com/telekom/controlplane/approval/api/v1"
+	approvalv1 "github.com/lukas016/controlplane/approval/api/v1"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/runtime"
 	ctrl "sigs.k8s.io/controller-runtime"

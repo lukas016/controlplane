@@ -25,7 +25,7 @@ import (
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	"github.com/telekom/controlplane/api/internal/controller"
+	"github.com/lukas016/controlplane/api/internal/controller"
 	// +kubebuilder:scaffold:imports
 )
 
@@ -59,7 +59,7 @@ var _ = BeforeSuite(func() {
 	By("bootstrapping test environment")
 	//testEnv = &envtest.Environment{
 	//	CRDDirectoryPaths: append(
-	//		testutil.GetCrdPathsOrDie("^github.com/telekom/controlplane/(application|approval|admin|gateway|identity)/api$"),
+	//		testutil.GetCrdPathsOrDie("^github.com/lukas016/controlplane/(application|approval|admin|gateway|identity)/api$"),
 	//		filepath.Join("..", "..", "config", "crd", "bases")),
 	//	ErrorIfCRDPathMissing: true,
 	//	BinaryAssetsDirectory: filepath.Join("..", "..", "bin", "k8s",

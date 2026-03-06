@@ -5,10 +5,10 @@
 package config_test
 
 import (
+	"github.com/lukas016/controlplane/rover-ctl/pkg/config"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/spf13/viper"
-	"github.com/telekom/controlplane/rover-ctl/pkg/config"
 )
 
 var _ = Describe("Token", Ordered, func() {

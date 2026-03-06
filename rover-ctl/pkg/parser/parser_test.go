@@ -8,10 +8,10 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/lukas016/controlplane/rover-ctl/pkg/parser"
+	"github.com/lukas016/controlplane/rover-ctl/pkg/types"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/rover-ctl/pkg/parser"
-	"github.com/telekom/controlplane/rover-ctl/pkg/types"
 )
 
 var _ = Describe("Parser", func() {

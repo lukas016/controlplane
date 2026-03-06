@@ -5,10 +5,10 @@
 package mocks
 
 import (
+	apiv1 "github.com/lukas016/controlplane/api/api/v1"
+	"github.com/lukas016/controlplane/common-server/pkg/store"
 	"github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/mock"
-	apiv1 "github.com/telekom/controlplane/api/api/v1"
-	"github.com/telekom/controlplane/common-server/pkg/store"
 )
 
 func NewApiExposureStoreMock(testing ginkgo.FullGinkgoTInterface) store.ObjectStore[*apiv1.ApiExposure] {

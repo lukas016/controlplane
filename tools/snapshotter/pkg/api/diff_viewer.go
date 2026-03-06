@@ -11,9 +11,9 @@ import (
 	"strings"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/diffmatcher"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/snapshot"
-	"github.com/telekom/controlplane/tools/snapshotter/pkg/store"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/diffmatcher"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/snapshot"
+	"github.com/lukas016/controlplane/tools/snapshotter/pkg/store"
 	"go.uber.org/zap"
 )
 

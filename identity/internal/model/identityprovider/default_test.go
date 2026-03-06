@@ -7,8 +7,8 @@ package identityprovider
 import (
 	"testing"
 
+	"github.com/lukas016/controlplane/common/pkg/config"
 	"github.com/stretchr/testify/assert"
-	"github.com/telekom/controlplane/common/pkg/config"
 )
 
 const (

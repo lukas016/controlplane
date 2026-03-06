@@ -6,13 +6,13 @@ package status
 
 import (
 	"github.com/gkampitakis/go-snaps/snaps"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	v1 "github.com/lukas016/controlplane/rover/api/v1"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	v1 "github.com/telekom/controlplane/rover/api/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/telekom/controlplane/rover-server/internal/api"
+	"github.com/lukas016/controlplane/rover-server/internal/api"
 )
 
 var _ = Describe("Rover Status Mapper", func() {

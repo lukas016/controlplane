@@ -5,9 +5,9 @@
 package tree_test
 
 import (
+	"github.com/lukas016/controlplane/common-server/pkg/server/tree"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/telekom/controlplane/common-server/pkg/server/tree"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 )
 

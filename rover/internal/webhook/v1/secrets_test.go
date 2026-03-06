@@ -7,14 +7,14 @@ package v1_test
 import (
 	"context"
 
+	"github.com/lukas016/controlplane/common/pkg/config"
+	roverv1 "github.com/lukas016/controlplane/rover/api/v1"
+	webhookv1 "github.com/lukas016/controlplane/rover/internal/webhook/v1"
+	"github.com/lukas016/controlplane/secret-manager/api"
+	"github.com/lukas016/controlplane/secret-manager/api/fake"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/stretchr/testify/mock"
-	"github.com/telekom/controlplane/common/pkg/config"
-	roverv1 "github.com/telekom/controlplane/rover/api/v1"
-	webhookv1 "github.com/telekom/controlplane/rover/internal/webhook/v1"
-	"github.com/telekom/controlplane/secret-manager/api"
-	"github.com/telekom/controlplane/secret-manager/api/fake"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

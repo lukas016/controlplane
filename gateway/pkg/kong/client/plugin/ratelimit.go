@@ -7,8 +7,8 @@ package plugin
 import (
 	"encoding/json"
 
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
-	"github.com/telekom/controlplane/gateway/pkg/kong/client"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
+	"github.com/lukas016/controlplane/gateway/pkg/kong/client"
 )
 
 var _ client.CustomPlugin = &RateLimitPlugin{}

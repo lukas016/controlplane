@@ -8,10 +8,10 @@ import (
 	"context"
 
 	"github.com/go-logr/logr"
+	"github.com/lukas016/controlplane/common-server/internal/informer"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/pkg/errors"
-	"github.com/telekom/controlplane/common-server/internal/informer"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"

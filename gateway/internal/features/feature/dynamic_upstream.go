@@ -8,8 +8,8 @@ import (
 	"context"
 	"fmt"
 
-	gatewayv1 "github.com/telekom/controlplane/gateway/api/v1"
-	"github.com/telekom/controlplane/gateway/internal/features"
+	gatewayv1 "github.com/lukas016/controlplane/gateway/api/v1"
+	"github.com/lukas016/controlplane/gateway/internal/features"
 )
 
 var _ features.Feature = &DynamicUpstreamFeature{}

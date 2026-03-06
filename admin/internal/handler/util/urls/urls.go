@@ -8,8 +8,8 @@ import (
 	"net/url"
 	"strings"
 
+	adminv1 "github.com/lukas016/controlplane/admin/api/v1"
 	"github.com/pkg/errors"
-	adminv1 "github.com/telekom/controlplane/admin/api/v1"
 )
 
 func ensureSuffix(url string) string {

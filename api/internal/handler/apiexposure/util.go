@@ -9,14 +9,14 @@ import (
 	"fmt"
 	"strings"
 
+	apiv1 "github.com/lukas016/controlplane/api/api/v1"
+	"github.com/lukas016/controlplane/api/internal/handler/util"
+	cclient "github.com/lukas016/controlplane/common/pkg/client"
+	"github.com/lukas016/controlplane/common/pkg/condition"
+	"github.com/lukas016/controlplane/common/pkg/config"
+	"github.com/lukas016/controlplane/common/pkg/types"
+	gatewayapi "github.com/lukas016/controlplane/gateway/api/v1"
 	"github.com/pkg/errors"
-	apiv1 "github.com/telekom/controlplane/api/api/v1"
-	"github.com/telekom/controlplane/api/internal/handler/util"
-	cclient "github.com/telekom/controlplane/common/pkg/client"
-	"github.com/telekom/controlplane/common/pkg/condition"
-	"github.com/telekom/controlplane/common/pkg/config"
-	"github.com/telekom/controlplane/common/pkg/types"
-	gatewayapi "github.com/telekom/controlplane/gateway/api/v1"
 )
 
 // setAlreadyExposedConditions sets NotReady and Blocked conditions on the new ApiExposure

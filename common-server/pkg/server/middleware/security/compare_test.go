@@ -7,9 +7,9 @@ package security_test
 import (
 	"testing"
 
+	"github.com/lukas016/controlplane/common-server/pkg/server/middleware/security"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/types"
-	"github.com/telekom/controlplane/common-server/pkg/server/middleware/security"
 )
 
 type testEnvironment struct {
