@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
-module github.com/telekom/controlplane/approval/api
+module github.com/lukas016/controlplane/approval/api
 
 go 1.24.9
 
@@ -10,13 +10,13 @@ require (
 	github.com/onsi/ginkgo/v2 v2.27.2
 	github.com/onsi/gomega v1.38.2
 	github.com/pkg/errors v0.9.1
-	github.com/telekom/controlplane/common v0.0.0
+	github.com/lukas016/controlplane/common v0.0.0
 	k8s.io/apimachinery v0.34.2
 	k8s.io/client-go v0.34.2
 	sigs.k8s.io/controller-runtime v0.22.4
 )
 
-replace github.com/telekom/controlplane/common => ../../common
+replace github.com/lukas016/controlplane/common => ../../common
 
 require (
 	github.com/Masterminds/semver/v3 v3.4.0 // indirect

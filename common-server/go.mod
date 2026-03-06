@@ -2,11 +2,11 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
-module github.com/telekom/controlplane/common-server
+module github.com/lukas016/controlplane/common-server
 
 go 1.24.9
 
-require github.com/telekom/controlplane/secret-manager v0.0.0
+require github.com/lukas016/controlplane/secret-manager v0.0.0
 
 require (
 	github.com/MicahParks/keyfunc/v2 v2.1.0
@@ -36,7 +36,7 @@ require (
 	sigs.k8s.io/controller-runtime v0.22.4
 )
 
-replace github.com/telekom/controlplane/secret-manager => ../secret-manager
+replace github.com/lukas016/controlplane/secret-manager => ../secret-manager
 
 require (
 	github.com/Masterminds/semver/v3 v3.4.0 // indirect

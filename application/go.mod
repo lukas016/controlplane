@@ -2,24 +2,24 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
-module github.com/telekom/controlplane/application
+module github.com/lukas016/controlplane/application
 
 go 1.24.9
 
 require (
-	github.com/telekom/controlplane/admin/api v0.0.0
-	github.com/telekom/controlplane/application/api v0.0.0
-	github.com/telekom/controlplane/common v0.0.0
-	github.com/telekom/controlplane/gateway/api v0.0.0
-	github.com/telekom/controlplane/identity/api v0.0.0
+	github.com/lukas016/controlplane/admin/api v0.0.0
+	github.com/lukas016/controlplane/application/api v0.0.0
+	github.com/lukas016/controlplane/common v0.0.0
+	github.com/lukas016/controlplane/gateway/api v0.0.0
+	github.com/lukas016/controlplane/identity/api v0.0.0
 )
 
 replace (
-	github.com/telekom/controlplane/admin/api => ../admin/api
-	github.com/telekom/controlplane/application/api => ./api
-	github.com/telekom/controlplane/common => ../common
-	github.com/telekom/controlplane/gateway/api => ../gateway/api
-	github.com/telekom/controlplane/identity/api => ../identity/api
+	github.com/lukas016/controlplane/admin/api => ../admin/api
+	github.com/lukas016/controlplane/application/api => ./api
+	github.com/lukas016/controlplane/common => ../common
+	github.com/lukas016/controlplane/gateway/api => ../gateway/api
+	github.com/lukas016/controlplane/identity/api => ../identity/api
 )
 
 require (

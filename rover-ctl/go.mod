@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
-module github.com/telekom/controlplane/rover-ctl
+module github.com/lukas016/controlplane/rover-ctl
 
 go 1.24.9
 

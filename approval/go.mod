@@ -2,14 +2,14 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
-module github.com/telekom/controlplane/approval
+module github.com/lukas016/controlplane/approval
 
 go 1.24.9
 
 require (
-	github.com/telekom/controlplane/approval/api v0.0.0
-	github.com/telekom/controlplane/common v0.0.0
-	github.com/telekom/controlplane/notification/api v0.0.0
+	github.com/lukas016/controlplane/approval/api v0.0.0
+	github.com/lukas016/controlplane/common v0.0.0
+	github.com/lukas016/controlplane/notification/api v0.0.0
 )
 
 require (
@@ -24,9 +24,9 @@ require (
 )
 
 replace (
-	github.com/telekom/controlplane/approval/api => ./api
-	github.com/telekom/controlplane/common => ../common
-	github.com/telekom/controlplane/notification/api => ../notification/api
+	github.com/lukas016/controlplane/approval/api => ./api
+	github.com/lukas016/controlplane/common => ../common
+	github.com/lukas016/controlplane/notification/api => ../notification/api
 )
 
 require (

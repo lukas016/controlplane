@@ -2,20 +2,20 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
-module github.com/telekom/controlplane/tools/route-tester
+module github.com/lukas016/controlplane/tools/route-tester
 
 go 1.24.9
 
 require (
-	github.com/telekom/controlplane/application/api v0.0.0
-	github.com/telekom/controlplane/common-server v0.0.0
-	github.com/telekom/controlplane/gateway/api v0.0.0
-	github.com/telekom/controlplane/secret-manager v0.0.0
+	github.com/lukas016/controlplane/application/api v0.0.0
+	github.com/lukas016/controlplane/common-server v0.0.0
+	github.com/lukas016/controlplane/gateway/api v0.0.0
+	github.com/lukas016/controlplane/secret-manager v0.0.0
 )
 
 require (
 	github.com/pkg/errors v0.9.1
-	github.com/telekom/controlplane/common v0.0.0
+	github.com/lukas016/controlplane/common v0.0.0
 	golang.org/x/oauth2 v0.33.0
 	k8s.io/apimachinery v0.34.2
 	k8s.io/client-go v0.34.2
@@ -23,11 +23,11 @@ require (
 )
 
 replace (
-	github.com/telekom/controlplane/application/api => ../../application/api
-	github.com/telekom/controlplane/common => ../../common
-	github.com/telekom/controlplane/common-server => ../../common-server
-	github.com/telekom/controlplane/gateway/api => ../../gateway/api
-	github.com/telekom/controlplane/secret-manager => ../../secret-manager
+	github.com/lukas016/controlplane/application/api => ../../application/api
+	github.com/lukas016/controlplane/common => ../../common
+	github.com/lukas016/controlplane/common-server => ../../common-server
+	github.com/lukas016/controlplane/gateway/api => ../../gateway/api
+	github.com/lukas016/controlplane/secret-manager => ../../secret-manager
 )
 
 require (

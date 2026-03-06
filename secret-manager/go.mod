@@ -2,11 +2,11 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
-module github.com/telekom/controlplane/secret-manager
+module github.com/lukas016/controlplane/secret-manager
 
 go 1.24.9
 
-require github.com/telekom/controlplane/common-server v0.0.0
+require github.com/lukas016/controlplane/common-server v0.0.0
 
 require (
 	github.com/cyberark/conjur-api-go v0.13.10
@@ -34,7 +34,7 @@ require (
 	sigs.k8s.io/controller-runtime v0.22.4
 )
 
-replace github.com/telekom/controlplane/common-server => ../common-server
+replace github.com/lukas016/controlplane/common-server => ../common-server
 
 require (
 	al.essio.dev/pkg/shellescape v1.6.0 // indirect

@@ -2,13 +2,13 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
-module github.com/telekom/controlplane/notification
+module github.com/lukas016/controlplane/notification
 
 go 1.24.9
 
 require (
-	github.com/telekom/controlplane/common v0.0.0
-	github.com/telekom/controlplane/notification/api v0.0.0
+	github.com/lukas016/controlplane/common v0.0.0
+	github.com/lukas016/controlplane/notification/api v0.0.0
 )
 
 tool github.com/vektra/mockery/v2
@@ -30,8 +30,8 @@ require (
 )
 
 replace (
-	github.com/telekom/controlplane/common => ../common
-	github.com/telekom/controlplane/notification/api => ./api
+	github.com/lukas016/controlplane/common => ../common
+	github.com/lukas016/controlplane/notification/api => ./api
 )
 
 require (

@@ -2,19 +2,19 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
-module github.com/telekom/controlplane/organization
+module github.com/lukas016/controlplane/organization
 
 go 1.24.9
 
 require (
-	github.com/telekom/controlplane/admin/api v0.0.0
-	github.com/telekom/controlplane/common v0.0.0
-	github.com/telekom/controlplane/common-server v0.0.0 // indirect
-	github.com/telekom/controlplane/gateway/api v0.0.0
-	github.com/telekom/controlplane/identity/api v0.0.0
-	github.com/telekom/controlplane/notification/api v0.0.0
-	github.com/telekom/controlplane/organization/api v0.0.0
-	github.com/telekom/controlplane/secret-manager v0.0.0
+	github.com/lukas016/controlplane/admin/api v0.0.0
+	github.com/lukas016/controlplane/common v0.0.0
+	github.com/lukas016/controlplane/common-server v0.0.0 // indirect
+	github.com/lukas016/controlplane/gateway/api v0.0.0
+	github.com/lukas016/controlplane/identity/api v0.0.0
+	github.com/lukas016/controlplane/notification/api v0.0.0
+	github.com/lukas016/controlplane/organization/api v0.0.0
+	github.com/lukas016/controlplane/secret-manager v0.0.0
 )
 
 require (
@@ -31,14 +31,14 @@ require (
 )
 
 replace (
-	github.com/telekom/controlplane/admin/api => ../admin/api
-	github.com/telekom/controlplane/common => ../common
-	github.com/telekom/controlplane/common-server => ../common-server // indirect
-	github.com/telekom/controlplane/gateway/api => ../gateway/api
-	github.com/telekom/controlplane/identity/api => ../identity/api
-	github.com/telekom/controlplane/notification/api => ../notification/api
-	github.com/telekom/controlplane/organization/api => ./api
-	github.com/telekom/controlplane/secret-manager => ../secret-manager
+	github.com/lukas016/controlplane/admin/api => ../admin/api
+	github.com/lukas016/controlplane/common => ../common
+	github.com/lukas016/controlplane/common-server => ../common-server // indirect
+	github.com/lukas016/controlplane/gateway/api => ../gateway/api
+	github.com/lukas016/controlplane/identity/api => ../identity/api
+	github.com/lukas016/controlplane/notification/api => ../notification/api
+	github.com/lukas016/controlplane/organization/api => ./api
+	github.com/lukas016/controlplane/secret-manager => ../secret-manager
 )
 
 require (

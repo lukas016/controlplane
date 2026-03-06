@@ -2,30 +2,30 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
-module github.com/telekom/controlplane/rover-server
+module github.com/lukas016/controlplane/rover-server
 
 go 1.24.9
 
 require (
-	github.com/telekom/controlplane/admin/api v0.0.0
-	github.com/telekom/controlplane/api/api v0.0.0
-	github.com/telekom/controlplane/application/api v0.0.0
-	github.com/telekom/controlplane/common v0.0.0
-	github.com/telekom/controlplane/common-server v0.0.0
-	github.com/telekom/controlplane/file-manager v0.0.0
-	github.com/telekom/controlplane/rover/api v0.0.0
-	github.com/telekom/controlplane/secret-manager v0.0.0
+	github.com/lukas016/controlplane/admin/api v0.0.0
+	github.com/lukas016/controlplane/api/api v0.0.0
+	github.com/lukas016/controlplane/application/api v0.0.0
+	github.com/lukas016/controlplane/common v0.0.0
+	github.com/lukas016/controlplane/common-server v0.0.0
+	github.com/lukas016/controlplane/file-manager v0.0.0
+	github.com/lukas016/controlplane/rover/api v0.0.0
+	github.com/lukas016/controlplane/secret-manager v0.0.0
 )
 
 replace (
-	github.com/telekom/controlplane/admin/api => ../admin/api
-	github.com/telekom/controlplane/api/api => ../api/api
-	github.com/telekom/controlplane/application/api => ../application/api
-	github.com/telekom/controlplane/common => ../common
-	github.com/telekom/controlplane/common-server => ../common-server
-	github.com/telekom/controlplane/file-manager => ../file-manager
-	github.com/telekom/controlplane/rover/api => ../rover/api
-	github.com/telekom/controlplane/secret-manager => ../secret-manager
+	github.com/lukas016/controlplane/admin/api => ../admin/api
+	github.com/lukas016/controlplane/api/api => ../api/api
+	github.com/lukas016/controlplane/application/api => ../application/api
+	github.com/lukas016/controlplane/common => ../common
+	github.com/lukas016/controlplane/common-server => ../common-server
+	github.com/lukas016/controlplane/file-manager => ../file-manager
+	github.com/lukas016/controlplane/rover/api => ../rover/api
+	github.com/lukas016/controlplane/secret-manager => ../secret-manager
 )
 
 require (

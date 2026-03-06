@@ -2,11 +2,11 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
-module github.com/telekom/controlplane/notification/api
+module github.com/lukas016/controlplane/notification/api
 
 go 1.24.9
 
-require github.com/telekom/controlplane/common v0.0.0
+require github.com/lukas016/controlplane/common v0.0.0
 
 require (
 	github.com/go-logr/logr v1.4.3
@@ -18,7 +18,7 @@ require (
 	sigs.k8s.io/controller-runtime v0.22.4
 )
 
-replace github.com/telekom/controlplane/common => ../../common
+replace github.com/lukas016/controlplane/common => ../../common
 
 require (
 	github.com/Masterminds/semver/v3 v3.4.0 // indirect

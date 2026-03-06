@@ -2,11 +2,11 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
-module github.com/telekom/controlplane/tools/snapshotter
+module github.com/lukas016/controlplane/tools/snapshotter
 
 go 1.24.9
 
-require github.com/telekom/controlplane/gateway v0.0.0
+require github.com/lukas016/controlplane/gateway v0.0.0
 
 require (
 	github.com/gkampitakis/go-diff v1.3.2
@@ -25,11 +25,11 @@ require (
 )
 
 replace (
-	github.com/telekom/controlplane/common => ../../common
-	github.com/telekom/controlplane/common-server => ../../common-server
-	github.com/telekom/controlplane/gateway => ../../gateway
-	github.com/telekom/controlplane/gateway/api => ../../gateway/api
-	github.com/telekom/controlplane/secret-manager => ../../secret-manager
+	github.com/lukas016/controlplane/common => ../../common
+	github.com/lukas016/controlplane/common-server => ../../common-server
+	github.com/lukas016/controlplane/gateway => ../../gateway
+	github.com/lukas016/controlplane/gateway/api => ../../gateway/api
+	github.com/lukas016/controlplane/secret-manager => ../../secret-manager
 )
 
 require (
@@ -77,8 +77,8 @@ require (
 	github.com/spf13/cast v1.10.0 // indirect
 	github.com/spf13/pflag v1.0.10 // indirect
 	github.com/subosito/gotenv v1.6.0 // indirect
-	github.com/telekom/controlplane/common v0.0.0 // indirect
-	github.com/telekom/controlplane/common-server v0.0.0 // indirect
+	github.com/lukas016/controlplane/common v0.0.0 // indirect
+	github.com/lukas016/controlplane/common-server v0.0.0 // indirect
 	github.com/tidwall/gjson v1.18.0 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.1 // indirect

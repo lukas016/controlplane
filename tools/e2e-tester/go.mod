@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
-module github.com/telekom/controlplane/tools/e2e-tester
+module github.com/lukas016/controlplane/tools/e2e-tester
 
 go 1.24.9
 
@@ -12,7 +12,7 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/spf13/cobra v1.10.1
 	github.com/spf13/viper v1.21.0
-	github.com/telekom/controlplane/tools/snapshotter v0.0.0-00010101000000-000000000000
+	github.com/lukas016/controlplane/tools/snapshotter v0.0.0-00010101000000-000000000000
 	go.uber.org/zap v1.27.1
 )
 
@@ -40,6 +40,6 @@ require (
 	golang.org/x/text v0.31.0 // indirect
 )
 
-replace github.com/telekom/controlplane => ../../
+replace github.com/lukas016/controlplane => ../../
 
-replace github.com/telekom/controlplane/tools/snapshotter => ../snapshotter
+replace github.com/lukas016/controlplane/tools/snapshotter => ../snapshotter
